@@ -23,8 +23,8 @@ W poniższej tabeli przedstawiono typy serwerów, które działają w rozmieszcz
 </colgroup>
 <thead>
 <tr class="header">
-<th>Serwer lub klaster</th>
-<th>Funkcja</th>
+<th style="border:1px solid black;" >Serwer lub klaster</th>
+<th style="border:1px solid black;" >Funkcja</th>
 </tr>
 </thead>
 <tbody>

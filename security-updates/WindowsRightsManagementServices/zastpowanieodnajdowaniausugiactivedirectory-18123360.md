@@ -52,9 +52,9 @@ W poniższej tabeli znajduje się lista wpisów, które można dodać w celu zas
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nazwa</th>
-<th>Typ</th>
-<th>wartość</th>
+<th style="border:1px solid black;" >Nazwa</th>
+<th style="border:1px solid black;" >Typ</th>
+<th style="border:1px solid black;" >wartość</th>
 </tr>
 </thead>
 <tbody>
@@ -107,9 +107,9 @@ W poniższej tabeli znajduje się lista kluczy rejestru, które można dodać na
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nazwa</th>
-<th>Typ</th>
-<th>wartość</th>
+<th style="border:1px solid black;" >Nazwa</th>
+<th style="border:1px solid black;" >Typ</th>
+<th style="border:1px solid black;" >wartość</th>
 </tr>
 </thead>
 <tbody>

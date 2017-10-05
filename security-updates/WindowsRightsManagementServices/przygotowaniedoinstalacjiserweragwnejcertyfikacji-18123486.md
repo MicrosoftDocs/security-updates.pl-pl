@@ -24,9 +24,9 @@ Po zainstalowaniu kontrolera domeny i skonfigurowaniu serwerów bazy danych (tak
 </colgroup>
 <thead>
 <tr class="header">
-<th>Składnik infrastruktury</th>
-<th>Aby przygotować serwer do instalacji programu RMS</th>
-<th>Uwagi dotyczące rozmieszczania w środowisku produkcyjnym</th>
+<th style="border:1px solid black;" >Składnik infrastruktury</th>
+<th style="border:1px solid black;" >Aby przygotować serwer do instalacji programu RMS</th>
+<th style="border:1px solid black;" >Uwagi dotyczące rozmieszczania w środowisku produkcyjnym</th>
 </tr>
 </thead>
 <tbody>

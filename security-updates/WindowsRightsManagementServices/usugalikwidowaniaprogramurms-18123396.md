@@ -29,8 +29,8 @@ W poniższej tabeli przedstawiono domyślną listę kontroli dostępu w ramach t
 </colgroup>
 <thead>
 <tr class="header">
-<th>Użytkownik lub grupa</th>
-<th>Uprawnienie domyślne</th>
+<th style="border:1px solid black;" >Użytkownik lub grupa</th>
+<th style="border:1px solid black;" >Uprawnienie domyślne</th>
 </tr>
 </thead>
 <tbody>

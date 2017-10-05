@@ -21,8 +21,8 @@ W poniższej tabeli przedstawiono wymagania programowe dla instalacji serwerów 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Wymagane</th>
-<th>oprogramowanie</th>
+<th style="border:1px solid black;" >Wymagane</th>
+<th style="border:1px solid black;" >oprogramowanie</th>
 </tr>
 </thead>
 <tbody>

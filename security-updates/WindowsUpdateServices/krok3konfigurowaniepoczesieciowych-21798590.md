@@ -28,7 +28,7 @@ Domyślnie program WSUS 3.0 z dodatkiem SP2 jest skonfigurowany tak, aby uzyskiw
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939815.note(WS.10).gif" />Uwaga</th>
+<th style="border:1px solid black;" ><img src="images/Dd939815.note(WS.10).gif" />Uwaga</th>
 </tr>
 </thead>
 <tbody>
@@ -70,7 +70,7 @@ Krok 3 obejmuje następujące procedury:
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939815.note(WS.10).gif" />Uwaga</th>
+<th style="border:1px solid black;" ><img src="images/Dd939815.note(WS.10).gif" />Uwaga</th>
 </tr>
 </thead>
 <tbody>
@@ -118,7 +118,7 @@ W przypadku dwóch poniższych procedur przyjęto założenie, że do konfigurow
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939815.note(WS.10).gif" />Uwaga</th>
+<th style="border:1px solid black;" ><img src="images/Dd939815.note(WS.10).gif" />Uwaga</th>
 </tr>
 </thead>
 <tbody>

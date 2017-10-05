@@ -202,9 +202,9 @@ W poniższej tabeli przedstawiono oprogramowanie wymagane dla poszczególnych ob
 </colgroup>
 <thead>
 <tr class="header">
-<th>System operacyjny</th>
-<th>Wymagania</th>
-<th>Pliki pobieralne</th>
+<th style="border:1px solid black;" >System operacyjny</th>
+<th style="border:1px solid black;" >Wymagania</th>
+<th style="border:1px solid black;" >Pliki pobieralne</th>
 </tr>
 </thead>
 <tbody>

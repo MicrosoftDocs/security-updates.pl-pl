@@ -21,8 +21,8 @@ W poniższej tabeli wymieniono liczniki wydajności dostępne dla obiektu wydajn
 </colgroup>
 <thead>
 <tr class="header">
-<th>Licznik</th>
-<th>Opis</th>
+<th style="border:1px solid black;" >Licznik</th>
+<th style="border:1px solid black;" >Opis</th>
 </tr>
 </thead>
 <tbody>

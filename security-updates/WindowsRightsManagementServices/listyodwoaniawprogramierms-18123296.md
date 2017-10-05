@@ -31,8 +31,8 @@ W poniższej tabeli przedstawiono jednostki, które można określić na liście
 </colgroup>
 <thead>
 <tr class="header">
-<th>Jednostka</th>
-<th>Identyfikator</th>
+<th style="border:1px solid black;" >Jednostka</th>
+<th style="border:1px solid black;" >Identyfikator</th>
 </tr>
 </thead>
 <tbody>
@@ -79,8 +79,8 @@ Listy odwołania są plikami XrML, które określają następujące parametry.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parametr</th>
-<th>Opis</th>
+<th style="border:1px solid black;" >Parametr</th>
+<th style="border:1px solid black;" >Opis</th>
 </tr>
 </thead>
 <tbody>

@@ -28,9 +28,9 @@ Poniżej przedstawiono przykładowe elementy, które powinien zawierać plan mig
 </colgroup>
 <thead>
 <tr class="header">
-<th>Serwer</th>
-<th>Krok</th>
-<th>Uwagi</th>
+<th style="border:1px solid black;" >Serwer</th>
+<th style="border:1px solid black;" >Krok</th>
+<th style="border:1px solid black;" >Uwagi</th>
 </tr>
 </thead>
 <tbody>

@@ -21,8 +21,8 @@ W poniższej tabeli przedstawiono klucze stosowane w systemie RMS.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Klucz</th>
-<th>Użycie</th>
+<th style="border:1px solid black;" >Klucz</th>
+<th style="border:1px solid black;" >Użycie</th>
 </tr>
 </thead>
 <tbody>

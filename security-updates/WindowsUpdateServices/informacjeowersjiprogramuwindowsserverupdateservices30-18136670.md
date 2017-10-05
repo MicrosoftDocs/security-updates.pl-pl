@@ -171,8 +171,8 @@ Przed uruchomieniem Instalatora programu WSUS 3.0 należy sprawdzić, czy serwer
 </colgroup>
 <thead>
 <tr class="header">
-<th>Wymaganie</th>
-<th>Szczegóły</th>
+<th style="border:1px solid black;" >Wymaganie</th>
+<th style="border:1px solid black;" >Szczegóły</th>
 </tr>
 </thead>
 <tbody>
@@ -255,8 +255,8 @@ Przy użyciu parametrów wiersza polecenia programu WSUS można wykonać instala
 </colgroup>
 <thead>
 <tr class="header">
-<th>Opcja</th>
-<th>Opis</th>
+<th style="border:1px solid black;" >Opcja</th>
+<th style="border:1px solid black;" >Opis</th>
 </tr>
 </thead>
 <tbody>
@@ -295,8 +295,8 @@ W tabeli poniżej podano właściwości wiersza polecenia programu WSUS 3.0.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Właściwość</th>
-<th>Opis</th>
+<th style="border:1px solid black;" >Właściwość</th>
+<th style="border:1px solid black;" >Opis</th>
 </tr>
 </thead>
 <tbody>
@@ -564,8 +564,8 @@ Program WSUS 3.0 obsługuje system Windows Server 2008 w wersjach 32-bitowych i
 </colgroup>
 <thead>
 <tr class="header">
-<th>Wymaganie</th>
-<th>Szczegóły</th>
+<th style="border:1px solid black;" >Wymaganie</th>
+<th style="border:1px solid black;" >Szczegóły</th>
 </tr>
 </thead>
 <tbody>

@@ -21,8 +21,8 @@ W poniższej tabeli przedstawiono minimalne oraz zalecane wymagania sprzętowe w
 </colgroup>
 <thead>
 <tr class="header">
-<th>Wymaganie</th>
-<th>Zalecenie</th>
+<th style="border:1px solid black;" >Wymaganie</th>
+<th style="border:1px solid black;" >Zalecenie</th>
 </tr>
 </thead>
 <tbody>

@@ -25,8 +25,8 @@ W poniższej tabeli przedstawiono atrybuty usługi Active Directory przechowywan
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tabela</th>
-<th>Atrybut</th>
+<th style="border:1px solid black;" >Tabela</th>
+<th style="border:1px solid black;" >Atrybut</th>
 </tr>
 </thead>
 <tbody>

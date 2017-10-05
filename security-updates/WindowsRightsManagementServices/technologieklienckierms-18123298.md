@@ -23,10 +23,10 @@ Komputery klienckie należące do rozmieszczenia programu RMS korzystają z nast
 </colgroup>
 <thead>
 <tr class="header">
-<th>Technologia</th>
-<th>Opis</th>
-<th>Wystawiane przez</th>
-<th>Więcej informacji zawiera</th>
+<th style="border:1px solid black;" >Technologia</th>
+<th style="border:1px solid black;" >Opis</th>
+<th style="border:1px solid black;" >Wystawiane przez</th>
+<th style="border:1px solid black;" >Więcej informacji zawiera</th>
 </tr>
 </thead>
 <tbody>

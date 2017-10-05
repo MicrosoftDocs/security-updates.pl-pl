@@ -28,10 +28,10 @@ Poniższa tabela zawiera informacje o wykluczonych aplikacjach.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nazwa</th>
-<th>Typ danych</th>
-<th>Wartości NULL</th>
-<th>Opis</th>
+<th style="border:1px solid black;" >Nazwa</th>
+<th style="border:1px solid black;" >Typ danych</th>
+<th style="border:1px solid black;" >Wartości NULL</th>
+<th style="border:1px solid black;" >Opis</th>
 </tr>
 </thead>
 <tbody>
@@ -133,10 +133,10 @@ Poniższa tabela zawiera informacje dotyczące kolejki komunikatów.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nazwa</th>
-<th>Typ danych</th>
-<th>Wartości NULL</th>
-<th>Opis</th>
+<th style="border:1px solid black;" >Nazwa</th>
+<th style="border:1px solid black;" >Typ danych</th>
+<th style="border:1px solid black;" >Wartości NULL</th>
+<th style="border:1px solid black;" >Opis</th>
 </tr>
 </thead>
 <tbody>
@@ -184,10 +184,10 @@ Poniższa tabela zawiera informacje dotyczące typu certyfikatu wystawionego kli
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nazwa</th>
-<th>Typ danych</th>
-<th>Wartości NULL</th>
-<th>Opis</th>
+<th style="border:1px solid black;" >Nazwa</th>
+<th style="border:1px solid black;" >Typ danych</th>
+<th style="border:1px solid black;" >Wartości NULL</th>
+<th style="border:1px solid black;" >Opis</th>
 </tr>
 </thead>
 <tbody>
@@ -235,10 +235,10 @@ Poniższa tabela zawiera informacje na temat bieżącego certyfikatu licencjodaw
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nazwa</th>
-<th>Typ danych</th>
-<th>Wartości NULL</th>
-<th>Opis</th>
+<th style="border:1px solid black;" >Nazwa</th>
+<th style="border:1px solid black;" >Typ danych</th>
+<th style="border:1px solid black;" >Wartości NULL</th>
+<th style="border:1px solid black;" >Opis</th>
 </tr>
 </thead>
 <tbody>
@@ -280,10 +280,10 @@ Poniższa tabela zawiera listę lokalizacji, w których przechowywane są zasady
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nazwa</th>
-<th>Typ danych</th>
-<th>Wartości NULL</th>
-<th>Opis</th>
+<th style="border:1px solid black;" >Nazwa</th>
+<th style="border:1px solid black;" >Typ danych</th>
+<th style="border:1px solid black;" >Wartości NULL</th>
+<th style="border:1px solid black;" >Opis</th>
 </tr>
 </thead>
 <tbody>
@@ -337,10 +337,10 @@ Poniższa tabela zawiera informacje na temat serwerów znajdujących się w klas
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nazwa</th>
-<th>Typ danych</th>
-<th>Wartości NULL</th>
-<th>Opis</th>
+<th style="border:1px solid black;" >Nazwa</th>
+<th style="border:1px solid black;" >Typ danych</th>
+<th style="border:1px solid black;" >Wartości NULL</th>
+<th style="border:1px solid black;" >Opis</th>
 </tr>
 </thead>
 <tbody>
@@ -388,10 +388,10 @@ Poniższa tabela zawiera informacje o wykluczonych certyfikatach kont praw.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nazwa</th>
-<th>Typ danych</th>
-<th>Wartości NULL</th>
-<th>Opis</th>
+<th style="border:1px solid black;" >Nazwa</th>
+<th style="border:1px solid black;" >Typ danych</th>
+<th style="border:1px solid black;" >Wartości NULL</th>
+<th style="border:1px solid black;" >Opis</th>
 </tr>
 </thead>
 <tbody>
@@ -457,10 +457,10 @@ Poniższa tabela zawiera informacje o aktywnym certyfikacie licencjodawcy serwer
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nazwa</th>
-<th>Typ danych</th>
-<th>Wartości NULL</th>
-<th>Opis</th>
+<th style="border:1px solid black;" >Nazwa</th>
+<th style="border:1px solid black;" >Typ danych</th>
+<th style="border:1px solid black;" >Wartości NULL</th>
+<th style="border:1px solid black;" >Opis</th>
 </tr>
 </thead>
 <tbody>
@@ -520,10 +520,10 @@ Poniższa tabela zawiera informacje o kluczu prywatnym aktywnego certyfikatu lic
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nazwa</th>
-<th>Typ danych</th>
-<th>Wartości NULL</th>
-<th>Opis</th>
+<th style="border:1px solid black;" >Nazwa</th>
+<th style="border:1px solid black;" >Typ danych</th>
+<th style="border:1px solid black;" >Wartości NULL</th>
+<th style="border:1px solid black;" >Opis</th>
 </tr>
 </thead>
 <tbody>
@@ -607,10 +607,10 @@ Poniższa tabela zawiera informacje o kontach usługi Microsoft® .NET Passport,
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nazwa</th>
-<th>Typ danych</th>
-<th>Wartości NULL</th>
-<th>Opis</th>
+<th style="border:1px solid black;" >Nazwa</th>
+<th style="border:1px solid black;" >Typ danych</th>
+<th style="border:1px solid black;" >Wartości NULL</th>
+<th style="border:1px solid black;" >Opis</th>
 </tr>
 </thead>
 <tbody>
@@ -658,10 +658,10 @@ Poniższa tabela zawiera informacje o dodatkach.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nazwa</th>
-<th>Typ danych</th>
-<th>Wartości NULL</th>
-<th>Opis</th>
+<th style="border:1px solid black;" >Nazwa</th>
+<th style="border:1px solid black;" >Typ danych</th>
+<th style="border:1px solid black;" >Wartości NULL</th>
+<th style="border:1px solid black;" >Opis</th>
 </tr>
 </thead>
 <tbody>
@@ -757,10 +757,10 @@ Poniższa tabela zawiera informacje o wersjach dodatków, które można wykorzys
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nazwa</th>
-<th>Typ danych</th>
-<th>Wartości NULL</th>
-<th>Opis</th>
+<th style="border:1px solid black;" >Nazwa</th>
+<th style="border:1px solid black;" >Typ danych</th>
+<th style="border:1px solid black;" >Wartości NULL</th>
+<th style="border:1px solid black;" >Opis</th>
 </tr>
 </thead>
 <tbody>
@@ -802,10 +802,10 @@ Poniższa tabela zawiera informacje o właściwościach dodatku.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nazwa</th>
-<th>Typ danych</th>
-<th>Wartości NULL</th>
-<th>Opis</th>
+<th style="border:1px solid black;" >Nazwa</th>
+<th style="border:1px solid black;" >Typ danych</th>
+<th style="border:1px solid black;" >Wartości NULL</th>
+<th style="border:1px solid black;" >Opis</th>
 </tr>
 </thead>
 <tbody>
@@ -865,10 +865,10 @@ Poniższa tabela zawiera informacje o typie dodatku.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nazwa</th>
-<th>Typ danych</th>
-<th>Wartości NULL</th>
-<th>Opis</th>
+<th style="border:1px solid black;" >Nazwa</th>
+<th style="border:1px solid black;" >Typ danych</th>
+<th style="border:1px solid black;" >Wartości NULL</th>
+<th style="border:1px solid black;" >Opis</th>
 </tr>
 </thead>
 <tbody>
@@ -916,10 +916,10 @@ Poniższa tabela zawiera informacje o szablonach zasad praw.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nazwa</th>
-<th>Typ danych</th>
-<th>Wartości NULL</th>
-<th>Opis</th>
+<th style="border:1px solid black;" >Nazwa</th>
+<th style="border:1px solid black;" >Typ danych</th>
+<th style="border:1px solid black;" >Wartości NULL</th>
+<th style="border:1px solid black;" >Opis</th>
 </tr>
 </thead>
 <tbody>
@@ -967,10 +967,10 @@ Poniższa tabela zawiera informacje o zaufanych urzędach certyfikacji.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nazwa</th>
-<th>Typ danych</th>
-<th>Wartości NULL</th>
-<th>Opis</th>
+<th style="border:1px solid black;" >Nazwa</th>
+<th style="border:1px solid black;" >Typ danych</th>
+<th style="border:1px solid black;" >Wartości NULL</th>
+<th style="border:1px solid black;" >Opis</th>
 </tr>
 </thead>
 <tbody>
@@ -1030,10 +1030,10 @@ Poniższa tabela zawiera informacje o zaufanych domenach poczty e-mail w środow
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nazwa</th>
-<th>Typ danych</th>
-<th>Wartości NULL</th>
-<th>Opis</th>
+<th style="border:1px solid black;" >Nazwa</th>
+<th style="border:1px solid black;" >Typ danych</th>
+<th style="border:1px solid black;" >Wartości NULL</th>
+<th style="border:1px solid black;" >Opis</th>
 </tr>
 </thead>
 <tbody>
@@ -1075,10 +1075,10 @@ Poniższa tabela zawiera informacje o zaufanych domenach użytkownika i zaufanyc
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nazwa</th>
-<th>Typ danych</th>
-<th>Wartości NULL</th>
-<th>Opis</th>
+<th style="border:1px solid black;" >Nazwa</th>
+<th style="border:1px solid black;" >Typ danych</th>
+<th style="border:1px solid black;" >Wartości NULL</th>
+<th style="border:1px solid black;" >Opis</th>
 </tr>
 </thead>
 <tbody>
@@ -1156,10 +1156,10 @@ Poniższa tabela zawiera informacje o certyfikatach licencjodawcy serwera XrML, 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nazwa</th>
-<th>Typ danych</th>
-<th>Wartości NULL</th>
-<th>Opis</th>
+<th style="border:1px solid black;" >Nazwa</th>
+<th style="border:1px solid black;" >Typ danych</th>
+<th style="border:1px solid black;" >Wartości NULL</th>
+<th style="border:1px solid black;" >Opis</th>
 </tr>
 </thead>
 <tbody>

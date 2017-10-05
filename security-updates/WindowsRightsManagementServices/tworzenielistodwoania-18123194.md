@@ -175,8 +175,8 @@ W uzupełnianiu parametrów wejściowych polecenia pomocne będą następujące 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parametr</th>
-<th>Opis</th>
+<th style="border:1px solid black;" >Parametr</th>
+<th style="border:1px solid black;" >Opis</th>
 </tr>
 </thead>
 <tbody>
@@ -222,8 +222,8 @@ W kodzie zwracanym przez narzędzie RLsigner.exe znajdują się podstawowe infor
 </colgroup>
 <thead>
 <tr class="header">
-<th>Zwrócony kod</th>
-<th>Opis</th>
+<th style="border:1px solid black;" >Zwrócony kod</th>
+<th style="border:1px solid black;" >Opis</th>
 </tr>
 </thead>
 <tbody>

@@ -62,7 +62,7 @@ W tej sekcji opisano wymagania dotyczące sprzętu i oprogramowania, które musz
         </colgroup>
         <thead>
         <tr class="header">
-        <th><img src="images/Dd939886.Warning(WS.10).gif" />Ostrzeżenie</th>
+        <th style="border:1px solid black;" ><img src="images/Dd939886.Warning(WS.10).gif" />Ostrzeżenie</th>
         </tr>
         </thead>
         <tbody>
@@ -97,7 +97,7 @@ W tej sekcji opisano wymagania dotyczące sprzętu i oprogramowania, które musz
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939886.Important(WS.10).gif" />Ważne</th>
+<th style="border:1px solid black;" ><img src="images/Dd939886.Important(WS.10).gif" />Ważne</th>
 </tr>
 </thead>
 <tbody>
@@ -134,7 +134,7 @@ Następująca lista zawiera minimalne wymagania dotyczące sprzętu niezbędne d
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939886.Important(WS.10).gif" />Ważne</th>
+<th style="border:1px solid black;" ><img src="images/Dd939886.Important(WS.10).gif" />Ważne</th>
 </tr>
 </thead>
 <tbody>
@@ -176,7 +176,7 @@ Przed rozpoczęciem instalowania programu WSUS 3.0 z dodatkiem SP2 może być wy
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939886.Caution(WS.10).gif" />Przestroga</th>
+<th style="border:1px solid black;" ><img src="images/Dd939886.Caution(WS.10).gif" />Przestroga</th>
 </tr>
 </thead>
 <tbody>
@@ -326,8 +326,8 @@ Dostępny z poziomu wiersza polecenia Instalator programu WSUS umożliwia przepr
 </colgroup>
 <thead>
 <tr class="header">
-<th>Opcja</th>
-<th>Opis</th>
+<th style="border:1px solid black;" >Opcja</th>
+<th style="border:1px solid black;" >Opis</th>
 </tr>
 </thead>
 <tbody>
@@ -366,8 +366,8 @@ W tabeli poniżej podano właściwości wiersza polecenia dla programu WSUS 3.0 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Właściwość</th>
-<th>Opis</th>
+<th style="border:1px solid black;" >Właściwość</th>
+<th style="border:1px solid black;" >Opis</th>
 </tr>
 </thead>
 <tbody>
@@ -446,7 +446,7 @@ WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (instalacja w trybie cichym przy użyciu por
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939886.Important(WS.10).gif" />Ważne</th>
+<th style="border:1px solid black;" ><img src="images/Dd939886.Important(WS.10).gif" />Ważne</th>
 </tr>
 </thead>
 <tbody>

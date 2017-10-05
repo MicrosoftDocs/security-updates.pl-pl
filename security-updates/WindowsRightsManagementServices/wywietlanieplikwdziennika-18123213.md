@@ -23,8 +23,8 @@ Rozmiar przeciętnego wpisu dziennika wynosi około 300 bajtów. Rejestrowane po
 </colgroup>
 <thead>
 <tr class="header">
-<th>Pole</th>
-<th>Opis</th>
+<th style="border:1px solid black;" >Pole</th>
+<th style="border:1px solid black;" >Opis</th>
 </tr>
 </thead>
 <tbody>

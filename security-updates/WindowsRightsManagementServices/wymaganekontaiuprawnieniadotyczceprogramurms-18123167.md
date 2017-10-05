@@ -21,8 +21,8 @@ W poniższej tabeli przedstawiono prawa dostępu i uprawnienia użytkownika wyma
 </colgroup>
 <thead>
 <tr class="header">
-<th>Działanie</th>
-<th>Konto i uprawnienia użytkownika</th>
+<th style="border:1px solid black;" >Działanie</th>
+<th style="border:1px solid black;" >Konto i uprawnienia użytkownika</th>
 </tr>
 </thead>
 <tbody>

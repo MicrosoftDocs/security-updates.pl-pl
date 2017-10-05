@@ -34,9 +34,9 @@ W poniższej tabeli przedstawiono listę katalogów wirtualnych, które są twor
 </colgroup>
 <thead>
 <tr class="header">
-<th>Katalog wirtualny</th>
-<th>Usługa</th>
-<th>Plik usługi sieci Web</th>
+<th style="border:1px solid black;" >Katalog wirtualny</th>
+<th style="border:1px solid black;" >Usługa</th>
+<th style="border:1px solid black;" >Plik usługi sieci Web</th>
 </tr>
 </thead>
 <tbody>

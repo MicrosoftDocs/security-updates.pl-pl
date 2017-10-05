@@ -24,9 +24,9 @@ Istnieją trzy zdarzenia wysyłane przez program RMS do dziennika zdarzeń syste
 </colgroup>
 <thead>
 <tr class="header">
-<th>Identyfikator zdarzenia</th>
-<th>Nazwa zdarzenia</th>
-<th>Typ zdarzenia</th>
+<th style="border:1px solid black;" >Identyfikator zdarzenia</th>
+<th style="border:1px solid black;" >Nazwa zdarzenia</th>
+<th style="border:1px solid black;" >Typ zdarzenia</th>
 </tr>
 </thead>
 <tbody>

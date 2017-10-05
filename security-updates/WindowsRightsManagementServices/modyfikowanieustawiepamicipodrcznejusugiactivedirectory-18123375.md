@@ -33,10 +33,10 @@ Poniższa tabela zawiera wpisy sterujące sposobem działania pamięci podręczn
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nazwa</th>
-<th>Typ</th>
-<th>Wartość domyślna</th>
-<th>Opis</th>
+<th style="border:1px solid black;" >Nazwa</th>
+<th style="border:1px solid black;" >Typ</th>
+<th style="border:1px solid black;" >Wartość domyślna</th>
+<th style="border:1px solid black;" >Opis</th>
 </tr>
 </thead>
 <tbody>

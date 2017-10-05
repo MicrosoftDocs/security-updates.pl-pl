@@ -58,8 +58,8 @@ Na podstawie poniższej listy kontrolnej można rozmieścić jeden serwer progra
 </colgroup>
 <thead>
 <tr class="header">
-<th>Krok</th>
-<th>Informacje dodatkowe</th>
+<th style="border:1px solid black;" >Krok</th>
+<th style="border:1px solid black;" >Informacje dodatkowe</th>
 </tr>
 </thead>
 <tbody>
@@ -107,8 +107,8 @@ Na podstawie poniższej listy kontrolnej można rozmieścić klastry głównej c
 </colgroup>
 <thead>
 <tr class="header">
-<th>Krok</th>
-<th>Informacje dodatkowe</th>
+<th style="border:1px solid black;" >Krok</th>
+<th style="border:1px solid black;" >Informacje dodatkowe</th>
 </tr>
 </thead>
 <tbody>
@@ -170,8 +170,8 @@ Na podstawie poniższej listy kontrolnej można rozmieścić główny program RM
 </colgroup>
 <thead>
 <tr class="header">
-<th>Krok</th>
-<th>Informacje dodatkowe</th>
+<th style="border:1px solid black;" >Krok</th>
+<th style="border:1px solid black;" >Informacje dodatkowe</th>
 </tr>
 </thead>
 <tbody>
@@ -219,8 +219,8 @@ Na podstawie poniższej listy kontrolnej można zaimplementować szablon zasad p
 </colgroup>
 <thead>
 <tr class="header">
-<th>Krok</th>
-<th>Informacje dodatkowe</th>
+<th style="border:1px solid black;" >Krok</th>
+<th style="border:1px solid black;" >Informacje dodatkowe</th>
 </tr>
 </thead>
 <tbody>
@@ -260,8 +260,8 @@ Na podstawie poniższej listy kontrolnej można rozmieścić nową wersję klien
 </colgroup>
 <thead>
 <tr class="header">
-<th>Krok</th>
-<th>Informacje dodatkowe</th>
+<th style="border:1px solid black;" >Krok</th>
+<th style="border:1px solid black;" >Informacje dodatkowe</th>
 </tr>
 </thead>
 <tbody>
@@ -293,8 +293,8 @@ Na podstawie poniższej listy kontrolnej można dodać zaufaną domenę użytkow
 </colgroup>
 <thead>
 <tr class="header">
-<th>Krok</th>
-<th>Informacje dodatkowe</th>
+<th style="border:1px solid black;" >Krok</th>
+<th style="border:1px solid black;" >Informacje dodatkowe</th>
 </tr>
 </thead>
 <tbody>
@@ -326,8 +326,8 @@ Na podstawie poniższej listy kontrolnej można dodać zaufaną domenę publikac
 </colgroup>
 <thead>
 <tr class="header">
-<th>Krok</th>
-<th>Informacje dodatkowe</th>
+<th style="border:1px solid black;" >Krok</th>
+<th style="border:1px solid black;" >Informacje dodatkowe</th>
 </tr>
 </thead>
 <tbody>

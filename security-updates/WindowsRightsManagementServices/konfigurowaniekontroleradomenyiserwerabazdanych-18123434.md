@@ -30,9 +30,9 @@ Jeśli jako serwer bazy danych wybrano program MSDE 2000, należy pamiętać, ż
 </colgroup>
 <thead>
 <tr class="header">
-<th>Składnik infrastruktury</th>
-<th>Kroki potrzebne do skonfigurowania kontrolera domeny i serwera bazy danych</th>
-<th>Uwagi dotyczące rozmieszczania w środowisku produkcyjnym</th>
+<th style="border:1px solid black;" >Składnik infrastruktury</th>
+<th style="border:1px solid black;" >Kroki potrzebne do skonfigurowania kontrolera domeny i serwera bazy danych</th>
+<th style="border:1px solid black;" >Uwagi dotyczące rozmieszczania w środowisku produkcyjnym</th>
 </tr>
 </thead>
 <tbody>

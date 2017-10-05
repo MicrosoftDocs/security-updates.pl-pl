@@ -26,9 +26,9 @@ W poniższej tabeli zawarto prawa udzielane serwerom przez certyfikaty licencjod
 </colgroup>
 <thead>
 <tr class="header">
-<th>Udziela prawa do wystawiania</th>
-<th>Certyfikat licencjodawcy serwera jest wystawiany dla serwera głównej certyfikacji</th>
-<th>Certyfikat licencjodawcy serwera jest wystawiany dla serwera licencji</th>
+<th style="border:1px solid black;" >Udziela prawa do wystawiania</th>
+<th style="border:1px solid black;" >Certyfikat licencjodawcy serwera jest wystawiany dla serwera głównej certyfikacji</th>
+<th style="border:1px solid black;" >Certyfikat licencjodawcy serwera jest wystawiany dla serwera licencji</th>
 </tr>
 </thead>
 <tbody>

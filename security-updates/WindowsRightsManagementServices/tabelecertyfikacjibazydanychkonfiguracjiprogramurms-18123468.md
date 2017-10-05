@@ -28,10 +28,10 @@ Poniższa tabela zawiera informacje o identyfikatorach sprzętu odpowiadających
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nazwa</th>
-<th>Typ danych</th>
-<th>Wartości NULL</th>
-<th>Opis</th>
+<th style="border:1px solid black;" >Nazwa</th>
+<th style="border:1px solid black;" >Typ danych</th>
+<th style="border:1px solid black;" >Wartości NULL</th>
+<th style="border:1px solid black;" >Opis</th>
 </tr>
 </thead>
 <tbody>
@@ -73,10 +73,10 @@ Poniższa tabela zawiera informacje o usłudze Microsoft® .NET Passport dotycz�
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nazwa</th>
-<th>Typ danych</th>
-<th>Wartości NULL</th>
-<th>Opis</th>
+<th style="border:1px solid black;" >Nazwa</th>
+<th style="border:1px solid black;" >Typ danych</th>
+<th style="border:1px solid black;" >Wartości NULL</th>
+<th style="border:1px solid black;" >Opis</th>
 </tr>
 </thead>
 <tbody>
@@ -112,10 +112,10 @@ Poniższa tabela łączy dane certyfikowanych użytkowników z odpowiadającymi 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nazwa</th>
-<th>Typ danych</th>
-<th>Wartości NULL</th>
-<th>Opis</th>
+<th style="border:1px solid black;" >Nazwa</th>
+<th style="border:1px solid black;" >Typ danych</th>
+<th style="border:1px solid black;" >Wartości NULL</th>
+<th style="border:1px solid black;" >Opis</th>
 </tr>
 </thead>
 <tbody>
@@ -157,10 +157,10 @@ Poniższa tabela zawiera informacje dotyczące danych użytkowników.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nazwa</th>
-<th>Typ danych</th>
-<th>Wartości NULL</th>
-<th>Opis</th>
+<th style="border:1px solid black;" >Nazwa</th>
+<th style="border:1px solid black;" >Typ danych</th>
+<th style="border:1px solid black;" >Wartości NULL</th>
+<th style="border:1px solid black;" >Opis</th>
 </tr>
 </thead>
 <tbody>
@@ -262,10 +262,10 @@ Poniższa tabela zawiera listę identyfikatorów wszystkich uwierzytelnionych i 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nazwa</th>
-<th>Typ danych</th>
-<th>Wartości NULL</th>
-<th>Opis</th>
+<th style="border:1px solid black;" >Nazwa</th>
+<th style="border:1px solid black;" >Typ danych</th>
+<th style="border:1px solid black;" >Wartości NULL</th>
+<th style="border:1px solid black;" >Opis</th>
 </tr>
 </thead>
 <tbody>

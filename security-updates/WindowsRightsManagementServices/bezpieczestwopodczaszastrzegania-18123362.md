@@ -24,9 +24,9 @@ Podczas zastrzegania program RMS używa kont opisanych w poniższej tabeli.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Konto</th>
-<th>Funkcja</th>
-<th>Uprawnienia</th>
+<th style="border:1px solid black;" >Konto</th>
+<th style="border:1px solid black;" >Funkcja</th>
+<th style="border:1px solid black;" >Uprawnienia</th>
 </tr>
 </thead>
 <tbody>

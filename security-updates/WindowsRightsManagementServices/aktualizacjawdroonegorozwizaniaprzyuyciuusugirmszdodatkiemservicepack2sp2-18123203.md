@@ -85,10 +85,10 @@ Usługi RMS z dodatkiem SP2 oferują liczne udoskonalenia i rozszerzenia funkcjo
 </colgroup>
 <thead>
 <tr class="header">
-<th>Wersja serwera RMS</th>
-<th>Funkcje obsługiwane przy klientach w wersji 1</th>
-<th>Funkcje obsługiwane przy klientach z dodatkiem SP2</th>
-<th>Funkcje obsługiwane w środowiskach z różnymi klientami</th>
+<th style="border:1px solid black;" >Wersja serwera RMS</th>
+<th style="border:1px solid black;" >Funkcje obsługiwane przy klientach w wersji 1</th>
+<th style="border:1px solid black;" >Funkcje obsługiwane przy klientach z dodatkiem SP2</th>
+<th style="border:1px solid black;" >Funkcje obsługiwane w środowiskach z różnymi klientami</th>
 </tr>
 </thead>
 <tbody>

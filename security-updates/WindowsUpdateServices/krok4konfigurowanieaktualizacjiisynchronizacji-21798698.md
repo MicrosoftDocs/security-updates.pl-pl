@@ -75,7 +75,7 @@ W ramach procedur kroku 3 ukończono konfigurację serwera nadrzędnego i serwer
     </colgroup>
     <thead>
     <tr class="header">
-    <th><img src="images/Dd939924.Important(WS.10).gif" />Ważne</th>
+    <th style="border:1px solid black;" ><img src="images/Dd939924.Important(WS.10).gif" />Ważne</th>
     </tr>
     </thead>
     <tbody>

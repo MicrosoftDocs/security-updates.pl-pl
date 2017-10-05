@@ -21,8 +21,8 @@ Poniższa tabela pokazuje relacje między prawami dostępu, które można wybra�
 </colgroup>
 <thead>
 <tr class="header">
-<th>Prawa</th>
-<th>Elementy XrML</th>
+<th style="border:1px solid black;" >Prawa</th>
+<th style="border:1px solid black;" >Elementy XrML</th>
 </tr>
 </thead>
 <tbody>

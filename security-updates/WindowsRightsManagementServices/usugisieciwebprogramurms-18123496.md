@@ -30,8 +30,8 @@ Poniższa tabela zawiera opis usług sieci Web programu RMS.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Usługa</th>
-<th>Opis</th>
+<th style="border:1px solid black;" >Usługa</th>
+<th style="border:1px solid black;" >Opis</th>
 </tr>
 </thead>
 <tbody>

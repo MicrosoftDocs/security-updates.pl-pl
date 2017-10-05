@@ -34,11 +34,11 @@ Poniższa tabela zawiera wpisy, które można dodać w celu zastąpienia domyśl
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nazwa</th>
-<th>Typ</th>
-<th>Wartość domyślna</th>
-<th>Opis</th>
-<th>Uwagi</th>
+<th style="border:1px solid black;" >Nazwa</th>
+<th style="border:1px solid black;" >Typ</th>
+<th style="border:1px solid black;" >Wartość domyślna</th>
+<th style="border:1px solid black;" >Opis</th>
+<th style="border:1px solid black;" >Uwagi</th>
 </tr>
 </thead>
 <tbody>

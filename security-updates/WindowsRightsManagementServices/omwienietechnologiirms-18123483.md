@@ -21,8 +21,8 @@ System RMS zawiera technologie serwerowe i klienckie. W poniższej tabeli opisan
 </colgroup>
 <thead>
 <tr class="header">
-<th>Technologia</th>
-<th>Opis</th>
+<th style="border:1px solid black;" >Technologia</th>
+<th style="border:1px solid black;" >Opis</th>
 </tr>
 </thead>
 <tbody>

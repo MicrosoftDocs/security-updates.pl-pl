@@ -21,8 +21,8 @@ Jeśli program RMS jest używany w środowisku klastrowym, należy rozważyć sp
 </colgroup>
 <thead>
 <tr class="header">
-<th>Warunek</th>
-<th>Zalecenie</th>
+<th style="border:1px solid black;" >Warunek</th>
+<th style="border:1px solid black;" >Zalecenie</th>
 </tr>
 </thead>
 <tbody>

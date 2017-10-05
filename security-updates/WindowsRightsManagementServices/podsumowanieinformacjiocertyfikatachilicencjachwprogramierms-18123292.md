@@ -22,9 +22,9 @@ W poniższej tabeli przedstawiono certyfikaty i licencje używane przez program 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Certyfikat lub licencja</th>
-<th>Funkcja</th>
-<th>Zawartość</th>
+<th style="border:1px solid black;" >Certyfikat lub licencja</th>
+<th style="border:1px solid black;" >Funkcja</th>
+<th style="border:1px solid black;" >Zawartość</th>
 </tr>
 </thead>
 <tbody>

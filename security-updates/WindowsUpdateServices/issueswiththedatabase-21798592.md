@@ -18,7 +18,7 @@ If you have problems with the SQL Server database or Wewnętrzna baza danych sys
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939833.note(WS.10).gif" />Uwaga</th>
+<th style="border:1px solid black;" ><img src="images/Dd939833.note(WS.10).gif" />Uwaga</th>
 </tr>
 </thead>
 <tbody>

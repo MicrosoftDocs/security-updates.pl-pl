@@ -35,8 +35,8 @@ Składnie poszczególnych poleceń opisano w poniższej tabeli.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parametr</th>
-<th>Definicja</th>
+<th style="border:1px solid black;" >Parametr</th>
+<th style="border:1px solid black;" >Definicja</th>
 </tr>
 </thead>
 <tbody>

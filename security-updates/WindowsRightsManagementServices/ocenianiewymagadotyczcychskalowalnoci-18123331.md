@@ -31,10 +31,10 @@ Do wyznaczenia wymagań dotyczących użytkowania systemu programu RMS podczas p
 </colgroup>
 <thead>
 <tr class="header">
-<th>Transakcja</th>
-<th>Wystąpienie</th>
-<th>Wykorzystanie pasma między klientem a serwerem (KB)</th>
-<th>Wykorzystanie pasma między serwerem a klientem (KB)</th>
+<th style="border:1px solid black;" >Transakcja</th>
+<th style="border:1px solid black;" >Wystąpienie</th>
+<th style="border:1px solid black;" >Wykorzystanie pasma między klientem a serwerem (KB)</th>
+<th style="border:1px solid black;" >Wykorzystanie pasma między serwerem a klientem (KB)</th>
 </tr>
 </thead>
 <tbody>
@@ -74,9 +74,9 @@ W poniższej tabeli przedstawiono dane bazowe dotyczące wykorzystania pasma prz
 </colgroup>
 <thead>
 <tr class="header">
-<th>Transakcja</th>
-<th>Wykorzystanie pasma między programem RMS a wykazem globalnym (w bajtach)</th>
-<th>Wykorzystanie pasma między wykazem globalnym a programem RMS (w bajtach)</th>
+<th style="border:1px solid black;" >Transakcja</th>
+<th style="border:1px solid black;" >Wykorzystanie pasma między programem RMS a wykazem globalnym (w bajtach)</th>
+<th style="border:1px solid black;" >Wykorzystanie pasma między wykazem globalnym a programem RMS (w bajtach)</th>
 </tr>
 </thead>
 <tbody>

@@ -86,10 +86,10 @@ Ze względu na liczne udoskonalenia i rozszerzenia funkcjonalności zaleca się 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Wersja serwera RMS</th>
-<th>Funkcje obsługiwane przy klientach z wersją 1</th>
-<th>Funkcje obsługiwane przy klientach z dodatkiem SP1</th>
-<th>Funkcje obsługiwane w środowiskach z różnymi klientami (wersja 1 i SP1)</th>
+<th style="border:1px solid black;" >Wersja serwera RMS</th>
+<th style="border:1px solid black;" >Funkcje obsługiwane przy klientach z wersją 1</th>
+<th style="border:1px solid black;" >Funkcje obsługiwane przy klientach z dodatkiem SP1</th>
+<th style="border:1px solid black;" >Funkcje obsługiwane w środowiskach z różnymi klientami (wersja 1 i SP1)</th>
 </tr>
 </thead>
 <tbody>

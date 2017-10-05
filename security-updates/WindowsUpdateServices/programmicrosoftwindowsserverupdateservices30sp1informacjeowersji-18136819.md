@@ -149,8 +149,8 @@ Przed uruchomieniem instalacji programu WSUS 3.0 SP1 należy upewnić się, ż
 </colgroup>
 <thead>
 <tr class="header">
-<th>Wymaganie</th>
-<th>Szczegóły</th>
+<th style="border:1px solid black;" >Wymaganie</th>
+<th style="border:1px solid black;" >Szczegóły</th>
 </tr>
 </thead>
 <tbody>
@@ -237,8 +237,8 @@ Za pomocą Instalatora aplikacji WSUS dla wiersza polecenia można przeprowadza�
 </colgroup>
 <thead>
 <tr class="header">
-<th>Opcja</th>
-<th>Opis</th>
+<th style="border:1px solid black;" >Opcja</th>
+<th style="border:1px solid black;" >Opis</th>
 </tr>
 </thead>
 <tbody>
@@ -277,8 +277,8 @@ W poniższej tabeli przedstawiono właściwości wiersza polecenia dotyczące ap
 </colgroup>
 <thead>
 <tr class="header">
-<th>Właściwość</th>
-<th>Opis</th>
+<th style="border:1px solid black;" >Właściwość</th>
+<th style="border:1px solid black;" >Opis</th>
 </tr>
 </thead>
 <tbody>
@@ -529,8 +529,8 @@ Program WSUS 3.0 SP1 obsługuje system Windows Server 2008 zarówno w wersji 32
 </colgroup>
 <thead>
 <tr class="header">
-<th>Wymaganie</th>
-<th>Szczegóły</th>
+<th style="border:1px solid black;" >Wymaganie</th>
+<th style="border:1px solid black;" >Szczegóły</th>
 </tr>
 </thead>
 <tbody>

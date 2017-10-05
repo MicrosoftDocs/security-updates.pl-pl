@@ -28,10 +28,10 @@ Poniższa tabela zawiera wpis odpowiadający każdemu rekordowi rejestrowania.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nazwa</th>
-<th>Typ danych</th>
-<th>Wartości NULL</th>
-<th>Opis</th>
+<th style="border:1px solid black;" >Nazwa</th>
+<th style="border:1px solid black;" >Typ danych</th>
+<th style="border:1px solid black;" >Wartości NULL</th>
+<th style="border:1px solid black;" >Opis</th>
 </tr>
 </thead>
 <tbody>
@@ -157,10 +157,10 @@ Poniższa tabela zawiera dodatkowe dane dotyczące rekordu rejestrowania. Zwykle
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nazwa</th>
-<th>Typ danych</th>
-<th>Wartości NULL</th>
-<th>Opis</th>
+<th style="border:1px solid black;" >Nazwa</th>
+<th style="border:1px solid black;" >Typ danych</th>
+<th style="border:1px solid black;" >Wartości NULL</th>
+<th style="border:1px solid black;" >Opis</th>
 </tr>
 </thead>
 <tbody>
@@ -208,10 +208,10 @@ Poniższa tabela zawiera listę pól rejestrowanych w usłudze odbiornika rejest
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nazwa</th>
-<th>Typ danych</th>
-<th>Wartości NULL</th>
-<th>Opis</th>
+<th style="border:1px solid black;" >Nazwa</th>
+<th style="border:1px solid black;" >Typ danych</th>
+<th style="border:1px solid black;" >Wartości NULL</th>
+<th style="border:1px solid black;" >Opis</th>
 </tr>
 </thead>
 <tbody>

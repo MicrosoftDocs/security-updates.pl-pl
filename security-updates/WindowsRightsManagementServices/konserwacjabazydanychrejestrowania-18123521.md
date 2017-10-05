@@ -47,9 +47,9 @@ Powyższe szacunki można zobrazować na przykładzie organizacji z 5 tys. uży
 </colgroup>
 <thead>
 <tr class="header">
-<th>Czynność</th>
-<th>Przyrost dziennika</th>
-<th>Skumulowany rozmiar dziennika</th>
+<th style="border:1px solid black;" >Czynność</th>
+<th style="border:1px solid black;" >Przyrost dziennika</th>
+<th style="border:1px solid black;" >Skumulowany rozmiar dziennika</th>
 </tr>
 </thead>
 <tbody>
