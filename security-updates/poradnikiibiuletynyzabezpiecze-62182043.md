@@ -6,8 +6,6 @@ ms:contentKeyID: 62182043
 ms:mtpsurl: 'https://technet.microsoft.com/pl-PL/library/Dn610807(v=Security.10)'
 ---
 
-Szablon MSRC ppDocument
-
 Poradniki i biuletyny zabezpieczeń
 ==================================
 
