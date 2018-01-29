@@ -41,62 +41,87 @@ The following virtual directories (vroots) are created in IIS (in the Default We
 <tr class="odd">
 <td style="border:1px solid black;">ClientWebService</td>
 <td style="border:1px solid black;">Directory: %ProgramFiles%Update Services\WebServices\ClientWebService
+
 Application Pool: WsusPool
+
 Security: Anonymous Access Enabled
+
 Execute Permissions: Scripts Only</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Content</td>
 <td style="border:1px solid black;">Directory[the location of the WSUS content directory]
+
 Security: Anonymous Access Enabled
+
 Execute Permissions: None</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">DssAuthWebService</td>
 <td style="border:1px solid black;">Directory: %ProgramFiles%Update Services\WebServices\DssAuthWebService
+
 Application Pool: WsusPool
+
 Security: Anonymous Access Enabled
+
 Execute Permissions: Scripts Only</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Inventory</td>
 <td style="border:1px solid black;">Directory: %ProgramFiles%Update Services\ Inventory
+
 Application Pool: WsusPool
+
 Security: Anonymous Access Enabled
+
 Execute Permissions: Scripts Only</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">ReportingWebService</td>
 <td style="border:1px solid black;">Directory: %ProgramFiles%Update Services\WebServices\ReportingWebService
+
 Application Pool: WsusPool
+
 Security: Anonymous Access Enabled
+
 Execute Permissions: Scripts Only</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">ServerSyncWebService</td>
 <td style="border:1px solid black;">Directory: %ProgramFiles%Update Services\WebServices\ServerSyncWebService
+
 Application Pool: WsusPool
+
 Security: Anonymous Access Enabled
+
 Execute Permissions: Scripts Only</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">SimpleAuthWebService</td>
 <td style="border:1px solid black;">Directory: %ProgramFiles%Update Services\WebServices\SimpleAuthWebService
+
 Application Pool: WsusPool
+
 Security: Anonymous Access Enabled
+
 Execute Permissions: Scripts Only</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">ApiRemoting30</td>
 <td style="border:1px solid black;">Directory: %ProgramFiles%Update Services\Administration
+
 Application Pool: WsusPool
+
 Security: Integrated Windows Authentication, Digest Authentication
+
 Execute Permissions: Scripts Only</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">SelfUpdate</td>
 <td style="border:1px solid black;">Directory: %ProgramFiles%Update Services\SelfUpdate
+
 Security: Anonymous Access Enabled
+
 Execute Permissions: Scripts Only</td>
 </tr>
 </tbody>
@@ -240,8 +265,7 @@ The properties listed below are a partial list.
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">AspScriptErrorMessage</td>
-<td style="border:1px solid black;">(STRING) &quot;An error occurred on the server when
-processing the URL. Please contact the system administrator&quot;</td>
+<td style="border:1px solid black;">(STRING) &quot;An error occurred on the server when processing the URL. Please contact the system administrator&quot;</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">AspAllowOutOfProcComponents</td>
@@ -253,8 +277,7 @@ processing the URL. Please contact the system administrator&quot;</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">AspDiskTemplateCacheDirectory</td>
-<td style="border:1px solid black;">(EXPANDSZ) &quot;%windir%\system32\inetsrv\ASP
-Compiled Templates&quot;</td>
+<td style="border:1px solid black;">(EXPANDSZ) &quot;%windir%\system32\inetsrv\ASP Compiled Templates&quot;</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">AspMaxDiskTemplateCacheFiles</td>
@@ -423,10 +446,15 @@ Compiled Templates&quot;</td>
 <tr class="odd">
 <td style="border:1px solid black;">InProcessIsapiApps</td>
 <td style="border:1px solid black;">(LIST) (6 Items)
+
 &quot;%windir%\system32\inetsrv\httpext.dll&quot;
+
 &quot;%windir%\system32\inetsrv\httpodbc.dll&quot;
+
 &quot;%windir%\system32\inetsrv\ssinc.dll&quot;
+
 &quot;%windir%\system32\msw3prt.dll&quot;
+
 &quot;%windir%\Microsoft.NET\Framework\v2.0.50727\aspnet_isapi.dll&quot;</td>
 </tr>
 <tr class="even">
@@ -528,24 +556,34 @@ Compiled Templates&quot;</td>
 <tr class="even">
 <td style="border:1px solid black;">ApplicationDependencies</td>
 <td style="border:1px solid black;">(LIST) (6 Items)
+
 &quot;Active Server Pages;ASP&quot;
+
 &quot;Internet Data Connector;HTTPODBC&quot;
+
 &quot;Server Side Includes;SSINC&quot;
+
 &quot;WebDAV;WEBDAV&quot;
+
 &quot;ASP.NET v1.1.4322;ASP.NET v1.1.4322&quot;</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">WebSvcExtRestrictionList</td>
 <td style="border:1px solid black;">(LIST) (8 Items)
+
 &quot;0,*.dll&quot;
+
 &quot;0,*.exe&quot;&gt;
+
 &quot;0,&lt;windir&gt;\system32\inetsrv\asp.dll,0,ASP,Active Server Pages&quot;&gt;
-&quot;0,&lt;windir&gt;\system32\inetsrv\httpodbc.dll,0,HTTPODBC,Internet Data
-Connector&quot;
+
+&quot;0,&lt;windir&gt;\system32\inetsrv\httpodbc.dll,0,HTTPODBC,Internet Data Connector&quot;
+
 &quot;0,&lt;windir&gt;\system32\inetsrv\ssinc.dll,0,SSINC,Server Side Includes&quot;
+
 &quot;0,&lt;windir&gt;\system32\inetsrv\httpext.dll,0,WEBDAV,WebDAV&quot;&gt;
-&quot;1,&lt;windir&gt;\Microsoft.NET\Framework\v2.0.50727\aspnet_isapi.dll,0,ASP.NET
-v2.0.50727,ASP.NET v2.0.50727&quot;</td>
+
+&quot;1,&lt;windir&gt;\Microsoft.NET\Framework\v2.0.50727\aspnet_isapi.dll,0,ASP.NET v2.0.50727,ASP.NET v2.0.50727&quot;</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">AspMaxRequestEntityAllowed</td>

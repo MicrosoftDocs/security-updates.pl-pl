@@ -79,9 +79,11 @@ Promoting the WSUS server to a domain controller might disrupt your ability to a
 
 When you promote a WSUS server to a domain controller and then try to access the WSUS console, you might receive a message similar to the following:
 
-`Server Error in '/' Application. `
+```
+Server Error in '/' Application. 
 
-`Access to the path "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\Temporary ASP.NET Files\wsusadmin\8c91a6b5\649b28ba\global.asax.xml" is denied. `
+Access to the path "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\Temporary ASP.NET Files\wsusadmin\8c91a6b5\649b28ba\global.asax.xml" is denied. 
+```
 
 This occurs if IIS 6.0 and ASP.NET are installed on the server before the server is promoted to a domain controller. This is because the Network Service group does not have sufficient permissions for the Temporary ASP.NET Files folder. To avoid this problem, make sure that you promote the WSUS server to a domain controller before you install IIS 6.0 and ASP.NET. To resolve this issue, enable appropriate permissions for the Network Service group by using the following procedure.
 
