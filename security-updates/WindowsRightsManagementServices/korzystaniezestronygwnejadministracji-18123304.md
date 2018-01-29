@@ -19,8 +19,10 @@ Aby uzyskać dostęp do tej strony sieci Web z serwera, którego ma dotyczyć ad
 
 Jeśli włączono administrowanie zdalne za pomocą protokołu SSL (Secure Sockets Layer), dostęp do **strony głównej administracji** można także uzyskać z innego komputera, wykonując następujące czynności:
 
-1.  W pasku adresu przeglądarki sieci Web wpisz następujący adres URL:
-    https://*nazwa\_klastra:numer\_portu*/\_wmcs/admin
+1.  W pasku adresu przeglądarki sieci Web wpisz następujący adres URL:  
+
+    https://*nazwa\_klastra:numer\_portu*/\_wmcs/admin 
+    
     Gdzie *nazwa\_klastra:numer\_portu* jest adresem URL, który określono dla danego klastra podczas zastrzegania. Numer portu należy podawać tylko w przypadku, gdy określono port inny od domyślnego o numerze 80.
 2.  Po wyświetleniu monitu, wpisz poświadczenia lokalnego administratora na serwerze, do którego uzyskujesz dostęp.
 

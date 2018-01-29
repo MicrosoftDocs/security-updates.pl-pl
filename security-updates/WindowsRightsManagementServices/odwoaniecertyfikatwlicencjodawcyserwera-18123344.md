@@ -37,8 +37,9 @@ Aby uzyskać certyfikat licencjodawcy serwera odpowiadający instalacji programu
 2.  W menu **Query** (Kwerenda) kliknij polecenie **Results in Text** (Wyniki w postaci tekstu).
 3.  W menu **Tools** (Narzędzia) kliknij polecenie **Options** (Opcje) w celu otwarcia okna dialogowego **Options** (Opcje). Kliknij kartę **Results** (Wyniki), a następnie w polu **Maximum characters per column** (Maksymalna liczba znaków w kolumnie) ustaw wartość **8192**.
 4.	W oknie dialogowym Query (Kwerenda) wprowadź poniższe ciągi kwerendy.
+
 	```
-	select DRMS_XrML_Certificate.s_certificate from DRMS_XrML_Certificate, DRMS_LicensorCertificate, DRMS_ClusterConfiguration where DRMS_ClusterConfiguration.CurrentLicensorCertID = DRMS_LicensorCertificate.i_CertID and DRMS_LicensorCertificate.i_CertificateID = DRMS_XrML_Certificate.i_CertificateID
+	select DRMS_XrML_Certificate.s_certificate from DRMS_XrML_Certificate, DRMS_LicensorCertificate, DRMS_ClusterConfiguration where DRMS_ClusterConfiguration.CurrentLicensorCertID = DRMS_LicensorCertificate.i_CertID and DRMS_LicensorCertificate.i_CertificateID = DRMS_XrML_Certificate.i_CertificateID 
 	```
 1.  Skopiuj wyniki z okna **Results** (Wyniki), a następnie wklej je do edytora tekstu, na przykład do Notatnika. Zapisz wyniki w pliku z rozszerzeniem .xml.
 

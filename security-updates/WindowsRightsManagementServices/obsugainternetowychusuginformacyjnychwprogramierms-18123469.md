@@ -23,9 +23,7 @@ Domyślnie pliki usług sieci Web i katalogi wirtualne są chronione przez listy
 
 W poniższej tabeli przedstawiono listę katalogów wirtualnych, które są tworzone w usługach IIS, oraz usług instalowanych w katalogach wirtualnych.
 
-###  
-
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />

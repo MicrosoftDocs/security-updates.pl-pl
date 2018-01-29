@@ -21,9 +21,8 @@ Listy odwołania określają zawartość, aplikacje, użytkowników lub inne pod
 
 W poniższej tabeli przedstawiono jednostki, które można określić na liście odwołania, wraz z informacjami używanymi do zidentyfikowania każdej z nich.
 
-###  
-
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -68,9 +67,8 @@ W poniższej tabeli przedstawiono jednostki, które można określić na liście
   
 Listy odwołania są plikami XrML, które określają następujące parametry.
   
-###  
-
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

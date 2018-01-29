@@ -21,9 +21,7 @@ Na komputerach z 64-bitową wersją systemu Windows Server 2003 poniższy klucz
 
 Poniższa tabela zawiera wpisy sterujące sposobem działania pamięci podręcznej w pamięci.
 
-###  
-
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />

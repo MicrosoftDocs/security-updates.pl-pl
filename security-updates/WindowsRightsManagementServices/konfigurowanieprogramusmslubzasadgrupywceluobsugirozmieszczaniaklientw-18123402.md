@@ -19,8 +19,11 @@ Aplikacja obsługująca technologię RMS to aplikacja, z której działaniem zin
 Jeśli składnik klienta programu RMS ma być rozpowszechniany za pomocą programu SMS, należy wykonać następujące czynności:
 
 -   Utwórz nowy plik definicji pakietu.
--   Wyodrębnij pliki Instalatora Windows z pliku WindowsRightsManagementServicesSP2-KB917275-Client-ENU.exe. W tym celu najpierw zapisz plik WindowsRightsManagementServicesSP2-KB917275-Client-ENU.exe. Nie instaluj go. W tym przykładzie załóżmy, że plik jest zapisywany w folderze c:\\nazwa\_folderu. Otwórz okno wiersza polecenia i wpisz następujące polecenie:
-    `c:\folder_name\WindowsRightsManagementServicesSP2-KB917275-Client-ENU.exe /x/t:c:\folder_name`
+-   Wyodrębnij pliki Instalatora Windows z pliku   
+WindowsRightsManagementServicesSP2-KB917275-Client-ENU.exe. W tym celu najpierw zapisz plik WindowsRightsManagementServicesSP2-KB917275-Client-ENU.exe. Nie instaluj go. W tym przykładzie załóżmy, że plik jest zapisywany w folderze c:\\nazwa\_folderu. Otwórz okno wiersza polecenia i wpisz następujące polecenie:  
+
+    `c:\folder_name\WindowsRightsManagementServicesSP2-KB917275-Client-ENU.exe /x/t:c:\folder_name`  
+
     To polecenie powoduje wyodrębnienie plików MSDrmClient.msi i RMClientBackCompat.msi z pliku .exe i umieszczenie ich w folderze *c:\\nazwa\_folderu*.
 -   Użyj plików Instalatora Windows dla definicji i źródła pakietu.
 -   Zaanonsuj dostępność pakietu w sieci.

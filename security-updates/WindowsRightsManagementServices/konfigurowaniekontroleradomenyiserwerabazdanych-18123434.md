@@ -18,9 +18,8 @@ Poniższe procedury dotyczą konfiguracji kontrolera domeny i serwera bazy danyc
 
 Jeśli jako serwer bazy danych wybrano program MSDE 2000, należy pamiętać, że nie obsługuje on żadnych interfejsów sieciowych oraz że warunki jego użytkowania stanowią, że nie można używać narzędzi klienckich programu SQL Server do obsługi bazy danych programu MSDE. To ograniczenie uniemożliwi przeglądanie informacji rejestrowania lub zmienianie danych przechowywanych w bazie danych konfiguracji. Dlatego zaleca się używanie programu MSDE 2000 tylko do obsługi baz danych programu RMS w środowiskach testowych.
 
-###  
-
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />

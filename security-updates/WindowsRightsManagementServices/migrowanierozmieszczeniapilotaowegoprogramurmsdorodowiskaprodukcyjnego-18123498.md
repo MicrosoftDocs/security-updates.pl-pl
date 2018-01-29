@@ -17,9 +17,8 @@ Jeśli program RMS jest rozmieszczany w ramach programu pilotażowego i serwer p
 
 Poniżej przedstawiono przykładowe elementy, które powinien zawierać plan migracji. Każde rozmieszczenie może mieć inne wymagania.
 
-###  
-
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />

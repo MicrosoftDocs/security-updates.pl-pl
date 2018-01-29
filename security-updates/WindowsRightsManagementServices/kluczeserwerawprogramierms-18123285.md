@@ -22,7 +22,7 @@ Domyślnie podczas zastrzegania klucz prywatny serwera jest tworzony i przechowy
 
 Dostawcy CSP można używać na dwa różne sposoby:
 
--   Wybrać spośród programowych implementacji dostawcy CSP, instalowanych domyślnie wraz z serwerem.
+-   Wybrać spośród programowych implementacji dostawcy CSP, instalowanych domyślnie wraz z serwerem.  
     — lub —
 -   Użyć oprogramowania CSP firm trzecich, które zainstalowano na serwerze.
 
