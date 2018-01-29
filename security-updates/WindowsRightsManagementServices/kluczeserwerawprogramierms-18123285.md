@@ -26,8 +26,7 @@ Dostawcy CSP można używać na dwa różne sposoby:
     — lub —
 -   Użyć oprogramowania CSP firm trzecich, które zainstalowano na serwerze.
 
-| ![](images/Cc720280.note(WS.10).gif)Uwaga                                                                                 |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-| W przypadku korzystania ze sprzętowego modułu zabezpieczeń należy upewnić się, że wybrano dostawcę CSP, który obsługuje sprzętowe moduły zabezpieczeń. |
+> [!note]  
+> W przypadku korzystania ze sprzętowego modułu zabezpieczeń należy upewnić się, że wybrano dostawcę CSP, który obsługuje sprzętowe moduły zabezpieczeń. 
 
 Jeśli wybrano ochronę klucza prywatnego serwera za pomocą dostawcy CSP, program RMS będzie przechowywać nazwę dostawcy oraz nazwę kontenera klucza znajdującego się w bazie danych konfiguracji.

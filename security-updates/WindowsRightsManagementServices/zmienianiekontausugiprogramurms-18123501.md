@@ -13,10 +13,8 @@ Podczas instalacji program RMS tworzy na lokalnym komputerze grupę usługi prog
 
 Konto usługi programu RMS można zmienić w dowolnym momencie. W takim przypadku poprzednio określone konto jest automatycznie usuwane z grupy usługi programu RMS, a nowe konto staje się jej członkiem.
 
-| ![](images/Cc747736.Important(WS.10).gif)Ważne                                                                                                                                                                               |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Ze względów bezpieczeństwa zaleca się utworzenie specjalnego konta użytkownika, które będzie używane wyłącznie jako konto usługi programu RMS i nie będzie służyło do innych celów. Ponadto kontu temu nie należy udzielać żadnych dodatkowych uprawnień. |
+> [!Important]  
+> Ze względów bezpieczeństwa zaleca się utworzenie specjalnego konta użytkownika, które będzie używane wyłącznie jako konto usługi programu RMS i nie będzie służyło do innych celów. Ponadto kontu temu nie należy udzielać żadnych dodatkowych uprawnień. 
 
-| ![](images/Cc747736.note(WS.10).gif)Uwaga                                                            |
-|-----------------------------------------------------------------------------------------------------------------------------------|
-| Jako konta usługi programu RMS nie można użyć konta domeny, za pomocą którego instalowano program RMS z dodatkiem Service Pack 1. |
+> [!note]  
+> Jako konta usługi programu RMS nie można użyć konta domeny, za pomocą którego instalowano program RMS z dodatkiem Service Pack 1. 

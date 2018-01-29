@@ -13,9 +13,8 @@ Przed zainstalowaniem serwera certyfikacji lub serwera licencji należy upewnić
 
 Poniższe procedury dotyczą konfiguracji kontrolera domeny i serwera bazy danych na jednym komputerze w odizolowanej sieci do celów testowania środowiska serwera.
 
-| ![](images/Cc747681.note(WS.10).gif)Uwaga                                                                                                                                                                                                                                                                                             |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| W tym przykładzie serwer bazy danych działa na kontrolerze domeny. W środowisku produkcyjnym zwykle nie zaleca się obsługi dodatkowych składników na kontrolerze domeny. W tym przykładzie usługa Active Directory i serwer bazy danych są zainstalowane na tym samym komputerze, aby umożliwić instalację pełnej infrastruktury na minimalnej liczbie komputerów. |
+> [!note]  
+> W tym przykładzie serwer bazy danych działa na kontrolerze domeny. W środowisku produkcyjnym zwykle nie zaleca się obsługi dodatkowych składników na kontrolerze domeny. W tym przykładzie usługa Active Directory i serwer bazy danych są zainstalowane na tym samym komputerze, aby umożliwić instalację pełnej infrastruktury na minimalnej liczbie komputerów. 
 
 Jeśli jako serwer bazy danych wybrano program MSDE 2000, należy pamiętać, że nie obsługuje on żadnych interfejsów sieciowych oraz że warunki jego użytkowania stanowią, że nie można używać narzędzi klienckich programu SQL Server do obsługi bazy danych programu MSDE. To ograniczenie uniemożliwi przeglądanie informacji rejestrowania lub zmienianie danych przechowywanych w bazie danych konfiguracji. Dlatego zaleca się używanie programu MSDE 2000 tylko do obsługi baz danych programu RMS w środowiskach testowych.
 

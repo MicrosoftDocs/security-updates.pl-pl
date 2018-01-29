@@ -11,9 +11,8 @@ Konfigurowanie infrastruktury podstawowej
 
 Sposób konfigurowania składników infrastruktury zależy od wymagań systemowych dla instalacji programu RMS, a także od najważniejszych wskazówek stosowanych podczas konfigurowania infrastruktury. Podstawowe środowisko serwerowe wymagane do obsługi programu RMS składa się z kontrolera domeny, serwera bazy danych i serwera programu RMS skonfigurowanego jako serwer głównej certyfikacji. W poniższych tematach omówiono procedury konfiguracyjne tych składników infrastruktury. Znajdują się tam także informacje dodatkowe dotyczące ich rozmieszczania.
 
-| ![](images/Cc720243.note(WS.10).gif)Uwaga                                                                                                                                                                                                        |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Rozmieszczanie programu RMS wymaga zainstalowania oprogramowania klienckiego RMS na komputerach klienckich, które będą używane wraz z serwerem programu RMS. Klienta RMS można pobrać z [witryny sieci Web firmy Microsoft](http://go.microsoft.com/fwlink/?linkid=18134%20.) |
+> [!note]  
+> Rozmieszczanie programu RMS wymaga zainstalowania oprogramowania klienckiego RMS na komputerach klienckich, które będą używane wraz z serwerem programu RMS. Klienta RMS można pobrać z [witryny sieci Web firmy Microsoft](http://go.microsoft.com/fwlink/?linkid=18134%20.) 
 
 W tej części omówiono następujące zagadnienia:
 

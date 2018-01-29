@@ -11,6 +11,5 @@ Publikowanie usług programu RMS
 
 Adresy URL usług programu RMS są publikowane w usłudze Active Directory podczas zastrzegania serwera. Podczas zastrzegania Instalator programu RMS wysyła kwerendę do usługi Active Directory, aby określić, czy w tym lesie zostały zainstalowane inne serwery programu RMS. Jeśli nie są zainstalowane żadne inne serwery programu RMS, Instalator programu RMS konfiguruje serwer jako serwer głównej certyfikacji. Przed użyciem serwera programu RMS należy zarejestrować punkt połączenia usługi (SCP) w usłudze Active Directory, aby umożliwić klientom odnajdowanie adresu URL serwera głównej certyfikacji. Klienci żądający połączenia z usługami działającymi na serwerze głównej certyfikacji rozpoczynają tę czynność od wysłania kwerendy do usługi Active Directory w celu uzyskania adresu URL tego serwera. Aby uzyskać więcej informacji, zobacz "Rejestrowanie punktu połączenia usługi" w temacie "Obsługa serwerów programu RMS" niniejszej dokumentacji.
 
-| ![](images/Cc720247.note(WS.10).gif)Uwaga                                                                                                                     |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Jeśli topologia zawiera wiele serwerów w klastrze głównej certyfikacji, adres URL wskazuje serwer równoważenia obciążenia dla klastra określony przez administratora podczas zastrzegania. |
+> [!note]  
+> Jeśli topologia zawiera wiele serwerów w klastrze głównej certyfikacji, adres URL wskazuje serwer równoważenia obciążenia dla klastra określony przez administratora podczas zastrzegania. 

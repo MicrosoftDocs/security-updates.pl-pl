@@ -19,6 +19,5 @@ Tak jak w przypadku pozostałych typów wykluczania, również wykluczanie aplik
 
 Kiedy na serwerze zostaną zastosowane te zasady wykluczania, klienci nie będą mogli za pomocą wykluczonej aplikacji żądać i wiązać nowych licencji użytkowania z zawartością chronioną technologią RMS. Klienci będą jednak mogli w dalszym ciągu korzystać z wcześniej licencjonowanych plików za pomocą wykluczonej aplikacji.
 
-| ![](images/Cc747644.note(WS.10).gif)Uwaga                                                                                                                                                                                                                                                                             |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Program RMS wymaga określenia wersji aplikacji w formacie 4-cyfrowym z separatorem w postaci kropki (\#.\#.\#.\# ). Jednak oznaczenia wersji niektórych aplikacji składają się z 2 lub 3 cyfr rozdzielonych kropkami. W takim przypadku należy odpowiednio dopisać .0, aby format numeru wersji był zgodny z formatem wymaganym przez program RMS. |
+> [!note]  
+> Program RMS wymaga określenia wersji aplikacji w formacie 4-cyfrowym z separatorem w postaci kropki (\#.\#.\#.\# ). Jednak oznaczenia wersji niektórych aplikacji składają się z 2 lub 3 cyfr rozdzielonych kropkami. W takim przypadku należy odpowiednio dopisać .0, aby format numeru wersji był zgodny z formatem wymaganym przez program RMS. 

@@ -11,9 +11,8 @@ Ustawienia kluczy rejestru programu RMS
 
 Użytkownik może modyfikować ustawienia kluczy rejestru w celu testowania wybranych aspektów swojego rozmieszczenia oraz zarządzania wydajnością.
 
-| ![](images/Cc747740.Caution(WS.10).gif)Przestroga                                                                                                                                |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Nieprawidłowa edycja rejestru może spowodować poważne uszkodzenie systemu. Przed wprowadzaniem zmian w rejestrze należy wykonać kopię zapasową wszystkich wartościowych danych przechowywanych na komputerze. |
+> [!Caution]  
+> Nieprawidłowa edycja rejestru może spowodować poważne uszkodzenie systemu. Przed wprowadzaniem zmian w rejestrze należy wykonać kopię zapasową wszystkich wartościowych danych przechowywanych na komputerze. 
 
 W tej części omówiono następujące zagadnienia:
 

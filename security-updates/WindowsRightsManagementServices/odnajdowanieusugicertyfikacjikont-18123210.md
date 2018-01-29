@@ -21,6 +21,5 @@ Gdy klient żąda certyfikatu konta praw, dodaje nazwę pliku usługi certyfikac
 
 http://*nazwa\_serwera*/\_wmcs/Certification/Certification.asmx
 
-| ![](images/Cc720224.note(WS.10).gif)Uwaga                                               |
-|----------------------------------------------------------------------------------------------------------------------|
-| Jeśli włączono protokół SSL dla serwera programu RMS, te adresy URL będą korzystały z protokołu połączenia https://. |
+> [!note]  
+> Jeśli włączono protokół SSL dla serwera programu RMS, te adresy URL będą korzystały z protokołu połączenia https://. 

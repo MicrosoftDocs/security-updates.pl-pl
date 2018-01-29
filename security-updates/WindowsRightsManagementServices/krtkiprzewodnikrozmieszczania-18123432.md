@@ -56,9 +56,8 @@ Zastrzeganie to proces konfigurowania witryny sieci Web z programem RMS. Umożli
     W przypadku wybrania opcji Tryb offline w obszarze Łączność z Internetem serwera w kroku 4 przed wykonaniem kolejnych czynności wykonaj procedurę opisaną w części „Ręczna rejestracja serwera głównej certyfikacji”.
 7.  Na stronie głównej Administracja kliknij łącze **Punkt połączenia usługi programu RMS**.
 
-| ![](images/Cc747735.note(WS.10).gif)Uwaga                                                                                                                                                                                                                                                                                        |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Następny krok tej procedury, rejestracja punktu połączenia usługi, wymaga użycia konta domeny o odpowiednich uprawnieniach w celu utworzenia obiektu kontenera pod kontenerem Usługi w kontenerze Konfiguracja lasu usługi Active Directory. Predefiniowana grupa zabezpieczeń — **Enterprise Admins** — jest przykładem konta mającego wymagane uprawnienia. |
+> [!note]  
+> Następny krok tej procedury, rejestracja punktu połączenia usługi, wymaga użycia konta domeny o odpowiednich uprawnieniach w celu utworzenia obiektu kontenera pod kontenerem Usługi w kontenerze Konfiguracja lasu usługi Active Directory. Predefiniowana grupa zabezpieczeń — **Enterprise Admins** — jest przykładem konta mającego wymagane uprawnienia. 
 
 1.  Na stronie **Punkt połączenia usługi programu RMS** kliknij przycisk **Zarejestruj URL**. Spowoduje to zarejestrowanie punktu połączenia usługi programu RMS w usłudze Active Directory, co umożliwi aplikacjom obsługującym technologię RMS odszukiwanie usług licencjonowania, aktywacji serwera proxy oraz certyfikacji udostępnianych przez program RMS.
 

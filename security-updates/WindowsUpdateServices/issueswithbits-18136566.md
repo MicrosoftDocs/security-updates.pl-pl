@@ -27,9 +27,8 @@ Stopping and restarting BITS
 
 Often it is possible to resolve BITS issues simply by stopping the service and restarting it. The following procedure shows how to stop and restart the service from the command line. You must be logged on as a local administrator to stop and restart BITS.
 
-| ![](images/Cc720473.note(WS.10).gif)Uwaga       |
-|------------------------------------------------------------------------------|
-| To modify, stop, or restart BITS, you must be logged on as an administrator. |
+> [!note]  
+> To modify, stop, or restart BITS, you must be logged on as an administrator. 
 
 **To stop and restart BITS**
 1.  Open a command shell.
@@ -83,9 +82,7 @@ By default BITS runs under the LocalSystem account.
 
 If BITS jobs fail, look in the event log to find errors. You can use the following table to diagnose the cause of the errors.
 
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -142,9 +139,7 @@ If BITS jobs fail, look in the event log to find errors. You can use the followi
   
 If the BITS service fail to start, use the following table to diagnose the cause of the error.
   
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -208,9 +203,8 @@ If the BITS service fail to start, use the following table to diagnose the cause
   
 To repair corrupted BITS service configuration, you can enter the BITS service configuration manually.
   
-| ![](images/Cc720473.Important(WS.10).gif)Ważne                                                                                            |  
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| This action should only be taken in circumstances where all other troubleshooting attempts have failed. You must be an administrator to modify the BITS configuration. |
+> [!Important]  
+> This action should only be taken in circumstances where all other troubleshooting attempts have failed. You must be an administrator to modify the BITS configuration. 
   
 **To repair a corrupted BITS configuration**  
 1.  Open a command shell.

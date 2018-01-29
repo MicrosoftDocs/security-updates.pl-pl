@@ -20,9 +20,8 @@ Baza danych rejestracji systemu RMS zawiera dzienniki, w których znajdują się
 
 Jeśli do ochrony kluczy prywatnych programu RMS używany jest sprzętowy moduł zabezpieczeń, należy także utworzyć kopię zapasową konfiguracji tego modułu. Aby uzyskać więcej informacji na temat tworzenia kopii zapasowej i przywracania konfiguracji sprzętowego modułu zabezpieczeń, zobacz dokumentację tego modułu.
 
-| ![](images/Cc747745.note(WS.10).gif)Uwaga                                                                                                                                                                                                                                                                                                         |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Jeśli do szyfrowania kluczy prywatnych programu RMS użyto programowego dostawcy usług kryptograficznych (CSP) innego niż domyślny programowy dostawca CSP, przed użyciem tego dostawcy CSP z programem RMS należy upewnić się, że istnieją odpowiednie dla niego organizacyjne praktyki zarządzania kluczami (na przykład procedury tworzenia kopii zapasowej i przywracania). |
+> [!note]  
+> Jeśli do szyfrowania kluczy prywatnych programu RMS użyto programowego dostawcy usług kryptograficznych (CSP) innego niż domyślny programowy dostawca CSP, przed użyciem tego dostawcy CSP z programem RMS należy upewnić się, że istnieją odpowiednie dla niego organizacyjne praktyki zarządzania kluczami (na przykład procedury tworzenia kopii zapasowej i przywracania). 
 
 Planowanie przywracania systemu RMS
 -----------------------------------

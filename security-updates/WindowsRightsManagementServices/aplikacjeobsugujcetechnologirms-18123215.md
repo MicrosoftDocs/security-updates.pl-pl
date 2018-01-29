@@ -21,9 +21,8 @@ Użytkownicy, którzy nie mają innej aplikacji obsługującej technologię RMS 
 
 Dodatek zarządzania prawami dostępu dla programu Internet Explorer można pobrać z [witryny sieci Web firmy Microsoft](http://go.microsoft.com/fwlink/?linkid=14450)(http://go.microsoft.com/fwlink/?LinkId=14450).
 
-| ![](images/Cc720231.note(WS.10).gif)Uwaga                                                                                                                                                                           |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Jeżeli dodatek zarządzania prawami dostępu dla programu Internet Explorer jest używany w systemie Windows XP z dodatkiem Service Pack 2, mogą pojawić się problemy ze zgodnością aplikacji, wynikające z rozszerzonej konfiguracji zabezpieczeń. |
+> [!note]  
+> Jeżeli dodatek zarządzania prawami dostępu dla programu Internet Explorer jest używany w systemie Windows XP z dodatkiem Service Pack 2, mogą pojawić się problemy ze zgodnością aplikacji, wynikające z rozszerzonej konfiguracji zabezpieczeń. 
 
 Jeżeli adres URL połączenia z siecią ekstranet dla wszystkich domen w organizacji nie zostanie dodany do listy witryn lokalnego intranetu w programie Internet Explorer, użytkownicy korzystający z dodatku zarządzania prawami dostępu dla programu Internet Explorer będą stale otrzymywali komunikaty z pytaniem o pozwolenie na połączenie z witrynami sieci Web. Niewłaściwa odpowiedź na pytanie komunikatu może spowodować, że klient programu RMS będzie uzyskiwać nowy certyfikat konta praw dla konta użytkownika.
 

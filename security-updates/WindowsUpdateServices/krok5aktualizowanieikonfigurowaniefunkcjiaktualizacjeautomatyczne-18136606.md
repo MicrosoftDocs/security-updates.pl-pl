@@ -11,9 +11,8 @@ Krok 5. Aktualizowanie i konfigurowanie funkcji Aktualizacje automatyczne
 
 Komputery klienckie WSUS wymagają zgodnej wersji funkcji Aktualizacje automatyczne. Instalator programu WSUS automatycznie konfiguruje program IIS w taki sposób, aby najnowsza wersja funkcji Aktualizacje automatyczne była dystrybuowana na wszystkie komputery klienckie połączone z serwerem WSUS.
 
-| ![](images/Cc720533.note(WS.10).gif)Uwaga                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Chociaż większość wersji funkcji Aktualizacje automatyczne można wskazać serwerowi WSUS (dzięki czemu zostaną one automatycznie zaktualizowane do wersji zgodnej z programem WSUS), wersja funkcji Aktualizacje automatyczne używana w systemie Windows XP nie może być automatycznie aktualizowana bez zainstalowanych dodatków Service Pack. Instrukcje dotyczące programu Software Update Services (SUS) w przypadku pracy w środowisku systemu Windows XP bez zainstalowanych dodatków Service Pack można znaleźć w oficjalnym dokumencie „Deploying Microsoft Windows Server Update Services” (dokument dostępny w języku angielskim). |
+> [!note]  
+> Chociaż większość wersji funkcji Aktualizacje automatyczne można wskazać serwerowi WSUS (dzięki czemu zostaną one automatycznie zaktualizowane do wersji zgodnej z programem WSUS), wersja funkcji Aktualizacje automatyczne używana w systemie Windows XP nie może być automatycznie aktualizowana bez zainstalowanych dodatków Service Pack. Instrukcje dotyczące programu Software Update Services (SUS) w przypadku pracy w środowisku systemu Windows XP bez zainstalowanych dodatków Service Pack można znaleźć w oficjalnym dokumencie „Deploying Microsoft Windows Server Update Services” (dokument dostępny w języku angielskim). 
 
 Najlepszy sposób skonfigurowania funkcji Aktualizacje automatyczne zależy od używanego środowiska sieciowego. W środowisku usługi Active Directory można skorzystać z obiektu zasad grupy. W środowisku innym niż środowisko usługi Active Directory należy użyć lokalnego obiektu zasad grupy. W przypadku korzystania z lokalnego obiektu zasad grupy lub obiektu zasad grupy przechowywanego w kontrolerze domeny należy wskazać komputery klienckie serwerowi WSUS, a następnie skonfigurować funkcję Aktualizacje automatyczne.
 
@@ -55,9 +54,8 @@ Następne trzy procedury należy wykonać przy użyciu obiektu zasad grupy (w ś
 
 4.  Kliknij przycisk **OK**.
 
-| ![](images/Cc720533.note(WS.10).gif)Uwaga                                                                                                                           |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Ustawienie **Zezwalaj lokalnemu administratorowi na wybranie ustawienia** pojawia się tylko wtedy, gdy program Aktualizacje automatyczne jest zaktualizowany do wersji zgodnej z programem WSUS. |
+> [!note]  
+> Ustawienie **Zezwalaj lokalnemu administratorowi na wybranie ustawienia** pojawia się tylko wtedy, gdy program Aktualizacje automatyczne jest zaktualizowany do wersji zgodnej z programem WSUS. 
 
 **Aby wskazać komputery klienckie serwerowi WSUS:**
 1.  W Edytorze obiektów zasad grupy rozwiń węzeł **Konfiguracja komputera**, rozwiń węzeł **Szablony administracyjne**, rozwiń węzeł **Składniki systemu Windows**, a następnie kliknij pozycję **Windows Update**.
@@ -68,9 +66,8 @@ Następne trzy procedury należy wykonać przy użyciu obiektu zasad grupy (w ś
 
 4.  Kliknij przycisk **OK**.
 
-| ![](images/Cc720533.note(WS.10).gif)Uwaga                                                                                                                                                                                                                            |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Jeśli do wskazania tego komputera serwerowi WSUS jest używany lokalny obiekt zasad grupy, to ustawienie zostanie uwzględnione bezzwłocznie, a komputer powinien pojawić się na konsoli administracyjnej WSUS w ciągu 20 minut. Ręcznie inicjując cykl wykrywania, możesz przyspieszyć ten proces. |
+> [!note]  
+> Jeśli do wskazania tego komputera serwerowi WSUS jest używany lokalny obiekt zasad grupy, to ustawienie zostanie uwzględnione bezzwłocznie, a komputer powinien pojawić się na konsoli administracyjnej WSUS w ciągu 20 minut. Ręcznie inicjując cykl wykrywania, możesz przyspieszyć ten proces. 
 
 Po skonfigurowaniu komputera klienckiego i upływie kilku minut pojawi się on na stronie **Komputery** na konsoli WSUS. W przypadku komputerów klienckich skonfigurowanych przy użyciu obiektu zasad grupy (w środowisku usługi Active Directory) nowe ustawienia dotyczące komputera klienckiego zostaną zastosowane po upływie około 20 minut po odświeżeniu tego obiektu. Domyślnie obiekt zasad grupy jest odświeżany w tle co 90 minut, z losowym przesunięciem z przedziału od 0 do 30 minut. Aby szybciej odświeżyć obiekt zasad grupy, można przejść do wiersza polecenia na komputerze klienckim i wpisać polecenie: **gpupdate /force**.
 

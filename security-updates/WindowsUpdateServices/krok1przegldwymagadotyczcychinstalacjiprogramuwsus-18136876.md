@@ -28,9 +28,8 @@ Aby zainstalowanie programu WSUS z zastosowaniem opcji domyślnych było możliw
     Innym rozwiązaniem jest przejście do witryny sieci Web pod adresem http://www.windowsupdate.com i przeskanowanie komputera pod kątem krytycznych aktualizacji oraz dodatków Service Pack, a następnie zainstalowanie dodatku Service Pack 1 dla architektury Microsoft .NET Framework 1.1 przeznaczonego dla systemu Windows Server 2003.
 -   Usługa inteligentnego transferu w tle (BITS) 2.0 Aktualnie program BITS 2.0 dla Windows Server 2003 nie jest dostępny w Centrum pobierania. Aby uzyskać to oprogramowanie, przejdź na stronę programu Windows Server Update Services Open Evaluation w [witrynie firmy Microsoft w sieci Web](http://go.microsoft.com/fwlink/?linkid=47357) (http://go.microsoft.com/fwlink/?LinkId=47357).
 
-| ![](images/Cc720547.note(WS.10).gif)Uwaga                                                                                                                                                                                                                                           |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Chociaż w celu zainstalowania programu WSUS wymagane jest oprogramowanie bazy danych, nie zostało ono wymienione w tym miejscu, ponieważ w ramach domyślnej instalacji programu WSUS w systemie Windows Server 2003 jest instalowane oprogramowanie bazy danych Windows SQL Server™ 2000 Desktop Engine (WMSDE). |
+> [!note]  
+> Chociaż w celu zainstalowania programu WSUS wymagane jest oprogramowanie bazy danych, nie zostało ono wymienione w tym miejscu, ponieważ w ramach domyślnej instalacji programu WSUS w systemie Windows Server 2003 jest instalowane oprogramowanie bazy danych Windows SQL Server™ 2000 Desktop Engine (WMSDE). 
 
 Wymagania i zalecenia dotyczące miejsca na dysku
 ------------------------------------------------
