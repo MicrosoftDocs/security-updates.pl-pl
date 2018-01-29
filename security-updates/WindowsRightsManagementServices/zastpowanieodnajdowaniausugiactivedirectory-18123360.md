@@ -139,17 +139,19 @@ Do zaimportowania właściwych kluczy rejestru do każdego serwera w klastrze RM
 **Aby zaimportować właściwe klucze rejestru do wszystkich serwerów w klastrze RMS**  
 1.  Skopiuj poniższy plik rejestru do Notatnika.
   
-    `Windows Registry Editor Version 5.00`
+    ```
+    Windows Registry Editor Version 5.00`
   
-    `[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSDRM\ServiceLocation]`
+    [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSDRM\ServiceLocation]
   
-    `[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSDRM\ServiceLocation\Activation]`
+    [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSDRM\ServiceLocation\Activation]
   
-    `@="http://<RMS_cluster_name>/_wmcs/certification"`
+    @="http://<RMS_cluster_name>/_wmcs/certification"
   
-    `[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSDRM\ServiceLocation\EnterprisePublishing]`
+    [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSDRM\ServiceLocation\EnterprisePublishing]
   
-    `@="http://<RMS_cluster_name>/_wmcs/licensing"`
+    @="http://<RMS_cluster_name>/_wmcs/licensing"
+    ```
   
 2.  Zastąp ciąg &lt;nazwa\_klastra\_RMS&gt; nazwą klastra RMS.
   
