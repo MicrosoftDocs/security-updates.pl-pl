@@ -14,7 +14,7 @@ Opublikowano: 10 sierpnia 2004
 
 **Wersja:** 1.0
 
-**Opublikowano:** 10 sierpnia 2004 r.
+**Opublikowano:** 10 sierpnia 2004 r.  
 **Numer wersji:** 1.0
 
 Wersja użytkownika końcowego tego biuletynu jest dostępna w następującej [witrynie sieci Web](http://www.microsoft.com/security/default.mspx).
