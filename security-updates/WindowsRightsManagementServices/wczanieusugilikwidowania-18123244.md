@@ -11,9 +11,8 @@ Włączanie usługi likwidowania
 
 Likwidowanie systemu RMS wymaga klucza prywatnego do ochrony wszystkich publikowanych informacji. Klucz ten jest przechowywany w bazie danych konfiguracji, jest zaszyfrowany za pomocą interfejsu API ochrony danych (DPAPI, Data Protection API) i jest oparty na haśle wprowadzanym podczas zastrzegania. Jeśli klucz prywatny systemu RMS jest przechowywany w sprzętowym module zabezpieczeń (HSM), klucz prywatny jest przechowywany w module HSM, a nie w bazie danych konfiguracji.
 
-| ![](images/Cc720261.Caution(WS.10).gif)Przestroga                                                                                                                          |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Przed zlikwidowaniem systemu RMS należy upewnić się, czy znane jest hasło klucza prywatnego. Jeśli to hasło nie jest znane, przed zlikwidowaniem serwera RMS należy zresetować hasło klucza prywatnego. |
+> [!Caution]  
+> Przed zlikwidowaniem systemu RMS należy upewnić się, czy znane jest hasło klucza prywatnego. Jeśli to hasło nie jest znane, przed zlikwidowaniem serwera RMS należy zresetować hasło klucza prywatnego. 
 
 Pierwszym krokiem mającym na celu usunięcie systemu RMS jest likwidacja serwerów w klastrze. Ponieważ likwidacja jest funkcją licencji, serwer znajdujący się w podrejestrowanym klastrze licencji programu RMS można zlikwidować bez wpływu na główny klaster programu RMS lub każdy inny podrejestrowany klaster licencji programu RMS. Dlatego należy oddzielnie likwidować główny klaster programu RMS i klastry licencji, ponieważ w każdym klastrze licencji jest przechowywany jego własny klucz prywatny, za pomocą którego tworzy się licencje publikacji.
 

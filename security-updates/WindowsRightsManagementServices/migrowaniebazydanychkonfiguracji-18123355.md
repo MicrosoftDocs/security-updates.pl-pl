@@ -18,9 +18,8 @@ Przed rozpoczęciem migracji bazy danych konfiguracji upewnij się, że dostępn
 -   Nazwa konta i hasło użyte pierwotnie do zastrzeżenia serwerów w klastrze RMS, które używają tej bazy danych.
 -   Jeśli do przechowywania klucza prywatnego RMS użyto programowego dostawcy usług kryptograficznych (CSP), potrzebne będzie hasło tego klucza, które podane zostało pierwotnie podczas zastrzegania. Krok ten można pominąć, jeśli do przechowywania hasła klucza prywatnego RMS użyto sprzętowego modułu zabezpieczeń.
 
-| ![](images/Cc747607.note(WS.10).gif)Uwaga                                                                                                                                       |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Migracja bazy danych konfiguracji nie wymaga nowego certyfikatu licencjodawcy serwera ani nowego klucza prywatnego serwera, ponieważ program RMS zachowuje ustawienia z pierwotnej bazy danych konfiguracji. |
+> [!note]  
+> Migracja bazy danych konfiguracji nie wymaga nowego certyfikatu licencjodawcy serwera ani nowego klucza prywatnego serwera, ponieważ program RMS zachowuje ustawienia z pierwotnej bazy danych konfiguracji. 
 
 Przed rozpoczęciem jakichkolwiek czynności na serwerze bazy danych należy wykonać kopię zapasową baz danych RMS. Jeśli nie jest to możliwe, należy przynajmniej wyeksportować posiadany certyfikat licencjodawcy serwera. Aby uzyskać więcej informacji na temat eksportu certyfikatu licencjodawcy serwera, zobacz [Eksportowanie certyfikatu licencjodawcy serwera do pliku](https://technet.microsoft.com/d683a629-71b3-4b11-932b-4ab0317334af). Jeśli podczas migracji baz danych wystąpi błąd, można zaimportować certyfikat licencjodawcy serwera do nowej instalacji programu RMS i skorzystać z zawartości, która w poprzedniej instalacji była chroniona prawami dostępu.
 
@@ -29,9 +28,8 @@ Aby przeprowadzić migrację bazy danych konfiguracji, wykonaj następujące czy
 -   Zaktualizuj bazę danych konfiguracji RMS, podając nazwę nowego serwera bazy danych.
 -   Zaktualizuj pliki web.config i rejestry na wszystkich serwerach w klastrze RMS, aby używały nowej nazwy serwera bazy danych
 
-| ![](images/Cc747607.Important(WS.10).gif)Ważne                                                       |
-|-----------------------------------------------------------------------------------------------------------------------------------|
-| W niniejszym temacie przyjęto, że bazy danych RMS zostały już skopiowane na nowy serwer baz danych obsługujący bazy programu RMS. |
+> [!Important]  
+> W niniejszym temacie przyjęto, że bazy danych RMS zostały już skopiowane na nowy serwer baz danych obsługujący bazy programu RMS. 
 
 Zaktualizuj bazę danych konfiguracji RMS, tak aby używana była nazwa nowego serwera bazy danych.
 ------------------------------------------------------------------------------------------------
@@ -130,9 +128,8 @@ Aby zaktualizować pliki web.config na wszystkich serwerach w klastrze RMS:
 
 Następnie zaktualizuj rejestr na każdym serwerze w klastrze RMS, umieszczając w nim nazwę nowego serwera bazy danych:
 
-| ![](images/Cc747607.Caution(WS.10).gif)Przestroga                                                                                                                            |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Niepoprawne edytowanie rejestru może spowodować poważne uszkodzenia systemu. Przed wprowadzeniem zmian w rejestrze należy wykonać kopie zapasowe wszystkich ważnych danych przechowywanych na komputerze. |
+> [!Caution]  
+> Niepoprawne edytowanie rejestru może spowodować poważne uszkodzenia systemu. Przed wprowadzeniem zmian w rejestrze należy wykonać kopie zapasowe wszystkich ważnych danych przechowywanych na komputerze. 
 
 **Aby zaktualizować rejestr na wszystkich serwerach w klastrze RMS**
 1.  Zaloguj się na serwer w klastrze RMS jako członek lokalnej grupy Administratorzy .

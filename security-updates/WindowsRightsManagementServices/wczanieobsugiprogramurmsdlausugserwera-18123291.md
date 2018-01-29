@@ -26,14 +26,12 @@ Po utworzeniu tych plików przez program RMS listy DACL plików zostaną ustawio
 
 Po utworzeniu tych grup można zmodyfikować listę DACL dla pliku ServerCertification.asmx, aby nadać grupie uprawnienie Odczyt & Wykonywanie dla tej usługi. Należy także dodać grupę RMS Service Group do listy DACL z uprawnieniem Odczyt & Wykonywanie.
 
-| ![](images/Cc747593.note(WS.10).gif)Uwaga                                                                                         |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Jeśli w klastrze znajduje się więcej niż jeden serwer RMS, należy zmienić listy DACL w pliku ServerCertification.asmx file na wszystkich serwerach w klastrze. |
+> [!note]  
+> Jeśli w klastrze znajduje się więcej niż jeden serwer RMS, należy zmienić listy DACL w pliku ServerCertification.asmx file na wszystkich serwerach w klastrze. 
 
 W przypadku programu Microsoft Exchange Server 2007 do grupy usług serwera należy dodać obiekt komputera usługi Active Directory na każdym serwerze czołowym Exchange. W przeciwnym razie serwer czołowy Exchange nie będzie obsługiwać żądań licencji w imieniu użytkowników, którzy odebrali wiadomość e-mail.
 
 W przypadku programu Office SharePoint Server 2007 do grupy usług serwera należy dodać obiekt komputera usługi Active Directory na serwerze z programem Office SharePoint Server 2007. Jeśli konfiguracja serwera Office SharePoint Server 2007 przewiduje używanie domyślnego serwera w usłudze Active Directory, należy dodać grupę RMS Service Group oraz grupę utworzoną dla usług serwera do pliku ServiceLocater.asmx file zezwolić na uprawnienie Odczyt & Wykonywanie.
 
-| ![](images/Cc747593.Important(WS.10).gif)Ważne                                                                                                                                              |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Po zmianie listy DACL w pliku ServerCertification.asmx i ServiceLocater.asmx jest wymagane ponowne uruchomienie Internetowych usług informacyjnych (IIS). W tym celu uruchom polecenie **iisreset** z wiersza polecenia. |
+> [!Important]  
+> Po zmianie listy DACL w pliku ServerCertification.asmx i ServiceLocater.asmx jest wymagane ponowne uruchomienie Internetowych usług informacyjnych (IIS). W tym celu uruchom polecenie **iisreset** z wiersza polecenia. 

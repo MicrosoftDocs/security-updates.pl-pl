@@ -69,23 +69,8 @@ W ramach procedur kroku 3 ukończono konfigurację serwera nadrzędnego i serwer
 4.  Kliknij przycisk **Zakończ**.
 
  
-    <table style="border:1px solid black;">
-    <colgroup>
-    <col width="100%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th style="border:1px solid black;" ><img src="images/Dd939924.Important(WS.10).gif" />Ważne</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td style="border:1px solid black;">Podczas synchronizowania serwera nie można zapisać zmian dokonanych w konfiguracji. Aby dokonać zmian, należy poczekać na zakończenie synchronizacji.
-    </td>
-    </tr>
-    </tbody>
-    </table>
- 
+    > [!Important]  
+    > Podczas synchronizowania serwera nie można zapisać zmian dokonanych w konfiguracji. Aby dokonać zmian, należy poczekać na zakończenie synchronizacji. 
 
 Korzystanie z konsoli administracyjnej programu WSUS
 ----------------------------------------------------

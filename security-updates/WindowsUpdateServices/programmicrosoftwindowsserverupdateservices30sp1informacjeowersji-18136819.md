@@ -67,13 +67,11 @@ Jeśli dwie lub więcej witryn sieci Web używa portu 80 (np. witryny programu W
 
 Pomyślne przeprowadzenie instalacji programu WSUS 3.0 SP1 może wymagać wyłączenia programów antywirusowych na czas instalacji. Po wyłączeniu programu antywirusowego, a przed rozpoczęciem instalacji programu WSUS należy ponownie uruchomić komputer. Zapobiega to blokowaniu plików, do których proces instalacji może wymagać dostępu. Należy pamiętać o ponownym włączeniu programu antywirusowego po ukończeniu instalacji. Aby uzyskać szczegółowe instrukcje dotyczące wyłączania i ponownego włączania konkretnej wersji programu antywirusowego, odwiedź witrynę dostawcy tego programu w sieci Web.
 
-| ![](images/Cc708525.Caution(WS.10).gif)Przestroga                                                                                                                                                                                                                                                                                                                    |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Wyłączenie programu antywirusowego może narazić używany komputer lub używaną sieć na ataki złośliwych użytkowników lub złośliwego oprogramowania, na przykład wirusów. Wykonanie tej operacji nie jest zalecane — powyższe informacje są podawane w celu umożliwienia użytkownikowi zastosowania tego rozwiązania, jeśli podejmie taką decyzję. Użytkownik wykonuje tę operację na własne ryzyko. |
+> [!Caution]  
+> Wyłączenie programu antywirusowego może narazić używany komputer lub używaną sieć na ataki złośliwych użytkowników lub złośliwego oprogramowania, na przykład wirusów. Wykonanie tej operacji nie jest zalecane — powyższe informacje są podawane w celu umożliwienia użytkownikowi zastosowania tego rozwiązania, jeśli podejmie taką decyzję. Użytkownik wykonuje tę operację na własne ryzyko. 
 
-| ![](images/Cc708525.note(WS.10).gif)Uwaga                                                                                                                                                                                                     |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Program antywirusowy służy do ochrony komputera przed wirusami. Przy wyłączonym programie antywirusowym nie należy pobierać ani otwierać plików pochodzących z niezaufanych źródeł, odwiedzać niezaufanych witryn sieci Web ani otwierać załączników do wiadomości e-mail. |
+> [!note]  
+> Program antywirusowy służy do ochrony komputera przed wirusami. Przy wyłączonym programie antywirusowym nie należy pobierać ani otwierać plików pochodzących z niezaufanych źródeł, odwiedzać niezaufanych witryn sieci Web ani otwierać załączników do wiadomości e-mail. 
 
 #### Program WSUS 3.0 SP1 wymaga, aby na serwerze SQL Server była włączona opcja zagnieżdżonych wyzwalaczy
 
@@ -139,9 +137,7 @@ W poniższej tabeli wymieniono oprogramowanie wymagane dla platform Windows Serv
 
 Przed uruchomieniem instalacji programu WSUS 3.0 SP1 należy upewnić się, że serwer, na którym ten program ma działać, spełnia wymienione tu wymagania. Jeśli którakolwiek z tych aktualizacji wymaga ponownego uruchomienia komputera po ukończeniu instalacji, należy wykonać tę czynność przed zainstalowaniem programu WSUS 3.0 SP1.
 
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -177,9 +173,8 @@ Przed uruchomieniem instalacji programu WSUS 3.0 SP1 należy upewnić się, ż
 </tbody>
 </table>
   
-| ![](images/Cc708525.note(WS.10).gif)Uwaga                                                                                                                                                                                                                                                                                                                                                         |  
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Jeśli wcześniej zainstalowano program WSUS 2.0 i program ten używa bazy danych programu SQL Server 2000, SQL Server Desktop Engine 2000 lub innej bazy danych programu SQL Server starszej niż SQL Server 2005 z dodatkiem SP1 (albo SQL Server 2005 z dodatkiem SP2 w systemie Windows Server 2008), program instalacyjny aplikacji WSUS 3.0 SP1 instaluje program Windows® Internal Database i migruje do niego bazę danych. |
+> [!note]  
+> Jeśli wcześniej zainstalowano program WSUS 2.0 i program ten używa bazy danych programu SQL Server 2000, SQL Server Desktop Engine 2000 lub innej bazy danych programu SQL Server starszej niż SQL Server 2005 z dodatkiem SP1 (albo SQL Server 2005 z dodatkiem SP2 w systemie Windows Server 2008), program instalacyjny aplikacji WSUS 3.0 SP1 instaluje program Windows® Internal Database i migruje do niego bazę danych. 
   
 Wymagania dotyczące minimalnej ilości miejsca na dysku związane z instalacją serwera WSUS 3.0 SP1  
 -------------------------------------------------------------------------------------------------
@@ -190,9 +185,8 @@ Poniżej wymieniono wymagania dotyczące minimalnej ilości miejsca na dysku zwi
 -   2 GB na potrzeby woluminu do przechowywania plików bazy danych  
 -   20 GB na potrzeby woluminu do przechowywania zawartości
   
-| ![](images/Cc708525.Important(WS.10).gif)Ważne                                                          |  
-|--------------------------------------------------------------------------------------------------------------------------------------|  
-| Nie można zainstalować programu WSUS 3.0 SP1 na dyskach skompresowanych. Należy upewnić się, że wybrany dysk nie jest skompresowany. |
+> [!Important]  
+> Nie można zainstalować programu WSUS 3.0 SP1 na dyskach skompresowanych. Należy upewnić się, że wybrany dysk nie jest skompresowany. 
   
 Wymagania związane z uaktualnianiem do programu WSUS 3.0 SP1  
 ------------------------------------------------------------
@@ -227,9 +221,7 @@ Parametry wiersza polecenia Instalatora
   
 Za pomocą Instalatora aplikacji WSUS dla wiersza polecenia można przeprowadzać nienadzorowane instalacje programu WSUS 3.0 SP1. W poniższej tabeli przedstawiono parametry wiersza polecenia Instalatora aplikacji WSUS 3.0 SP1.
   
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -267,9 +259,7 @@ Za pomocą Instalatora aplikacji WSUS dla wiersza polecenia można przeprowadza�
   
 W poniższej tabeli przedstawiono właściwości wiersza polecenia dotyczące aplikacji WSUS 3.0 SP1.
   
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -350,9 +340,8 @@ W poniższej tabeli przedstawiono właściwości wiersza polecenia dotyczące ap
 ```  
 WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (install in quiet mode using port 8530) WSUSSetup.exe /q /u (uninstall WSUS)  
 ```  
-| ![](images/Cc708525.Important(WS.10).gif)Ważne                                                                                                                                                                                    |  
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| W przypadku instalowania programu WSUS 3.0 SP1 w trybie dyskretnym (/q) na komputerze, na którym brakuje oprogramowania wymienionego w warunkach wstępnych, podczas instalacji jest generowany plik o nazwie WSUSPreReqCheck.xml zapisywany w katalogu %TEMP%. |
+> [!Important]  
+> W przypadku instalowania programu WSUS 3.0 SP1 w trybie dyskretnym (/q) na komputerze, na którym brakuje oprogramowania wymienionego w warunkach wstępnych, podczas instalacji jest generowany plik o nazwie WSUSPreReqCheck.xml zapisywany w katalogu %TEMP%. 
   
 Problemy z instalacją  
 ---------------------
@@ -519,9 +508,7 @@ Program WSUS 3.0 SP1 obsługuje system Windows Server 2008 zarówno w wersji 32
   
 #### Wymagania wstępne
   
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

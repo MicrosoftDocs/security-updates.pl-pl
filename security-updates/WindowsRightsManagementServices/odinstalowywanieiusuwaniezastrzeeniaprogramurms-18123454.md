@@ -11,9 +11,8 @@ Odinstalowywanie i usuwanie zastrzeżenia programu RMS
 
 Może się zdarzyć, że z jakiegoś powodu konieczne będzie usunięcie programu RMS z serwera. W przypadku serwera głównej certyfikacji pierwszym krokiem jest usunięcie zastrzeżenia programu RMS na tym serwerze. Czynność tę można wykonać na stronie **Administracja globalna** serwera, którego zastrzeżenie ma być usunięte, klikając łącze **Usuń program RMS z tej witryny sieci Web**. W przypadku serwera licencji nie trzeba usuwać zastrzeżenia przed odinstalowaniem programu RMS.
 
-| ![](images/Cc747753.note(WS.10).gif)Uwaga                                                                                                                                                                                                                                                                                                                                                                         |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Usunięcie zastrzeżenia ostatniego serwera głównej certyfikacji w lesie usługi Active Directory spowoduje usunięcie z usługi Active Directory obiektu punktu połączenia usługi. Jeśli zastrzeżenie tego serwera nie zostanie usunięte przed odinstalowaniem programu RMS, nie będzie można w danym lesie zastrzec nowego serwera głównej certyfikacji do momentu ręcznego usunięcia obiektu punktu połączenia usługi z usługi Active Directory. |
+> [!note]  
+> Usunięcie zastrzeżenia ostatniego serwera głównej certyfikacji w lesie usługi Active Directory spowoduje usunięcie z usługi Active Directory obiektu punktu połączenia usługi. Jeśli zastrzeżenie tego serwera nie zostanie usunięte przed odinstalowaniem programu RMS, nie będzie można w danym lesie zastrzec nowego serwera głównej certyfikacji do momentu ręcznego usunięcia obiektu punktu połączenia usługi z usługi Active Directory. 
 
 Następnie należy odinstalować program RMS.
 

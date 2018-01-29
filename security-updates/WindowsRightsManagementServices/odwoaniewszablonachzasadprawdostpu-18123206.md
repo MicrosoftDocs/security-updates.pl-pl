@@ -13,9 +13,7 @@ Warunki odwołania są określone w szablonach zasad praw dostępu. Wartości wa
 
 W poniższej tabeli zawarto listę parametrów znajdujących się w tagu REFRESH.
 
-###  
-
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

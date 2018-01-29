@@ -26,15 +26,13 @@ Dodawanie serwera do klastra
 
 2.  Obok witryny sieci Web, w której ma być zastrzeżony program RMS, kliknij opcję **Dodaj ten serwer do klastra**. Można wybrać domyślną witrynę sieci Web lub inną witrynę sieci Web utworzoną w tym celu w programie Internetowe usługi informacyjne (IIS).
 
-    | ![](images/Cc747690.Warning(WS.10).gif)Ostrzeżenie                                                                                                                                           |
-    |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Uruchamianie dodatkowych witryn lub usług sieci Web na serwerze programu RMS nie jest obsługiwane. Wykonanie tych czynności może spowodować, że wiele aplikacji i usług będzie działać na jednym koncie jako program RMS. |
+    > [!Warning]  
+    > Uruchamianie dodatkowych witryn lub usług sieci Web na serwerze programu RMS nie jest obsługiwane. Wykonanie tych czynności może spowodować, że wiele aplikacji i usług będzie działać na jednym koncie jako program RMS. 
 
 3.  W obszarze **Konto usługi programu RMS** wpisz nazwę konta (w postaci nazwa\_domeny\\nazwa\_użytkownika) i hasło konta usługi programu RMS, na którym program RMS będzie wykonywać większość normalnych operacji. Musi to być konto domeny. Wszystkie serwery w klastrze powinny działać na tym samym koncie usługi programu RMS.
 
-    | ![](images/Cc747690.Important(WS.10).gif)Ważne                                                                                                                                                                                                                                                                     |
-    |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Ze względów bezpieczeństwa zalecane jest utworzenie specjalnego konta użytkownika domeny, które będzie używane jako konto usługi programu RMS i nie należy udzielać temu kontu żadnych dodatkowych uprawnień. Jako konta usługi programu RMS nie można użyć konta domeny, za pomocą którego instalowano program RMS z dodatkiem Service Pack 1. |
+    > [!Important]  
+    > Ze względów bezpieczeństwa zalecane jest utworzenie specjalnego konta użytkownika domeny, które będzie używane jako konto usługi programu RMS i nie należy udzielać temu kontu żadnych dodatkowych uprawnień. Jako konta usługi programu RMS nie można użyć konta domeny, za pomocą którego instalowano program RMS z dodatkiem Service Pack 1. 
 
 4.  W obszarze **Baza danych konfiguracji** określ nazwę serwera baz danych programu i nazwę bazy danych konfiguracji tego klastra. Wybrana baza danych określa klaster, do którego zostanie dołączony ten serwer.
 

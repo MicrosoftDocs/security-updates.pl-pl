@@ -79,13 +79,11 @@ System RMS korzysta z następujących certyfikatów i licencji zapisywanych w fo
     Przedrostek nazwy pliku: EUL
     Lokalizacja: %USERPROFILE%\\Ustawienia lokalne\\Dane aplikacji\\Microsoft\\DRM
 
-| ![](images/Cc747725.note(WS.10).gif)Uwaga                                                                                                         |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Z kontem użytkownika skojarzony jest pojedynczy certyfikat komputera, plik GIC i plik CLC oraz wiele plików EUL dla każdej jednostki zawartości, z której użytkownik korzysta. |
+> [!note]  
+> Z kontem użytkownika skojarzony jest pojedynczy certyfikat komputera, plik GIC i plik CLC oraz wiele plików EUL dla każdej jednostki zawartości, z której użytkownik korzysta. 
 
-| ![](images/Cc747725.note(WS.10).gif)Uwaga                                                      |
-|-----------------------------------------------------------------------------------------------------------------------------|
-| W przypadku klientów zintegrowanych z systemem Windows Vista® lokalizacja to %USERPROFILE%\\AppData\\Local\\Microsoft\\DRM. |
+> [!note]  
+> W przypadku klientów zintegrowanych z systemem Windows Vista® lokalizacja to %USERPROFILE%\\AppData\\Local\\Microsoft\\DRM. 
 
 <span id="BKMK_17"></span>
 #### Gdzie są przechowywane klucze prywatny i publiczny komputera?

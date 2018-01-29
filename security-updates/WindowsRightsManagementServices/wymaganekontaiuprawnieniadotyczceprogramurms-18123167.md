@@ -43,6 +43,5 @@ W przypadku rozmieszczania na jednym serwerze, gdzie baza danych znajduje się n
 </tbody>
 </table>
   
-| ![](images/Cc720178.note(WS.10).gif)Uwaga                                                                                                                                                                                                                                                                       |  
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Nie jest wymagane, aby konto używane do logowania się na serwerze programu RMS należało do dodatkowej grupy domeny, np. Administratorzy domeny. Jednak aby wykonać niektóre zadania administracyjne, takie jak rejestrowanie punktu połączenia usługi i modyfikowanie zasad zabezpieczeń, należy posiadać konto z dodatkowymi uprawnieniami. |
+> [!note]  
+> Nie jest wymagane, aby konto używane do logowania się na serwerze programu RMS należało do dodatkowej grupy domeny, np. Administratorzy domeny. Jednak aby wykonać niektóre zadania administracyjne, takie jak rejestrowanie punktu połączenia usługi i modyfikowanie zasad zabezpieczeń, należy posiadać konto z dodatkowymi uprawnieniami. 

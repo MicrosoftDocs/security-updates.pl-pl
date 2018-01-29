@@ -22,14 +22,12 @@ Przed wycofaniem serwera należy utworzyć kopię zapasową wszystkich używanyc
 Po utworzeniu kopii zapasowej baz danych można usunąć serwer. Wymagania związane z usuwaniem serwera programu RMS zależą od roli tego serwera i topologii instalacji programu RMS:
 
 -   **Usuwanie jednego serwera z klastra**. Jeśli serwer programu RMS przeznaczony do wycofania znajduje się w klastrze, w którym wciąż działają i wymagane są inne serwery tego programu, to w celu usunięcia pojedynczego serwera programu RMS z tego klastra należy usunąć zastrzeżenie i odinstalować program RMS na wycofywanym serwerze, usunąć jego sprzęt z klastra oraz zarchiwizować bazy danych.
-    | ![](images/Cc747568.note(WS.10).gif)Uwaga                                                                                                               |
-    |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Przed odinstalowaniem programu RMS konieczne jest usunięcie zastrzeżenia serwerów tylko w klastrze głównej certyfikacji. Proces ten nie jest wymagany w przypadku serwerów licencji. |
+    > [!note]  
+    > Przed odinstalowaniem programu RMS konieczne jest usunięcie zastrzeżenia serwerów tylko w klastrze głównej certyfikacji. Proces ten nie jest wymagany w przypadku serwerów licencji. 
 
 -   **Wycofywanie serwera autonomicznego**. Jeśli serwer programu RMS przeznaczony do wycofania jest autonomicznym serwerem tego programu (niewchodzącym w skład wieloserwerowego klastra) i ma być zastąpiony nowym serwerem, należy wykonać następujące kroki: usunąć zastrzeżenie i odinstalować istniejący serwer programu RMS, usunąć go z sieci, a następnie niezwłocznie zainstalować i zastrzec program RMS na nowym serwerze. Nowy serwer programu RMS należy skonfigurować do korzystania z tego samego adresu URL i bazy danych konfiguracji, z których korzystał wycofany serwer programu RMS. Należy pamiętać, że do momentu zainstalowania i zastrzeżenia nowego serwera użytkownicy nie będą mogli użytkować zawartości opublikowanej przez serwer wycofany.
-    | ![](images/Cc747568.Important(WS.10).gif)Ważne                                                                                                                                                                                                                           |
-    |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Jeśli zastępowany serwer programu RMS używa sprzętowego modułu zabezpieczeń, wszystkie ustawienia zabezpieczeń należy przenieść na nowy serwer przed zainstalowaniem i zastrzeżeniem na nim programu RMS. Aby uzyskać instrukcje, zobacz dokumentację dostarczoną ze sprzętowym modułem zabezpieczeń. |
+    > [!Important]  
+    > Jeśli zastępowany serwer programu RMS używa sprzętowego modułu zabezpieczeń, wszystkie ustawienia zabezpieczeń należy przenieść na nowy serwer przed zainstalowaniem i zastrzeżeniem na nim programu RMS. Aby uzyskać instrukcje, zobacz dokumentację dostarczoną ze sprzętowym modułem zabezpieczeń. 
 
 -   **Zastępowanie instalacji programu RMS inną, istniejącą instalacją tego programu**. W pewnych okolicznościach może wystąpić potrzeba wycofania instalacji programu RMS i zastąpienia jej inną, istniejącą instalacją tego programu, na przykład w przypadku fuzji dwóch firm, z których każda korzysta z programu RMS.
 

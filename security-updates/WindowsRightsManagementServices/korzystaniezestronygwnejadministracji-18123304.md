@@ -19,8 +19,10 @@ Aby uzyskać dostęp do tej strony sieci Web z serwera, którego ma dotyczyć ad
 
 Jeśli włączono administrowanie zdalne za pomocą protokołu SSL (Secure Sockets Layer), dostęp do **strony głównej administracji** można także uzyskać z innego komputera, wykonując następujące czynności:
 
-1.  W pasku adresu przeglądarki sieci Web wpisz następujący adres URL:
-    https://*nazwa\_klastra:numer\_portu*/\_wmcs/admin
+1.  W pasku adresu przeglądarki sieci Web wpisz następujący adres URL:  
+
+    https://*nazwa\_klastra:numer\_portu*/\_wmcs/admin 
+    
     Gdzie *nazwa\_klastra:numer\_portu* jest adresem URL, który określono dla danego klastra podczas zastrzegania. Numer portu należy podawać tylko w przypadku, gdy określono port inny od domyślnego o numerze 80.
 2.  Po wyświetleniu monitu, wpisz poświadczenia lokalnego administratora na serwerze, do którego uzyskujesz dostęp.
 
@@ -38,6 +40,5 @@ Na **stronie głównej administracji** wyświetlane są informacje na temat klas
 
 W pozostałych tematach zawartych w tej części opisano sposoby korzystania z tych funkcji. Aby uzyskać instrukcje krok po kroku, zobacz „[Jak — RMS...](https://technet.microsoft.com/82032075-f361-438f-a2c4-93ab29ae6cff)” w dalszej części tego tematu.
 
-| ![](images/Cc720290.note(WS.10).gif)Uwaga                                                                                                                                                                                                                                                                                                                      |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| W administracyjnej witrynie sieci Web programu RMS używane są okna wyskakujące służące do konfigurowania niektórych funkcji. W przypadku korzystania z programu do blokowania okien wyskakujących w przeglądarce sieci Web należy skonfigurować ustawienia przeglądarki w taki sposób, aby zezwolić na wyświetlanie okien wyskakujących w administracyjnej witrynie sieci Web programu RMS. |
+> [!note]  
+> W administracyjnej witrynie sieci Web programu RMS używane są okna wyskakujące służące do konfigurowania niektórych funkcji. W przypadku korzystania z programu do blokowania okien wyskakujących w przeglądarce sieci Web należy skonfigurować ustawienia przeglądarki w taki sposób, aby zezwolić na wyświetlanie okien wyskakujących w administracyjnej witrynie sieci Web programu RMS. 

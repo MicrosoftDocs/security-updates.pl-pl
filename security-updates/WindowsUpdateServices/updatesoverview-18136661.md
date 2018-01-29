@@ -50,9 +50,7 @@ A *product* is a specific edition of an operating system or application, for exa
 
 Update classifications represent the type of update. For any given product or product family, updates could be available among multiple classifications (for example, Windows XP family Critical Updates and Security Updates). The following table lists examples of update classifications.
 
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

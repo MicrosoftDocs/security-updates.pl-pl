@@ -25,9 +25,8 @@ W tych informacjach o wersji opisano znane problemy związane z programem Micros
 -   Program WSUS 3.0 w systemie Windows Server® 2008
 -   Program WSUS 3.0 w systemie Windows Small Business Server 2003
 
-| ![](images/Cc708491.note(WS.10).gif)Uwaga                                                                                                                                                                       |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Kopia tego dokumentu w wersji do pobrania jest dostępna w witrynie [Microsoft Download Center](http://go.microsoft.com/fwlink/?linkid=71220) ([http://go.microsoft.com/fwlink/?LinkId=71220](http://go.microsoft.com/fwlink/?linkid=71220)). |
+> [!note]  
+> Kopia tego dokumentu w wersji do pobrania jest dostępna w witrynie [Microsoft Download Center](http://go.microsoft.com/fwlink/?linkid=71220) ([http://go.microsoft.com/fwlink/?LinkId=71220](http://go.microsoft.com/fwlink/?linkid=71220)). 
 
 Ważna kwestia dotycząca konfiguracji: Konieczne jest zastąpienie hasła serwera proxy w kreatorze konfiguracji
 -------------------------------------------------------------------------------------------------------------
@@ -78,13 +77,11 @@ Jeśli na porcie 80 działają co najmniej dwie witryny sieci Web (na przykład 
 
 W czasie instalowania programu WSUS 3.0 przed rozpoczęciem procesu może być wymagane wyłączenie programów antywirusowych. Po wyłączeniu programu antywirusowego przed rozpoczęciem instalacji programu WSUS należy uruchomić ponownie komputer. Ponowne uruchomienie komputera zapobiega zablokowaniu plików, do których dostęp będzie wymagany w czasie instalacji. Po ukończeniu instalacji należy włączyć ponownie program antywirusowy. Należy odwiedzić witrynę sieci Web producenta programu antywirusowego, aby uzyskać dokładny opis czynności wyłączania i ponownego włączania tego programu.
 
-| ![](images/Cc708491.Caution(WS.10).gif)Przestroga                                                                                                                                                                                                                                        |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Czynności te mogą spowodować, że komputer lub sieć będą bardziej narażone na ataki złośliwego oprogramowania, na przykład wirusów. Nie zalecamy takiego rozwiązania, ale chcemy wskazać możliwość wykonania takiej procedury wedle uznania użytkownika. Procedurę tą należy przeprowadzać na własną odpowiedzialność. |
+> [!Caution]  
+> Czynności te mogą spowodować, że komputer lub sieć będą bardziej narażone na ataki złośliwego oprogramowania, na przykład wirusów. Nie zalecamy takiego rozwiązania, ale chcemy wskazać możliwość wykonania takiej procedury wedle uznania użytkownika. Procedurę tą należy przeprowadzać na własną odpowiedzialność. 
 
-| ![](images/Cc708491.note(WS.10).gif)Uwaga                                                                                                                                                                                                                      |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Program antywirusowy służy do ochrony komputera przed wirusami. Jeżeli program antywirusowy jest wyłączony, nie należy pobierać ani otwierać plików pochodzących z niezaufanych źródeł. Nie wolno także odwiedzać niezaufanych witryn sieci Web ani otwierać załączników wiadomości e-mail. |
+> [!note]  
+> Program antywirusowy służy do ochrony komputera przed wirusami. Jeżeli program antywirusowy jest wyłączony, nie należy pobierać ani otwierać plików pochodzących z niezaufanych źródeł. Nie wolno także odwiedzać niezaufanych witryn sieci Web ani otwierać załączników wiadomości e-mail. 
 
 #### Program WSUS 3.0 w środowisku SQL Server wymaga włączenia opcji wyzwalaczy zagnieżdżonych.
 
@@ -161,9 +158,7 @@ W poniższej tabeli przedstawiono wymagane oprogramowanie dla platform Windows S
 
 Przed uruchomieniem Instalatora programu WSUS 3.0 należy sprawdzić, czy serwer WSUS 3.0 spełnia te wymagania. Jeśli którakolwiek aktualizacja wymaga ponownego uruchomienia komputera po zakończeniu instalacji, należy to zrobić przed rozpoczęciem instalowania programu WSUS 3.0.
 
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -200,9 +195,8 @@ Zobacz: Problem 1: Program Internetowe usługi informacyjne (IIS) musi zostać z
 </tbody>
 </table>
   
-| ![](images/Cc708491.note(WS.10).gif)Uwaga                                                                                                                                                                                                                                                                                                                                                        |  
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Jeśli program WSUS 2.0 został już zainstalowany i korzysta z bazy danych SQL Server 2000, SQL Server Desktop Engine 2000 lub dowolnej bazy danych SQL Server wcześniejszej niż SQL Server 2005 z dodatkiem Service Pack 1 (lub SQL Server 2005 z dodatkiem SP2 w systemie Windows Server 2008), instalator programu WSUS 3.0 zainstaluje program Windows® Internal Database oraz dokona migracji bazy danych do tego formatu. |
+> [!note]  
+> Jeśli program WSUS 2.0 został już zainstalowany i korzysta z bazy danych SQL Server 2000, SQL Server Desktop Engine 2000 lub dowolnej bazy danych SQL Server wcześniejszej niż SQL Server 2005 z dodatkiem Service Pack 1 (lub SQL Server 2005 z dodatkiem SP2 w systemie Windows Server 2008), instalator programu WSUS 3.0 zainstaluje program Windows® Internal Database oraz dokona migracji bazy danych do tego formatu. 
   
 Wymagania dotyczące minimalnej ilości wolnego miejsca na dysku dla instalacji serwera WSUS 3.0  
 ----------------------------------------------------------------------------------------------
@@ -213,9 +207,8 @@ W przypadku instalowania programu Windows Server Update Services konieczne jest 
 -   2 GB dla woluminu, na którym będą przechowywane pliki bazy danych  
 -   20 GB dla woluminu, na którym będzie przechowywana zawartość
   
-| ![](images/Cc708491.Important(WS.10).gif)Ważne                                                        |  
-|------------------------------------------------------------------------------------------------------------------------------------|  
-| Programu WSUS 3.0 nie można zainstalować na dyskach skompresowanych. Upewnij się, że wybrany dysk nie jest dyskiem skompresowanym. |
+> [!Important]  
+> Programu WSUS 3.0 nie można zainstalować na dyskach skompresowanych. Upewnij się, że wybrany dysk nie jest dyskiem skompresowanym. 
   
 Wymagania dotyczące uaktualnienia WSUS 3.0  
 ------------------------------------------
@@ -245,9 +238,7 @@ Parametry wiersza polecenia Instalatora
   
 Przy użyciu parametrów wiersza polecenia programu WSUS można wykonać instalacje nienadzorowane programu WSUS 3.0. W tabeli poniżej podano parametry wiersza polecenia programu WSUS 3.0.
   
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -285,9 +276,7 @@ Przy użyciu parametrów wiersza polecenia programu WSUS można wykonać instala
   
 W tabeli poniżej podano właściwości wiersza polecenia programu WSUS 3.0.
   
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -368,9 +357,8 @@ W tabeli poniżej podano właściwości wiersza polecenia programu WSUS 3.0.
 ```  
 WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (install in quiet mode using port 8530) WSUSSetup.exe /q /u (uninstall WSUS)  
 ```  
-| ![](images/Cc708491.Important(WS.10).gif)Ważne                                                                                                                     |  
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Jeśli program WSUS 3.0 jest instalowany w trybie cichym (/q), a komputer nie spełnia wymagań wstępnych, instalator wygeneruje plik o nazwie WSUSPreReqCheck.xml i zapisze go w katalogu %TEMP%. |
+> [!Important]  
+> Jeśli program WSUS 3.0 jest instalowany w trybie cichym (/q), a komputer nie spełnia wymagań wstępnych, instalator wygeneruje plik o nazwie WSUSPreReqCheck.xml i zapisze go w katalogu %TEMP%. 
   
 Problemy z instalacją  
 ---------------------
@@ -554,9 +542,7 @@ Program WSUS 3.0 obsługuje system Windows Server 2008 w wersjach 32-bitowych i
   
 #### Wymagania wstępne
   
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

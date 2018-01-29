@@ -19,6 +19,5 @@ Wykonaj jedną z następujących czynności:
 
 Jeśli zajdzie potrzeba przywrócenia danych szablonów zasad praw dostępu znajdujących się w bazie danych konfiguracji, można wyodrębnić informacje GUID i TemplateData z tabeli DRMS\_RightsTemplate w kopii zapasowej bazy danych konfiguracji lub po prostu zaimportować te dane z pliku tekstowego. Aby uzyskać więcej informacji dotyczących wykonywania tych zadań, zobacz dokumentację programu SQL Server.
 
-| ![](images/Cc747625.note(WS.10).gif)Uwaga                                                                            |
-|---------------------------------------------------------------------------------------------------------------------------------------------------|
-| Aby określić plan tworzenia kopii zapasowych szablonów zasad praw dostępu, należy skonsultować się z administratorem serwera programu SQL Server. |
+> [!note]  
+> Aby określić plan tworzenia kopii zapasowych szablonów zasad praw dostępu, należy skonsultować się z administratorem serwera programu SQL Server. 

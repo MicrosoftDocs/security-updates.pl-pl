@@ -53,23 +53,8 @@ Dwie pierwsze procedury należy wykonać w wybranym obiekcie zasad grupy opartym
 2.  Kliknij pozycję **Włączona**, a następnie w polach **Ustaw intranetową usługę aktualizacji do wykrywania aktualizacji** oraz **Ustaw serwer statystyk intranetowych** wpisz adres URL tego samego serwera WSUS. Na przykład w obydwu polach wpisz *http://nazwa\_serwera*, a następnie kliknij przycisk **OK**.
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939830.note(WS.10).gif" />Uwaga</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">Jeśli do wskazywania komputerowi serwera WSUS jest używany lokalny obiekt zasad grupy, to ustawienie jest stosowane natychmiast i wkrótce nazwa tego komputera jest wyświetlana w konsoli administracyjnej programu WSUS. Ręcznie inicjując cykl wykrywania, możesz przyspieszyć ten proces.
-</td>
-</tr>
-</tbody>
-</table>
- 
+> [!note]  
+> Jeśli do wskazywania komputerowi serwera WSUS jest używany lokalny obiekt zasad grupy, to ustawienie jest stosowane natychmiast i wkrótce nazwa tego komputera jest wyświetlana w konsoli administracyjnej programu WSUS. Ręcznie inicjując cykl wykrywania, możesz przyspieszyć ten proces. 
 
 Po skonfigurowaniu komputera klienckiego i upływie kilku minut jego nazwa zostanie wyświetlona na stronie **Komputery** w konsoli administracyjnej programu WSUS. W przypadku komputerów klienckich skonfigurowanych przy użyciu zasad grupy opartych na domenie odświeżenie zasad grupy (czyli zastosowanie nowych ustawień zasad do komputera klienckiego) może potrwać około 20 minut. Domyślnie zasady grupy są aktualizowane w tle co 90 minut z losowym przesunięciem od 0 do 30 minut. Aby szybciej zaktualizować zasady grupy, można przejść do wiersza polecenia na komputerze klienckim i wpisać polecenie **gpupdate /force**.
 

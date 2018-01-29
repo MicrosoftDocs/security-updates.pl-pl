@@ -31,9 +31,8 @@ Updates are made available by product. For each product, updates are differentia
 -   A *product* is a specific edition of an operating system or application (for example Windows Server 2003, Datacenter Edition). A product family is the base operating system or application from which the products are derived. An example of a product family is Microsoft Windows, of which Windows Server 2003, Datacenter Edition, is a member.
 -   The update *classification* represents the type of update. For any given product or product family, updates could be available among multiple classifications (for example, Windows XP family critical updates and security updates). For definitions of update classifications, see [Description of the standard terminology that is used to describe Microsoft software updates](http://support.microsoft.com/?kbid=824684).
 
-| ![](images/Cc708465.note(WS.10).gif)Uwaga |
-|------------------------------------------------------------------------|
-| WSUS only supports updating products by computer, not by user.         |
+> [!note]  
+> WSUS only supports updating products by computer, not by user.         
 
 Updates Available by Product
 ----------------------------
@@ -72,7 +71,6 @@ Typically, an update that supersedes other updates does one or more of the follo
 -   Improves the efficiency of its update file package, which is installed on client computers if the update is approved for installation. For example, the superseded update might contain files that are no longer relevant to the fix or to the operating systems now supported by the new update, so those files are not included in the superseding update's file package.
 -   Updates newer versions of a product, or in other words, is no longer applicable to older versions or configurations of a product. Updates can also supersede other updates if modifications have been made to expand language support. For example, a later revision of a product update for Microsoft Office might remove support for an older operating system, but add additional support for new languages in the initial update release.
 
- 
 
 Conversely, an update that is superseded by another update does the following:
 

@@ -25,6 +25,5 @@ Jeśli program RMS wykryje, że certyfikat konta praw jest oparty na uwierzyteln
 
 Jeśli program RMS wykryje, że certyfikat konta praw jest oparty na usłudze Microsoft® .NET Passport, lokalizacją usługi publikacji jest konto .NET Passport określone w zawartości chronionej technologią RMS.
 
-| ![](images/Cc747580.note(WS.10).gif)Uwaga                                               |
-|----------------------------------------------------------------------------------------------------------------------|
-| Jeśli włączono protokół SSL dla serwera programu RMS, te adresy URL będą korzystały z protokołu połączenia https://. |
+> [!note]  
+> Jeśli włączono protokół SSL dla serwera programu RMS, te adresy URL będą korzystały z protokołu połączenia https://. 

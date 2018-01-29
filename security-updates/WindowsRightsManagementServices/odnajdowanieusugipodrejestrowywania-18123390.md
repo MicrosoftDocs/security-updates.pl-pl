@@ -23,6 +23,5 @@ Gdy serwer licencji żąda usługi podrejestrowywania, dołącza nazwę pliku us
 
 http://nazwa\_serwera/\_wmcs/Certification/SubEnrollService.asmx
 
-| ![](images/Cc747641.note(WS.10).gif)Uwaga                                               |
-|----------------------------------------------------------------------------------------------------------------------|
-| Jeśli włączono protokół SSL dla serwera programu RMS, te adresy URL będą korzystały z protokołu połączenia https://. |
+> [!note]  
+> Jeśli włączono protokół SSL dla serwera programu RMS, te adresy URL będą korzystały z protokołu połączenia https://. 

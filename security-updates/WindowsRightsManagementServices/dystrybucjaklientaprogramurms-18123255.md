@@ -13,9 +13,8 @@ Klient programu RMS jest częścią systemu operacyjnego Windows Vista®, co oz
 
 W ramach procesu aktywacji tworzona jest skrytka oraz certyfikat komputera dla aktualnie zalogowanego użytkownika. Aktywacja jest procesem lokalnym i nie wymaga połączenia sieciowego. Po pomyślnym wykonaniu aktywacji pierwsze żądanie użycia licencji przez włączenie programu RMS za pośrednictwem odpowiedniej aplikacji spowoduje pobranie certyfikatu użytkownika. Klienta programu RMS można zainstalować na każdym komputerze klienckim w organizacji, korzystając z przystawki Zasady grupy, usługi Windows Update lub skryptu administracyjnego.
 
-| ![](images/Cc720266.note(WS.10).gif)Uwaga                                                                                                                                                                                                                                                 |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Niezależnie od zastosowanej metody dystrybucji klient programu RMS komunikuje się z serwerem programu RMS za pomocą portu; domyślnie jest to port 80 lub 443. Należy upewnić się, że komputer kliencki obsługuje żądania wychodzące do klastra głównego i klastrów licencji programu RMS za pośrednictwem tych portów. |
+> [!note]  
+> Niezależnie od zastosowanej metody dystrybucji klient programu RMS komunikuje się z serwerem programu RMS za pomocą portu; domyślnie jest to port 80 lub 443. Należy upewnić się, że komputer kliencki obsługuje żądania wychodzące do klastra głównego i klastrów licencji programu RMS za pośrednictwem tych portów. 
 
 **Korzystanie z zasad grupy**
 
@@ -29,7 +28,12 @@ Usługa Windows Update jest najprostszym sposobem instalacji klienta programu RM
 
 W celu uzyskania najwyższego poziomu kontroli nad procesem instalacji klienta, można pobrać oprogramowanie i sprawdzić jego integralność na każdym z etapów instalacji poprzez uruchomienie skryptu. Ten skrypt może zostać napisany i dodany do obiektu zasad grupy jako skrypt uruchamiania. Dzięki temu użytkownik nie musi być administratorem lokalnym, a klient programu RMS jest automatycznie instalowany po ponownym uruchomieniu.
 
-        ```
+Poniżej przedstawiono skrypt przykładowy:
+
+```
+Set objShell = Wscript.CreateObject("Wscript.Shell")
+objShell.run "WindowsRightsManagementServicesSP2-KB917275-Client-ENU.exe -override 1 /I MsDrmClient.msi REBOOT=ReallySuppress /q -override 2 /I RmClientBackCompat.msi REBOOT=ReallySuppress /q"
+```
 Podstawowe informacje dotyczące dystrybucji klienta programu RMS za pomocą przystawki Zasady grupy znajdują się w części [Konfigurowanie programu SMS lub zasad grupy w celu obsługi rozmieszczania klientów](https://technet.microsoft.com/9e37c27b-8cc1-40c6-adb7-0937aa64c8db) w dalszej części tego tematu.
 
 Wskazówki dotyczące procedury rozmieszczania klienta programu RMS znajdują się w części [Jak wdrażać klienta programu RMS](https://technet.microsoft.com/c84f1724-cf71-4385-9003-ff68bc23c927) w dalszej części tego tematu.

@@ -36,9 +36,8 @@ Początkowy rozmiar bazy danych rejestrowania będzie wynosił około 1,7 MB, c
 
 Powyższe szacunki można zobrazować na przykładzie organizacji z 5 tys. użytkowników, w której wszyscy korzystają z programu RMS. Każdy użytkownik ma jeden komputer i używane są dwa serwery programu RMS. Po rozmieszczeniu każdy użytkownik tworzy dziennie średnio jedną wiadomość e-mail chronioną technologią RMS, która jest wysyłana do pięciu innych użytkowników. Każdy użytkownik tworzy również codziennie jeden dokument chroniony technologią RMS, z którego korzysta trzech innych użytkowników. Poniższa tabela przedstawia szacunkowe wartości zwiększenia rozmiaru bazy danych rejestrowania dla poszczególnych czynności.
 
-###  
-
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
