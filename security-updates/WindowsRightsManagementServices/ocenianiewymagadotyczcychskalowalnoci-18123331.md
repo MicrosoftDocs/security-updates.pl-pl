@@ -19,7 +19,6 @@ W celu przeprowadzenia pomiaru wydajności program RMS był testowany na serwerz
 
 Do wyznaczenia wymagań dotyczących użytkowania systemu programu RMS podczas planowania wydajności można użyć poniższych danych.
 
-
 <p> </p>
 <table style="border:1px solid black;">
 <colgroup>
@@ -62,7 +61,6 @@ Ponadto ruch związany z kwerendami do usługi Active Directory może mieć wpł
   
 W poniższej tabeli przedstawiono dane bazowe dotyczące wykorzystania pasma przez transakcje programu RMS, których można użyć w celu oceny wpływu ruchu kwerend usługi Active Directory na sieć w organizacji.
   
-
 <p> </p>
 <table style="border:1px solid black;">
 <colgroup>
