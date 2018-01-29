@@ -6,7 +6,6 @@ ms:contentKeyID: 61233043
 ms:mtpsurl: 'https://technet.microsoft.com/pl-PL/library/ms04-aug(v=Security.10)'
 ---
 
-Security Bulletin Summary
 
 Microsoft Security Bulletin Summary for sierpień 2004
 =====================================================
@@ -38,9 +37,10 @@ Ten biuletyn obejmuje aktualizacje eliminujące nowo odkryte usterki. Poniżej p
 Średni (1)
 ----------
 
-<span></span>
+
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -80,7 +80,7 @@ Ten biuletyn obejmuje aktualizacje eliminujące nowo odkryte usterki. Poniżej p
 Podlegające oprogramowanie i lokalizacje, z których można pobrać poprawki  
 -------------------------------------------------------------------------
   
-<span></span>
+
   
 **W jaki sposób należy korzystać z tej tabeli?**
   
@@ -93,6 +93,7 @@ Podane w tabeli liczby w nawiasach kwadratowych \[x\] wskazują, że dołączono
 **Podlegające oprogramowanie i lokalizacje, z których można pobrać poprawki**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -139,7 +140,7 @@ Podane w tabeli liczby w nawiasach kwadratowych \[x\] wskazują, że dołączono
 Wdrażanie  
 ---------
   
-<span></span>
+
 **Usługi Software Update Services:**
   
 Usługi Microsoft Software Update Services (SUS) umożliwiają administratorom szybkie i niezawodne wdrażanie najnowszych aktualizacji krytycznych i aktualizacji zabezpieczeń na serwerach działających w systemach Windows 2000 oraz Windows Server 2003, a także na komputerach stacjonarnych z systemami Windows 2000 Professional lub Windows XP Professional.

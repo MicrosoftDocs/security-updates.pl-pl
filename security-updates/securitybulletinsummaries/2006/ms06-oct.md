@@ -6,7 +6,6 @@ ms:contentKeyID: 61233070
 ms:mtpsurl: 'https://technet.microsoft.com/pl-PL/library/ms06-oct(v=Security.10)'
 ---
 
-Security Bulletin Summary
 
 Microsoft Security Bulletin Summary for październik 2006
 ========================================================
@@ -35,7 +34,7 @@ Ten biuletyn obejmuje aktualizacje eliminujące nowo odkryte luki w zabezpieczen
 Krytyczny \[6\]
 ---------------
 
-<span></span>
+
 | Identyfikator biuletynu               | Biuletyn zabezpieczeń firmy Microsoft MS06-057                                                                                                          |
 |---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Tytuł biuletynu**                   | [**Luka w zabezpieczeniach powłoki systemu Windows umożliwia zdalne wykonanie kodu (923191)**](http://technet.microsoft.com/security/bulletin/ms06-057) |
@@ -87,7 +86,7 @@ Krytyczny \[6\]
 Ważny (1)
 ---------
 
-<span></span>
+
 | Identyfikator biuletynu               | Biuletyn zabezpieczeń firmy Microsoft MS06-063                                                                                                                                |
 |---------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Tytuł biuletynu**                   | [**Luka w usłudze Serwer umożliwia zdalne wykonanie kodu oraz przeprowadzenie ataku typu „odmowa usługi” (923414)**](http://technet.microsoft.com/security/bulletin/ms06-063) |
@@ -99,7 +98,7 @@ Ważny (1)
 Średni (2)
 ----------
 
-<span></span>
+
 | Identyfikator biuletynu               | Biuletyn zabezpieczeń firmy Microsoft MS06-056                                                                                                               |
 |---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Tytuł biuletynu**                   | [**Luka w zabezpieczeniach usługi ASP.NET umożliwia ujawnienie informacji (922770)**](http://technet.microsoft.com/security/bulletin/ms06-056)               |
@@ -119,7 +118,7 @@ Ważny (1)
 Niski (1)
 ---------
 
-<span></span>
+
 | Identyfikator biuletynu               | Biuletyn zabezpieczeń firmy Microsoft MS06-064                                                                                                                          |
 |---------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Tytuł biuletynu**                   | [**Luki w zabezpieczeniach protokołu TCP/IP umożliwiają przeprowadzenie ataku typu „odmowa usługi” (922819)**](http://technet.microsoft.com/security/bulletin/ms06-064) |
@@ -131,7 +130,7 @@ Niski (1)
 Programy, których dotyczy problem, i lokalizacje, z których można pobrać poprawki
 ---------------------------------------------------------------------------------
 
-<span></span>
+
 **W jaki sposób korzystać z tej tabeli?**
 
 Tabela ta pozwala odczytać informacje o aktualizacjach zabezpieczeń, których zainstalowanie może być konieczne. Należy przejrzeć informacje dla każdego wymienionego programu lub składnika oprogramowania w celu sprawdzenia, czy są wymagane aktualizacje zabezpieczeń. Dla każdego programu lub składnika oprogramowania wymienionego na liście podany jest wpływ luki oraz hiperłącze do dostępnej aktualizacji oprogramowania.
@@ -144,6 +143,7 @@ Na przykład biuletyn zabezpieczeń **MS06-061** obejmuje kilka aktualizacji zab
 
 #### Programy, których dotyczą problemy opisane w biuletynach od MS06-056 do MS06-061, oraz lokalizacje, z których można pobrać aktualizacje
 
+<p> </p>
 <table style="width:100%;">
 <colgroup>
 <col width="14%" />
@@ -496,6 +496,7 @@ Na przykład biuletyn zabezpieczeń **MS06-061** obejmuje kilka aktualizacji zab
 #### Programy, których dotyczą problemy opisane w biuletynach od MS06-062 do MS06-065, oraz lokalizacje, z których można pobrać aktualizacje
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -751,7 +752,7 @@ Na przykład biuletyn zabezpieczeń **MS06-061** obejmuje kilka aktualizacji zab
 Wdrażanie  
 ---------
   
-<span></span>
+
 **Usługi Software Update Services:**
   
 Usługi Microsoft Software Update Services (SUS) umożliwiają administratorom szybkie i niezawodne wdrażanie najnowszych aktualizacji krytycznych i aktualizacji zabezpieczeń na serwerach działających w systemach Windows 2000 oraz Windows Server 2003, a także na komputerach stacjonarnych z systemami Windows 2000 Professional lub Windows XP Professional.

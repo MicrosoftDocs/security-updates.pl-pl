@@ -6,7 +6,6 @@ ms:contentKeyID: 61233066
 ms:mtpsurl: 'https://technet.microsoft.com/pl-PL/library/ms06-jun(v=Security.10)'
 ---
 
-Security Bulletin Summary
 
 Microsoft Security Bulletin Summary for czerwiec 2006
 =====================================================
@@ -35,7 +34,7 @@ Ten biuletyn obejmuje aktualizacje eliminujące nowo odkryte luki w zabezpieczen
 Krytyczny (8)
 -------------
 
-<span></span>
+
 | Identyfikator biuletynu               | Biuletyn zabezpieczeń firmy Microsoft MS06-021                                                                                                                  |
 |---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Tytuł biuletynu**                   | [**Zbiorcza aktualizacja zabezpieczeń dla programu Internet Explorer (916281)**](http://technet.microsoft.com/security/bulletin/ms06-021)                       |
@@ -103,7 +102,7 @@ Krytyczny (8)
 Ważny (3)
 ---------
 
-<span></span>
+
 | Identyfikator biuletynu               | Biuletyn zabezpieczeń firmy Microsoft MS06-029                                                                                                                                                               |
 |---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Tytuł biuletynu**                   | [**Luka w zabezpieczeniach serwera Microsoft Exchange z uruchomionym programem Outlook Web Access może pozwolić na uruchomienie skryptu (912442)**](http://technet.microsoft.com/security/bulletin/ms06-029) |
@@ -131,7 +130,7 @@ Ważny (3)
 Średni (1)
 ----------
 
-<span></span>
+
 | Identyfikator biuletynu               | Biuletyn zabezpieczeń firmy Microsoft MS06-031                                                                                                                                                                                                                                                                                                                |
 |---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Tytuł biuletynu**                   | [**Luka w zabezpieczeniach uwierzytelniania obustronnego RPC może pozwolić na fałszowanie (917736)**](http://technet.microsoft.com/security/bulletin/ms06-031)                                                                                                                                                                                                |
@@ -143,13 +142,14 @@ Ważny (3)
 Programy, których dotyczy problem, i lokalizacje, z których można pobrać poprawki
 ---------------------------------------------------------------------------------
 
-<span></span>
+
 **W jaki sposób korzystać z tej tabeli?**
 
 Tabela ta pozwala odczytać informacje o aktualizacjach zabezpieczeń, których zainstalowanie może być konieczne. Należy przejrzeć informacje dla każdego wymienionego programu lub składnika oprogramowania w celu sprawdzenia, czy są wymagane aktualizacje zabezpieczeń. Dla każdego programu lub składnika oprogramowania wymienionego na liście podany jest wpływ luki oraz hiperłącze do dostępnej aktualizacji oprogramowania.
 
 #### Programy, których dotyczy problem i lokalizacje, z których można pobrać poprawki objęte biuletynami od MS06-021 do MS06-026.
 
+<p> </p>
 <table style="width:100%;">
 <colgroup>
 <col width="14%" />
@@ -528,6 +528,7 @@ Tabela ta pozwala odczytać informacje o aktualizacjach zabezpieczeń, których 
   
 #### Programy, których dotyczy problem i lokalizacje, z których można pobrać poprawki objęte biuletynami od MS06-027 do MS06-032
   
+<p> </p>
 <table style="width:100%;">
 <colgroup>
 <col width="14%" />
@@ -805,7 +806,7 @@ Tabela ta pozwala odczytać informacje o aktualizacjach zabezpieczeń, których 
 Wdrażanie  
 ---------
   
-<span></span>
+
 **Usługi Software Update Services:**
   
 Usługi Microsoft Software Update Services (SUS) umożliwiają administratorom szybkie i niezawodne wdrażanie najnowszych aktualizacji krytycznych i aktualizacji zabezpieczeń na serwerach działających w systemach Windows 2000 oraz Windows Server 2003, a także na komputerach stacjonarnych z systemami Windows 2000 Professional lub Windows XP Professional.

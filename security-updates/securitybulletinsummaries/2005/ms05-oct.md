@@ -6,7 +6,6 @@ ms:contentKeyID: 61233059
 ms:mtpsurl: 'https://technet.microsoft.com/pl-PL/library/ms05-oct(v=Security.10)'
 ---
 
-Security Bulletin Summary
 
 Microsoft Security Bulletin Summary for październik 2005
 ========================================================
@@ -15,7 +14,7 @@ Opublikowano: 11 października 2005
 
 **Wersja:** 1.0
 
-**Opublikowano:** 11 października 2005 r.
+**Opublikowano:** 11 października 2005 r.  
 **Numer wersji:** 1.0
 
 Wersja użytkownika końcowego tego biuletynu jest dostępna w następującej [witrynie sieci Web](http://www.microsoft.com/poland/security/bulletin/200510.mspx).
@@ -38,7 +37,7 @@ Ten biuletyn obejmuje aktualizacje eliminujące nowo odkryte usterki. Poniżej p
 Krytyczny (3)
 -------------
 
-<span></span>
+
 | Identyfikator biuletynu               | Biuletyn zabezpieczeń firmy Microsoft MS05-050                                                                                                        |
 |---------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Tytuł biuletynu**                   | [**Usterka usługi DirectShow może pozwolić na zdalne wykonanie kodu (904706)**](http://technet.microsoft.com/security/bulletin/ms05-050)              |
@@ -66,7 +65,7 @@ Krytyczny (3)
 Ważny (4)
 ---------
 
-<span></span>
+
 | Identyfikator biuletynu               | Biuletyn zabezpieczeń firmy Microsoft MS05-046                                                                                                                                                                                                                    |
 |---------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Tytuł biuletynu**                   | [**Usterka Usługi klienta dla systemu NetWare może pozwolić na zdalne wykonanie kodu (899589)**](http://technet.microsoft.com/security/bulletin/ms05-046)                                                                                                         |
@@ -102,7 +101,7 @@ Ważny (4)
 Średni (2)
 ----------
 
-<span></span>
+
 | Identyfikator biuletynu               | Biuletyn zabezpieczeń firmy Microsoft MS05-044                                                                                                                                                                                                |
 |---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Tytuł biuletynu**                   | [**Usterka klienta usługi FTP systemu Windows może pozwolić na manipulowanie lokalizacją transferu plików (905495)**](http://technet.microsoft.com/security/bulletin/ms05-044)                                                                |
@@ -122,7 +121,7 @@ Ważny (4)
 Programy, których dotyczy problem, i lokalizacje, z których można pobrać poprawki
 ---------------------------------------------------------------------------------
 
-<span></span>
+
 **W jaki sposób korzystać z tej tabeli?**
 
 Tabela ta pozwala odczytać informacje o aktualizacjach zabezpieczeń, których zainstalowanie może być konieczne. Należy przejrzeć informacje dla każdego wymienionego programu lub składnika oprogramowania w celu sprawdzenia, czy są wymagane aktualizacje zabezpieczeń. Dla każdego programu lub składnika oprogramowania wymienionego na liście podany jest wpływ usterki oraz hiperłącze do dostępnej aktualizacji oprogramowania.
@@ -204,7 +203,7 @@ Podana w tabeli liczba w nawiasach kwadratowych \[x\] wskazuje, że dostępna je
 Wdrażanie
 ---------
 
-<span></span>
+
 **Usługi Software Update Services:**
 
 Usługi Microsoft Software Update Services (SUS) umożliwiają administratorom szybkie i niezawodne wdrażanie najnowszych aktualizacji krytycznych i aktualizacji zabezpieczeń na serwerach działających w systemach Windows 2000 oraz Windows Server 2003, a także na komputerach stacjonarnych z systemami Windows 2000 Professional lub Windows XP Professional.

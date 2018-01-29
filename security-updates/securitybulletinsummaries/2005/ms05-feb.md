@@ -6,7 +6,6 @@ ms:contentKeyID: 61233053
 ms:mtpsurl: 'https://technet.microsoft.com/pl-PL/library/ms05-feb(v=Security.10)'
 ---
 
-Security Bulletin Summary
 
 Microsoft Security Bulletin Summary for luty 2005
 =================================================
@@ -15,7 +14,7 @@ Opublikowano: 8 lutego 2005
 
 **Wersja:** 1.0
 
-**Opublikowano:** 8 lutego 2005
+**Opublikowano:** 8 lutego 2005  
 **Numer wersji:** 1.0
 
 Wersja użytkownika końcowego tego biuletynu jest dostępna w następującej [witrynie sieci Web](http://www.microsoft.com/poland/security/default.mspx).
@@ -38,7 +37,7 @@ Ten biuletyn obejmuje aktualizacje eliminujące nowo odkryte usterki. Poniżej p
 Krytyczny (8)
 -------------
 
-<span></span>
+
 | Identyfikator biuletynu               | Biuletyn zabezpieczeń firmy Microsoft MS05-005.                                                                                             |
 |---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
 | **Tytuł biuletynu**                   | [**Usterka w pakiecie Office umożliwia zdalne wykonanie kodu (873352)**](http://technet.microsoft.com/security/bulletin/ms05-005)           |
@@ -106,7 +105,7 @@ Krytyczny (8)
 Ważny (3)
 ---------
 
-<span></span>
+
 | Identyfikator biuletynu               | Biuletyn zabezpieczeń firmy Microsoft MS05-004.                                                                                                                              |
 |---------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Tytuł biuletynu**                   | [**Usterka w programie ASP.Net może spowodować ominięcie uwierzytelniania (887219)**](http://technet.microsoft.com/security/bulletin/ms05-004)                               |
@@ -134,7 +133,7 @@ Ważny (3)
 Umiarkowany (1)
 ---------------
 
-<span></span>
+
 | Identyfikator biuletynu               | Biuletyn zabezpieczeń firmy Microsoft MS05-006.                                                                                                                                                                                     |
 |---------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Tytuł biuletynu**                   | [**Usterka w programach Windows SharePoint Services i SharePoint Team Services umożliwia potencjalnie ataki z wykorzystaniem skryptów krzyżowych i fałszowania (887981)**](http://technet.microsoft.com/security/bulletin/ms05-006) |
@@ -146,7 +145,7 @@ Umiarkowany (1)
 Programy, których dotyczy problem i lokalizacje, z których można pobrać poprawki
 --------------------------------------------------------------------------------
 
-<span></span>
+
 **W jaki sposób korzystać z tej tabeli?**
 
 Tabela ta pozwala odczytać informacje o aktualizacjach zabezpieczeń, których zainstalowanie może być konieczne. Należy przejrzeć informacje dla każdego wymienionego programu lub składnika oprogramowania w celu sprawdzenia, czy są wymagane aktualizacje zabezpieczeń. Dla każdego programu lub składnika oprogramowania wymienionego na liście podany jest wpływ usterki oraz hiperłącze do dostępnej aktualizacji oprogramowania.
@@ -159,6 +158,7 @@ Na przykład biuletyn zabezpieczeń **MS05-009** obejmuje kilka aktualizacji zab
 
 #### Program, których dotyczy problem i lokalizacje, z których można pobrać biuletyny MS05-004 do MS05-009
 
+<p> </p>
 <table style="width:100%;">
 <colgroup>
 <col width="14%" />
@@ -619,6 +619,7 @@ Na przykład biuletyn zabezpieczeń **MS05-009** obejmuje kilka aktualizacji zab
   
 #### Programy, których dotyczy problem i lokalizacje, z których można pobrać biuletyny MS05-010 do MS05-015
   
+<p> </p>
 <table style="width:100%;">
 <colgroup>
 <col width="14%" />
@@ -895,7 +896,7 @@ Na przykład biuletyn zabezpieczeń **MS05-009** obejmuje kilka aktualizacji zab
 Wdrażanie  
 ---------
   
-<span></span>
+
 **Usługi Software Update Services:**
   
 Usługi Microsoft Software Update Services (SUS) umożliwiają administratorom szybkie i niezawodne wdrażanie najnowszych aktualizacji krytycznych i aktualizacji zabezpieczeń na serwerach działających w systemach Windows 2000 oraz Windows Server 2003, a także na komputerach stacjonarnych z systemami Windows 2000 Professional lub Windows XP Professional.

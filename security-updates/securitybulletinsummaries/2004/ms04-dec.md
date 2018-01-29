@@ -6,7 +6,6 @@ ms:contentKeyID: 61233044
 ms:mtpsurl: 'https://technet.microsoft.com/pl-PL/library/ms04-dec(v=Security.10)'
 ---
 
-Security Bulletin Summary
 
 Microsoft Security Bulletin Summary for grudzień 2004
 =====================================================
@@ -15,9 +14,9 @@ Opublikowano: 1 grudnia 2004 | Zaktualizowano: 14 grudnia 2004
 
 **Wersja:** 2.0
 
-**Opublikowano:** 1 grudnia 2004
-**Aktualizacja:** 14 grudnia 2004
-**Numer wersji:** 2.0
+**Opublikowano:** 1 grudnia 2004  
+**Aktualizacja:** 14 grudnia 2004  
+**Numer wersji:** 2.0  
 
 Wersja użytkownika końcowego tego biuletynu jest dostępna w następującej [witrynie sieci Web](http://www.microsoft.com/poland/security/default.mspx).
 
@@ -39,7 +38,7 @@ Ten biuletyn obejmuje aktualizacje eliminujące nowo odkryte usterki. Poniżej p
 Krytyczny (1)
 -------------
 
-<span></span>
+
 
 | Identyfikator biuletynu               | Biuletyn zabezpieczeń firmy Microsoft MS04-040                                                                                                                  |
 |---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -52,7 +51,7 @@ Krytyczny (1)
 Ważny (5)
 ---------
 
-<span></span>
+
 
 | Identyfikator biuletynu               | Biuletyn zabezpieczeń firmy Microsoft MS04-041                                                                                                                                       |
 |---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -97,7 +96,7 @@ Ważny (5)
 Programy, których dotyczy problem, i lokalizacje, z których można pobrać poprawki
 ---------------------------------------------------------------------------------
 
-<span></span>
+
 **W jaki sposób korzystać z tej tabeli?**
 
 Tabela ta pozwala odczytać informacje o aktualizacjach zabezpieczeń, których zainstalowanie może być konieczne. Należy przejrzeć informacje dla każdego wymienionego programu lub składnika oprogramowania w celu sprawdzenia, czy są wymagane aktualizacje zabezpieczeń. Dla każdego programu lub składnika oprogramowania wymienionego na liście podany jest wpływ usterki oraz hiperłącze do dostępnej aktualizacji oprogramowania.
@@ -108,6 +107,7 @@ Podana w tabeli liczba w nawiasach kwadratowych \[x\] wskazuje, że dostępna je
 
 **Programy, których dotyczy problem, i lokalizacje, z których można pobrać poprawki**
 
+<p> </p>
 <table style="width:100%;">
 <colgroup>
 <col width="14%" />
@@ -324,7 +324,7 @@ Poprawka może nie zawierać poprawek "hotfixes" opublikowanych od momentu wydan
 Wdrażanie  
 ---------
   
-<span></span>
+
 **Usługi Software Update Services:**
   
 Usługi Microsoft Software Update Services (SUS) umożliwiają administratorom szybkie i niezawodne wdrażanie najnowszych aktualizacji krytycznych i aktualizacji zabezpieczeń na serwerach działających w systemach Windows 2000 oraz Windows Server 2003, a także na komputerach stacjonarnych z systemami Windows 2000 Professional lub Windows XP Professional.

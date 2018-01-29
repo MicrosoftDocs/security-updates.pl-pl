@@ -6,7 +6,6 @@ ms:contentKeyID: 61233046
 ms:mtpsurl: 'https://technet.microsoft.com/pl-PL/library/ms04-jun(v=Security.10)'
 ---
 
-Security Bulletin Summary
 
 Microsoft Security Bulletin Summary for czerwiec 2004
 =====================================================
@@ -15,7 +14,7 @@ Opublikowano: 8 czerwca 2004
 
 **Wersja:** 1.0
 
-**Opublikowano:** 8 czerwca 2004 r.
+**Opublikowano:** 8 czerwca 2004 r.  
 **Numer wersji:** 1.0
 
 Wersja użytkownika końcowego tego biuletynu jest dostępna w następującej [witrynie sieci Web (j.ang.)](http://go.microsoft.com/fwlink/?linkid=28529).
@@ -38,7 +37,7 @@ Ten biuletyn obejmuje aktualizacje eliminujące nowo odkryte usterki. Poniżej p
 Średni (2)
 ----------
 
-<span></span>
+
 
 | Identyfikator biuletynu          | Biuletyn zabezpieczeń firmy Microsoft MS04-016                                                                                                                              |
 |----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -59,7 +58,7 @@ Ten biuletyn obejmuje aktualizacje eliminujące nowo odkryte usterki. Poniżej p
 Podlegające oprogramowanie i lokalizacje, z których można pobrać poprawki
 -------------------------------------------------------------------------
 
-<span></span>
+
 
 **W jaki sposób należy korzystać z tej tabeli?**
 
@@ -74,6 +73,7 @@ Na przykład w biuletynie zabezpieczeń **MS04-017** omówiono kilka aktualizacj
 **Podlegające oprogramowanie i lokalizacje, z których można pobrać poprawki**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -342,7 +342,7 @@ zawarte w pakiecie Visual Studio .NET 2002)</td>
 Wdrażanie  
 ---------
   
-<span></span>
+
 **Usługi Software Update Services:**
   
 Usługi Microsoft Software Update Services (SUS) umożliwiają administratorom szybkie i niezawodne wdrażanie najnowszych aktualizacji krytycznych i aktualizacji zabezpieczeń na serwerach działających w systemach Windows 2000 oraz Windows Server 2003, a także na komputerach stacjonarnych z systemami Windows 2000 Professional lub Windows XP Professional.

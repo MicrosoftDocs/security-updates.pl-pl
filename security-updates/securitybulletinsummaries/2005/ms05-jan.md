@@ -6,7 +6,6 @@ ms:contentKeyID: 61233054
 ms:mtpsurl: 'https://technet.microsoft.com/pl-PL/library/ms05-jan(v=Security.10)'
 ---
 
-Security Bulletin Summary
 
 Microsoft Security Bulletin Summary for styczeń 2005
 ====================================================
@@ -15,7 +14,7 @@ Opublikowano: 11 stycznia 2005
 
 **Wersja:** 1.0
 
-**Opublikowano:** 11 stycznia 2005 r.
+**Opublikowano:** 11 stycznia 2005 r.  
 **Numer wersji:** 1.0
 
 Wersja użytkownika końcowego tego biuletynu jest dostępna w następującej [witrynie sieci Web](http://www.microsoft.com/poland/security/default.mspx).
@@ -38,7 +37,7 @@ Ten biuletyn obejmuje aktualizacje eliminujące nowo odkryte usterki. Poniżej p
 Krytyczny (2)
 -------------
 
-<span></span>
+
 | Identyfikator biuletynu               | Biuletyn zabezpieczeń firmy Microsoft MS05-001                                                                                                 |
 |---------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Tytuł biuletynu**                   | [**Usterka systemu pomocy w formacie HTML umożliwia zdalne wykonanie kodu (890175)**](http://technet.microsoft.com/security/bulletin/ms05-001) |
@@ -58,7 +57,7 @@ Krytyczny (2)
 Ważny (1)
 ---------
 
-<span></span>
+
 | Identyfikator biuletynu               | Biuletyn zabezpieczeń firmy Microsoft MS05-003.                                                                                                                                              |
 |---------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Tytuł biuletynu**                   | [**Usterka usługi indeksowania umożliwia zdalne wykonanie kodu (871250)**](http://technet.microsoft.com/security/bulletin/ms05-001)                                                          |
@@ -70,7 +69,7 @@ Ważny (1)
 Programy, których dotyczy problem, i lokalizacje, z których można pobrać poprawki
 ---------------------------------------------------------------------------------
 
-<span></span>
+
 **W jaki sposób korzystać z tej tabeli?**
 
 Tabela ta pozwala odczytać informacje o aktualizacjach zabezpieczeń, których zainstalowanie może być konieczne. Należy przejrzeć informacje dla każdego wymienionego programu lub składnika oprogramowania w celu sprawdzenia, czy są wymagane aktualizacje zabezpieczeń. Dla każdego programu lub składnika oprogramowania wymienionego na liście podany jest wpływ usterki oraz hiperłącze do dostępnej aktualizacji oprogramowania.
@@ -82,6 +81,7 @@ Podana w tabeli liczba w nawiasach kwadratowych \[x\] wskazuje, że dostępna je
 **Programy, których dotyczy problem, i lokalizacje, z których można pobrać poprawki**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -221,7 +221,7 @@ Podana w tabeli liczba w nawiasach kwadratowych \[x\] wskazuje, że dostępna je
 Wdrażanie  
 ---------
   
-<span></span>
+
 **Usługi Software Update Services:**
   
 Usługi Microsoft Software Update Services (SUS) umożliwiają administratorom szybkie i niezawodne wdrażanie najnowszych aktualizacji krytycznych i aktualizacji zabezpieczeń na serwerach działających w systemach Windows 2000 oraz Windows Server 2003, a także na komputerach stacjonarnych z systemami Windows 2000 Professional lub Windows XP Professional.

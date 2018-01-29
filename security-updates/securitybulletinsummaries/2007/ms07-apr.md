@@ -6,7 +6,6 @@ ms:contentKeyID: 61233072
 ms:mtpsurl: 'https://technet.microsoft.com/pl-PL/library/ms07-apr(v=Security.10)'
 ---
 
-Security Bulletin Summary
 
 Microsoft Security Bulletin Summary for kwiecień 2007
 =====================================================
@@ -35,7 +34,7 @@ Niniejsze podsumowanie biuletynów zabezpieczeń obejmuje aktualizacje zabezpiec
 Krytyczny (5)
 -------------
 
-<span></span>
+
 
 | Identyfikator biuletynu           | Biuletyn zabezpieczeń firmy Microsoft MS07-017                                                                                                                               |
 |-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -85,7 +84,7 @@ Krytyczny (5)
 Ważny (1)
 ---------
 
-<span></span>
+
 
 | Identyfikator biuletynu           | Biuletyn zabezpieczeń firmy Microsoft MS07-022                                                                                                                               |
 |-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -99,13 +98,14 @@ Ważny (1)
 Programy, których dotyczy problem, i lokalizacje, z których można pobrać poprawki
 ---------------------------------------------------------------------------------
 
-<span></span>
+
 **How do I use this table?**
 
 Tabela ta pozwala odczytać informacje o aktualizacjach zabezpieczeń, których zainstalowanie może być konieczne. Należy przejrzeć informacje dla każdego wymienionego programu lub składnika oprogramowania w celu sprawdzenia, czy są wymagane aktualizacje zabezpieczeń. Dla każdego programu lub składnika oprogramowania wymienionego na liście podany jest wpływ luki oraz hiperłącze do dostępnej aktualizacji oprogramowania.
 
 **Programy, których dotyczy problem, i lokalizacje, z których można pobrać poprawki**
 
+<p> </p>
 <table style="width:100%;">
 <colgroup>
 <col width="14%" />
@@ -314,7 +314,7 @@ Tabela ta pozwala odczytać informacje o aktualizacjach zabezpieczeń, których 
 Wdrażanie  
 ---------
   
-<span></span>
+
 **Usługi Software Update Services:**
   
 Usługi Microsoft Software Update Services (SUS) umożliwiają administratorom szybkie i niezawodne wdrażanie najnowszych aktualizacji krytycznych i aktualizacji zabezpieczeń na serwerach działających w systemach Windows 2000 oraz Windows Server 2003, a także na komputerach stacjonarnych z systemami Windows 2000 Professional lub Windows XP Professional.

@@ -6,7 +6,6 @@ ms:contentKeyID: 61233061
 ms:mtpsurl: 'https://technet.microsoft.com/pl-PL/library/ms06-aug(v=Security.10)'
 ---
 
-Security Bulletin Summary
 
 Microsoft Security Bulletin Summary for sierpień 2006
 =====================================================
@@ -35,7 +34,7 @@ Ten biuletyn obejmuje aktualizacje eliminujące nowo odkryte luki w zabezpieczen
 Krytyczny (9)
 -------------
 
-<span></span>
+
 | Identyfikator biuletynu               | Biuletyn zabezpieczeń firmy Microsoft MS06-040                                                                                                      |
 |---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Tytuł biuletynu**                   | [**Luka w zabezpieczeniach usługi Serwer umożliwia zdalne wykonanie kodu (921883)**](http://technet.microsoft.com/security/bulletin/ms06-040)       |
@@ -111,7 +110,7 @@ Krytyczny (9)
 Ważny <sup>[3]</sup>
 -----------
 
-<span></span>
+
 | Identyfikator biuletynu               | Biuletyn zabezpieczeń firmy Microsoft MS06-045                                                                                                               |
 |---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Tytuł biuletynu**                   | [**Luka w zabezpieczeniach programu Eksplorator Windows umożliwia zdalne wykonanie kodu (921398)**](http://technet.microsoft.com/security/bulletin/ms06-045) |
@@ -139,7 +138,7 @@ Ważny <sup>[3]</sup>
 Programy, których dotyczy problem, i lokalizacje, z których można pobrać poprawki
 ---------------------------------------------------------------------------------
 
-<span></span>
+
 **W jaki sposób korzystać z tej tabeli?**
 
 Tabela ta pozwala odczytać informacje o aktualizacjach zabezpieczeń, których zainstalowanie może być konieczne. Należy przejrzeć informacje dla każdego wymienionego programu lub składnika oprogramowania w celu sprawdzenia, czy są wymagane aktualizacje zabezpieczeń. Dla każdego programu lub składnika oprogramowania wymienionego na liście podany jest wpływ luki oraz hiperłącze do dostępnej aktualizacji oprogramowania.
@@ -148,6 +147,7 @@ Numer w nawiasach kwadratowych \[x\] w tabeli oznacza, że istnieje dodatkowe wy
 
 #### Programy, których dotyczy problem, i lokalizacje, z których można pobrać aktualizacje opisane w biuletynach od MS06-040 do MS06-045
 
+<p> </p>
 <table style="width:100%;">
 <colgroup>
 <col width="14%" />
@@ -409,6 +409,7 @@ Numer w nawiasach kwadratowych \[x\] w tabeli oznacza, że istnieje dodatkowe wy
   
 #### Programy, których dotyczy problem, i lokalizacje, z których można pobrać aktualizacje opisane w biuletynach od MS06-046 do MS06-051
   
+<p> </p>
 <table style="width:100%;">
 <colgroup>
 <col width="14%" />
@@ -657,7 +658,7 @@ Numer w nawiasach kwadratowych \[x\] w tabeli oznacza, że istnieje dodatkowe wy
 Wdrażanie  
 ---------
   
-<span></span>
+
 **Usługi Software Update Services:**
   
 Usługi Microsoft Software Update Services (SUS) umożliwiają administratorom szybkie i niezawodne wdrażanie najnowszych aktualizacji krytycznych i aktualizacji zabezpieczeń na serwerach działających w systemach Windows 2000 oraz Windows Server 2003, a także na komputerach stacjonarnych z systemami Windows 2000 Professional lub Windows XP Professional.

@@ -6,7 +6,6 @@ ms:contentKeyID: 61233063
 ms:mtpsurl: 'https://technet.microsoft.com/pl-PL/library/ms06-feb(v=Security.10)'
 ---
 
-Security Bulletin Summary
 
 Microsoft Security Bulletin Summary for luty 2006
 =================================================
@@ -35,7 +34,7 @@ Ten biuletyn obejmuje aktualizacje eliminujące nowo odkryte usterki. Poniżej p
 Krytyczny (2)
 -------------
 
-<span></span>
+
 | Identyfikator biuletynu               | Biuletyn zabezpieczeń firmy Microsoft MS06-004                                                                                                      |
 |---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Tytuł biuletynu**                   | [**Zbiorcza aktualizacja zabezpieczeń dla programu Internet Explorer (910620)**](http://technet.microsoft.com/security/bulletin/ms06-004)           |
@@ -55,7 +54,7 @@ Krytyczny (2)
 Ważny (5)
 ---------
 
-<span></span>
+
 | Identyfikator biuletynu               | Biuletyn zabezpieczeń firmy Microsoft MS06-006                                                                                                                                                          |
 |---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Tytuł biuletynu**                   | [**Usterka w dodatku plug-in Windows Media Player do przeglądarek internetowych innych producentów umożliwia zdalne wykonanie kodu (911564)**](http://technet.microsoft.com/security/bulletin/ms06-006) |
@@ -99,7 +98,7 @@ Ważny (5)
 Programy, których dotyczy problem, i lokalizacje, z których można pobrać poprawki
 ---------------------------------------------------------------------------------
 
-<span></span>
+
 **W jaki sposób korzystać z tej tabeli?**
 
 Tabela ta pozwala odczytać informacje o aktualizacjach zabezpieczeń, których zainstalowanie może być konieczne. Należy przejrzeć informacje dla każdego wymienionego programu lub składnika oprogramowania w celu sprawdzenia, czy są wymagane aktualizacje zabezpieczeń. Dla każdego programu lub składnika oprogramowania wymienionego na liście podany jest wpływ usterki oraz hiperłącze do dostępnej aktualizacji oprogramowania.
@@ -111,6 +110,7 @@ Podana w tabeli liczba w nawiasach kwadratowych \[x\] wskazuje, że dostępna je
 #### Programy, których dotyczy problem, i lokalizacje, z których można pobrać poprawki objęte biuletynami od MS06-004 do MS06-007
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -296,6 +296,7 @@ Podana w tabeli liczba w nawiasach kwadratowych \[x\] wskazuje, że dostępna je
 #### Programy, których dotyczy problem, i lokalizacje, z których można pobrać poprawki objęte biuletynami od MS06-008 do MS06-010
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -484,7 +485,7 @@ Podana w tabeli liczba w nawiasach kwadratowych \[x\] wskazuje, że dostępna je
 Wdrażanie  
 ---------
   
-<span></span>
+
 **Usługi Software Update Services:**
   
 Usługi Microsoft Software Update Services (SUS) umożliwiają administratorom szybkie i niezawodne wdrażanie najnowszych aktualizacji krytycznych i aktualizacji zabezpieczeń na serwerach działających w systemach Windows 2000 oraz Windows Server 2003, a także na komputerach stacjonarnych z systemami Windows 2000 Professional lub Windows XP Professional.

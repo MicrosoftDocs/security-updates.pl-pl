@@ -6,7 +6,6 @@ ms:contentKeyID: 61233050
 ms:mtpsurl: 'https://technet.microsoft.com/pl-PL/library/ms05-apr(v=Security.10)'
 ---
 
-Security Bulletin Summary
 
 Microsoft Security Bulletin Summary for kwiecień 2005
 =====================================================
@@ -15,7 +14,7 @@ Opublikowano: 8 kwietnia 2005
 
 **Wersja:** 1.0
 
-**Opublikowano:** 12 kwietnia 2005 r.
+**Opublikowano:** 12 kwietnia 2005 r.  
 **Wersja:** 1.0
 
 Wersja użytkownika końcowego tego biuletynu jest dostępna w następującej [witrynie sieci Web](http://www.microsoft.com/poland/security/default.mspx).
@@ -38,7 +37,7 @@ Ten biuletyn obejmuje aktualizacje eliminujące nowo odkryte usterki. Poniżej p
 Krytyczny (5)
 -------------
 
-<span></span>
+
 | Identyfikator biuletynu               | Biuletyn zabezpieczeń firmy Microsoft MS05-019                                                                                                                        |
 |---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Tytuł biuletynu**                   | [Usterki protokołu TCP/IP umożliwiają zdalne wykonanie kodu oraz przeprowadzenie ataku typu „odmowa usługi”](http://technet.microsoft.com/security/bulletin/ms05-019) |
@@ -82,7 +81,7 @@ Krytyczny (5)
 Ważny <sup>[3]</sup>
 -----------
 
-<span></span>
+
 | Identyfikator biuletynu               | Biuletyn zabezpieczeń firmy Microsoft MS05-016.                                                                                            |
 |---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | **Tytuł biuletynu**                   | [Usterka w powłoce systemu Windows pozwala na zdalne wykonanie kodu](http://technet.microsoft.com/security/bulletin/ms05-016)              |
@@ -110,7 +109,7 @@ Ważny <sup>[3]</sup>
 Programy, których dotyczy problem, i lokalizacje, z których można pobrać poprawki
 ---------------------------------------------------------------------------------
 
-<span></span>
+
 **W jaki sposób korzystać z tej tabeli?**
 
 Tabela ta pozwala odczytać informacje o aktualizacjach zabezpieczeń, których zainstalowanie może być konieczne. Należy przejrzeć informacje dla każdego wymienionego programu lub składnika oprogramowania w celu sprawdzenia, czy są wymagane aktualizacje zabezpieczeń. Dla każdego programu lub składnika oprogramowania wymienionego na liście podany jest wpływ usterki oraz hiperłącze do dostępnej aktualizacji oprogramowania.
@@ -172,7 +171,7 @@ Podana w tabeli liczba w nawiasach kwadratowych \[x\] wskazuje, że dostępna je
 Wdrażanie
 ---------
 
-<span></span>
+
 **Usługi Software Update Services:**
 
 Usługi Microsoft Software Update Services (SUS) umożliwiają administratorom szybkie i niezawodne wdrażanie najnowszych aktualizacji krytycznych i aktualizacji zabezpieczeń na serwerach działających w systemach Windows 2000 oraz Windows Server 2003, a także na komputerach stacjonarnych z systemami Windows 2000 Professional lub Windows XP Professional.

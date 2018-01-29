@@ -6,7 +6,6 @@ ms:contentKeyID: 61233060
 ms:mtpsurl: 'https://technet.microsoft.com/pl-PL/library/ms06-apr(v=Security.10)'
 ---
 
-Security Bulletin Summary
 
 Microsoft Security Bulletin Summary for kwiecień 2006
 =====================================================
@@ -35,7 +34,7 @@ Ten biuletyn obejmuje aktualizacje eliminujące nowo odkryte usterki. Poniżej p
 Krytyczny (3)
 -------------
 
-<span></span>
+
 | Identyfikator biuletynu                | Biuletyn zabezpieczeń firmy Microsoft MS06-013                                                                                                                         |
 |----------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Tytuł biuletynu**                    | [**Zbiorcza aktualizacja zabezpieczeń dla programu Internet Explorer (912812)**](http://technet.microsoft.com/security/bulletin/ms06-013)                              |
@@ -63,7 +62,7 @@ Krytyczny (3)
 Ważny (1)
 ---------
 
-<span></span>
+
 | Identyfikator biuletynu                | Biuletyn zabezpieczeń firmy Microsoft MS06-016                                                                                                                                                                                                           |
 |----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Tytuł biuletynu**                    | [**Zbiorcza aktualizacja zabezpieczeń programu Outlook Express (911567)**](http://technet.microsoft.com/security/bulletin/ms06-016)                                                                                                                      |
@@ -75,7 +74,7 @@ Ważny (1)
 Średni (1)
 ----------
 
-<span></span>
+
 | Identyfikator biuletynu           | Biuletyn zabezpieczeń firmy Microsoft MS06-017                                                                                                                                                                                                                                                                                |
 |-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Tytuł biuletynu**               | [**Usterka rozszerzeń Microsoft FrontPage Server Extensions może pozwolić na wykonanie skryptów krzyżowych (917627)**](http://technet.microsoft.com/security/bulletin/ms06-017)                                                                                                                                               |
@@ -87,7 +86,7 @@ Ważny (1)
 Programy, których dotyczy problem, i lokalizacje, z których można pobrać poprawki
 ---------------------------------------------------------------------------------
 
-<span></span>
+
 **W jaki sposób korzystać z tej tabeli?**
 
 Tabela ta pozwala odczytać informacje o aktualizacjach zabezpieczeń, których zainstalowanie może być konieczne. Należy przejrzeć informacje dla każdego wymienionego programu lub składnika oprogramowania w celu sprawdzenia, czy są wymagane aktualizacje zabezpieczeń. Dla każdego programu lub składnika oprogramowania wymienionego na liście podany jest wpływ usterki oraz hiperłącze do dostępnej aktualizacji oprogramowania.
@@ -96,6 +95,7 @@ Podana w tabeli liczba w nawiasach kwadratowych \[x\] wskazuje, że dostępna je
 
 **Programy, których dotyczy problem, i lokalizacje, z których można pobrać poprawki**
 
+<p> </p>
 <table style="width:100%;">
 <colgroup>
 <col width="16%" />
@@ -506,7 +506,7 @@ Podana w tabeli liczba w nawiasach kwadratowych \[x\] wskazuje, że dostępna je
 Wdrażanie  
 ---------
   
-<span></span>
+
 **Usługi Software Update Services:**
   
 Usługi Microsoft Software Update Services (SUS) umożliwiają administratorom szybkie i niezawodne wdrażanie najnowszych aktualizacji krytycznych i aktualizacji zabezpieczeń na serwerach działających w systemach Windows 2000 oraz Windows Server 2003, a także na komputerach stacjonarnych z systemami Windows 2000 Professional lub Windows XP Professional.

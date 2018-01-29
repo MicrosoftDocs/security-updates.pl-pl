@@ -6,7 +6,6 @@ ms:contentKeyID: 61233056
 ms:mtpsurl: 'https://technet.microsoft.com/pl-PL/library/ms05-jun(v=Security.10)'
 ---
 
-Security Bulletin Summary
 
 Microsoft Security Bulletin Summary for czerwiec 2005
 =====================================================
@@ -15,7 +14,7 @@ Opublikowano: 14 czerwca 2005
 
 **Wersja:** 1.0
 
-**Opublikowano:** 14 czerwca 2005
+**Opublikowano:** 14 czerwca 2005  
 **Numer wersji:** 1.0
 
 Wersja użytkownika końcowego tego biuletynu jest dostępna w następującej [witrynie sieci Web](http://www.microsoft.com/poland/security/).
@@ -38,7 +37,7 @@ Ten biuletyn obejmuje aktualizacje eliminujące nowo odkryte usterki. Poniżej p
 Krytyczny (3)
 -------------
 
-<span></span>
+
 | Identyfikator biuletynu               | Biuletyn zabezpieczeń firmy Microsoft MS05-025                                                                                                                               |
 |---------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Tytuł biuletynu**                   | [**Zbiorcza aktualizacja zabezpieczeń dla programu Internet Explorer (883939)**](http://technet.microsoft.com/security/bulletin/ms05-025)                                    |
@@ -66,7 +65,7 @@ Krytyczny (3)
 Ważne (4)
 ---------
 
-<span></span>
+
 | Identyfikator biuletynu               | Biuletyn zabezpieczeń firmy Microsoft MS05-028                                                                                                                                                                                                                                                                                              |
 |---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Tytuł biuletynu**                   | [**Usterka usługi Klient sieci Web umożliwia zdalne wykonanie kodu (896426)**](http://technet.microsoft.com/security/bulletin/ms05-028)                                                                                                                                                                                                     |
@@ -102,7 +101,7 @@ Ważne (4)
 Średni (3)
 ----------
 
-<span></span>
+
 | Identyfikator biuletynu               | Biuletyn zabezpieczeń firmy Microsoft MS05-032                                                                                                                                                                                                           |
 |---------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Tytuł biuletynu**                   | [**Usterka programu Microsoft Agent związana z fałszowaniem (890046)**](http://technet.microsoft.com/security/bulletin/ms05-032)                                                                                                                         |
@@ -130,7 +129,7 @@ Ważne (4)
 Programy, których dotyczy problem, i lokalizacje, z których można pobrać poprawki
 ---------------------------------------------------------------------------------
 
-<span></span>
+
 **W jaki sposób korzystać z tej tabeli?**
 
 Tabela ta pozwala odczytać informacje o aktualizacjach zabezpieczeń, których zainstalowanie może być konieczne. Należy przejrzeć informacje dla każdego wymienionego programu lub składnika oprogramowania w celu sprawdzenia, czy są wymagane aktualizacje zabezpieczeń. Dla każdego programu lub składnika oprogramowania wymienionego na liście podany jest wpływ usterki oraz hiperłącze do dostępnej aktualizacji oprogramowania.
@@ -139,6 +138,7 @@ Podana w tabeli liczba w nawiasach kwadratowych \[x\] wskazuje, że dostępna je
 
 #### Programy, których dotyczy problem, i lokalizacje, z których można pobrać poprawki objęte biuletynami od MS05-025 do MS05-029
 
+<p> </p>
 <table style="width:100%;">
 <colgroup>
 <col width="16%" />
@@ -436,6 +436,7 @@ Podana w tabeli liczba w nawiasach kwadratowych \[x\] wskazuje, że dostępna je
   
 #### Programy, których dotyczy problem, i lokalizacje, z których można pobrać poprawki objęte biuletynami od MS05-030 do MS05-034
   
+<p> </p>
 <table style="width:100%;">
 <colgroup>
 <col width="16%" />
@@ -758,7 +759,7 @@ Podana w tabeli liczba w nawiasach kwadratowych \[x\] wskazuje, że dostępna je
 Wdrażanie  
 ---------
   
-<span></span>
+
 **Usługi Software Update Services:**
   
 Usługi Microsoft Software Update Services (SUS) umożliwiają administratorom szybkie i niezawodne wdrażanie najnowszych aktualizacji krytycznych i aktualizacji zabezpieczeń na serwerach działających w systemach Windows 2000 oraz Windows Server 2003, a także na komputerach stacjonarnych z systemami Windows 2000 Professional lub Windows XP Professional.

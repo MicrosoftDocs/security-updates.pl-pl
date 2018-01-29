@@ -6,7 +6,6 @@ ms:contentKeyID: 61233071
 ms:mtpsurl: 'https://technet.microsoft.com/pl-PL/library/ms06-sep(v=Security.10)'
 ---
 
-Security Bulletin Summary
 
 Microsoft Security Bulletin Summary for wrzesień 2006
 =====================================================
@@ -35,7 +34,7 @@ Ten biuletyn obejmuje aktualizacje eliminujące nowo odkryte luki w zabezpieczen
 Krytyczny <sup>[2]</sup>
 ---------------
 
-<span></span>
+
 | Identyfikator biuletynu               | Biuletyn zabezpieczeń firmy Microsoft MS06-054                                                                                                               |
 |---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Tytuł biuletynu**                   | [**Luka w zabezpieczeniach programu Microsoft Publisher umożliwia zdalne wykonanie kodu (910729)**](http://technet.microsoft.com/security/bulletin/ms06-054) |
@@ -55,7 +54,7 @@ Krytyczny <sup>[2]</sup>
 Ważny (1)
 ---------
 
-<span></span>
+
 | Identyfikator biuletynu               | Biuletyn zabezpieczeń firmy Microsoft MS06-052                                                                                                                             |
 |---------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Tytuł biuletynu**                   | [**Luka w zabezpieczeniach programu Pragmatic General Multicast (PGM) umożliwia zdalne wykonanie kodu (919007)**](http://technet.microsoft.com/security/bulletin/ms06-052) |
@@ -67,7 +66,7 @@ Ważny (1)
 Średni (1)
 ----------
 
-<span></span>
+
 | Identyfikator biuletynu               | Biuletyn zabezpieczeń firmy Microsoft MS06-053                                                                                                      |
 |---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Tytuł biuletynu**                   | [**Luka w usłudze indeksowania może pozwolić na wykonanie skryptów krzyżowych (920685)**](http://technet.microsoft.com/security/bulletin/ms06-053)  |
@@ -79,7 +78,7 @@ Ważny (1)
 Programy, których dotyczy problem, i lokalizacje, z których można pobrać poprawki
 ---------------------------------------------------------------------------------
 
-<span></span>
+
 **W jaki sposób korzystać z tej tabeli?**
 
 Tabela ta pozwala odczytać informacje o aktualizacjach zabezpieczeń, których zainstalowanie może być konieczne. Należy przejrzeć informacje dla każdego wymienionego programu lub składnika oprogramowania w celu sprawdzenia, czy są wymagane aktualizacje zabezpieczeń. Dla każdego programu lub składnika oprogramowania wymienionego na liście podany jest wpływ luki oraz hiperłącze do dostępnej aktualizacji oprogramowania.
@@ -89,6 +88,7 @@ Numer w nawiasach kwadratowych \[x\] w tabeli oznacza, że istnieje dodatkowe wy
 #### Programy, których dotyczy problem, i lokalizacje, z których można pobrać aktualizacje opisane w biuletynach od MS06-052 do MS06-055
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -292,7 +292,7 @@ Numer w nawiasach kwadratowych \[x\] w tabeli oznacza, że istnieje dodatkowe wy
 Wdrażanie  
 ---------
   
-<span></span>
+
 **Usługi Software Update Services:**
   
 Usługi Microsoft Software Update Services (SUS) umożliwiają administratorom szybkie i niezawodne wdrażanie najnowszych aktualizacji krytycznych i aktualizacji zabezpieczeń na serwerach działających w systemach Windows 2000 oraz Windows Server 2003, a także na komputerach stacjonarnych z systemami Windows 2000 Professional lub Windows XP Professional.

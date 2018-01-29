@@ -6,7 +6,6 @@ ms:contentKeyID: 61233047
 ms:mtpsurl: 'https://technet.microsoft.com/pl-PL/library/ms04-nov(v=Security.10)'
 ---
 
-Security Bulletin Summary
 
 Microsoft Security Bulletin Summary for listopad 2004
 =====================================================
@@ -15,7 +14,7 @@ Opublikowano: 9 listopada 2004
 
 **Wersja:** 1.0
 
-**Opublikowano:** 9 listopada 2004 r.
+**Opublikowano:** 9 listopada 2004 r.  
 **Numer wersji:** 1.0
 
 Wersja użytkownika końcowego tego biuletynu jest dostępna w następującej [witrynie sieci Web](http://www.microsoft.com/poland/security/bulletin/200411_isa.mspx).
@@ -38,7 +37,7 @@ Ten biuletyn obejmuje aktualizacje eliminujące nowo odkryte usterki. Poniżej p
 Ważny (1)
 ---------
 
-<span></span>
+
 | Identyfikator biuletynu               | Biuletyn zabezpieczeń firmy Microsoft MS04-039                                                                                                      |
 |---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Tytuł biuletynu**                   | Usterka w programach ISA Server 2000 i Proxy Server 2.0 może pozwolić na sfałszowanie treści internetowych (888258)                                 |
@@ -50,7 +49,7 @@ Ważny (1)
 Programy, których dotyczy problem, i lokalizacje, z których można pobrać poprawki
 ---------------------------------------------------------------------------------
 
-<span></span>
+
 **W jaki sposób korzystać z tej tabeli?**
 
 Tabela ta pozwala odczytać informacje o aktualizacjach zabezpieczeń, których zainstalowanie może być konieczne. Należy przejrzeć informacje dla każdego wymienionego programu lub składnika oprogramowania w celu sprawdzenia, czy są wymagane aktualizacje zabezpieczeń. Dla każdego programu lub składnika oprogramowania wymienionego na liście podany jest wpływ usterki oraz hiperłącze do dostępnej aktualizacji oprogramowania.
@@ -70,7 +69,7 @@ Tabela ta pozwala odczytać informacje o aktualizacjach zabezpieczeń, których 
 Wdrażanie
 ---------
 
-<span></span>
+
 **Program Systems Management Server:**
 
 Program Systems Management Server (SMS) jest przeznaczonym dla przedsiębiorstw i w znacznym stopniu konfigurowalnym rozwiązaniem służącym do zarządzania aktualizacjami. Program SMS umożliwia administratorom znalezienie komputerów z systemem Windows, na których należy zainstalować aktualizację zabezpieczeń, a także przeprowadzić kontrolowane wdrożenie tych aktualizacji w całym przedsiębiorstwie, w minimalnym stopniu zakłócając przy tym pracę użytkowników końcowych. Więcej informacji na temat możliwości wykorzystania przez administratorów programu SMS 2003 do wdrażania aktualizacji zabezpieczeń można znaleźć w witrynie sieci Web [zarządzania poprawkami zabezpieczeń programu SMS 2003](http://go.microsoft.com/fwlink/?linkid=22939). Użytkownicy programu SMS 2.0 mogą także skorzystać z dodatku [Software Updates Service Feature Pack](http://go.microsoft.com/fwlink/?linkid=33340) ułatwiającego wdrożenie aktualizacji zabezpieczeń. Więcej informacji na temat programu SMS można znaleźć w [witrynie sieci Web programu SMS](http://go.microsoft.com/fwlink/?linkid=21158).

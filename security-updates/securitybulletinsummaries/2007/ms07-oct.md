@@ -6,7 +6,6 @@ ms:contentKeyID: 61233082
 ms:mtpsurl: 'https://technet.microsoft.com/pl-PL/library/ms07-oct(v=Security.10)'
 ---
 
-Security Bulletin Summary
 
 Microsoft Security Bulletin Summary for październik 2007
 ========================================================
@@ -34,7 +33,7 @@ W bieżącym miesiącu opublikowano następujące biuletyny (w kolejności wska�
 Krytyczny (4)
 -------------
 
-<span></span>
+
 | Identyfikator biuletynu           | Biuletyn zabezpieczeń firmy Microsoft MS07-055                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 |-----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Tytuł biuletynu**               | [**Luka w zabezpieczeniach programu Kodak Image Viewer może pozwolić na zdalne wykonanie kodu (923810)**](http://technet.microsoft.com/security/bulletin/ms07-055)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -74,7 +73,7 @@ Krytyczny (4)
 Ważny (2)
 ---------
 
-<span></span>
+
 | Identyfikator biuletynu           | Biuletyn zabezpieczeń firmy Microsoft MS07-058                                                                                                                                                                                                                                                                   |
 |-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Tytuł biuletynu**               | [**Luka w zabezpieczeniach zdalnego wywołania procedury umożliwia przeprowadzenie ataku typu „odmowa usługi” (933729)**](http://technet.microsoft.com/security/bulletin/ms07-058)                                                                                                                                |
@@ -96,7 +95,7 @@ Ważny (2)
 Programy, których dotyczy problem, i lokalizacje, z których można pobrać poprawki
 ---------------------------------------------------------------------------------
 
-<span></span>
+
 **How do I use this table?**
 
 Tabela ta pozwala odczytać informacje o aktualizacjach zabezpieczeń, których zainstalowanie może być konieczne. Należy przejrzeć informacje dla każdego wymienionego programu lub składnika oprogramowania w celu sprawdzenia, czy są wymagane aktualizacje zabezpieczeń. Dla każdego programu lub składnika oprogramowania wymienionego na liście podany jest wpływ luki oraz hiperłącze do dostępnej aktualizacji oprogramowania.
@@ -106,6 +105,7 @@ Tabela ta pozwala odczytać informacje o aktualizacjach zabezpieczeń, których 
 **Programy, których dotyczy problem, i lokalizacje, z których można pobrać poprawki**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <tr class="thead">
 <th style="border:1px solid black;" >
@@ -1017,12 +1017,12 @@ Microsoft Office SharePoint Server 2007 x64 Edition (KB937832)
  
 **Uwagi**
 
-**<sup>[1]</sup>** Dla tego systemu operacyjnego dostępna jest aktualizacja zabezpieczeń. Więcej informacji na temat oprogramowania lub składnika, którego dotyczy problem, znajduje się w tabeli oraz odpowiednim biuletynie zabezpieczeń.** **
+**<sup>[1]</sup>** Dla tego systemu operacyjnego dostępna jest aktualizacja zabezpieczeń. Więcej informacji na temat oprogramowania lub składnika, którego dotyczy problem, znajduje się w tabeli oraz odpowiednim biuletynie zabezpieczeń.
 
 Narzędzia wykrywania i wdrażania oraz wskazówki
 -----------------------------------------------
 
-<span></span>
+
 **Centrum zabezpieczeń**
 
 Zarządzanie oprogramowaniem oraz aktualizacjami zabezpieczeń, które należy zainstalować na serwerach oraz komputerach stacjonarnych i przenośnych w organizacji. Więcej informacji można znaleźć w [Centrum TechNet Update Management Center (j.ang.)](http://go.microsoft.com/fwlink/?linkid=69903). Witryna [TechNet Security Center](http://www.microsoft.com/poland/technet/security/) zawiera dodatkowe informacje na temat zabezpieczeń w produktach firmy Microsoft. Użytkownicy mogą także uzyskać dostęp do tych informacji w witrynie [Bezpieczeństwo w domu](http://www.microsoft.com/poland/athome/security/default.mspx), klikając łącze „Najnowsze aktualizacje zabezpieczeń”.
@@ -1035,7 +1035,7 @@ Aktualizacje zabezpieczeń można także pobierać z [Wykazu usługi Microsoft U
 
 Firma Microsoft opublikowała porady dotyczące wykrywania i wdrażania, odnoszące się do aktualizacji zabezpieczeń udostępnionych w tym miesiącu. Porady te będą również pomocne dla informatyków, wyjaśniając jak mogą oni wdrażać aktualizacje za pomocą różnych narzędzi, takich jak Windows Update, Microsoft Update, Office Update, Microsoft Baseline Security Analyzer (MBSA), Office Detection Tool, Microsoft Systems Management Server (SMS), Extended Security Update Inventory Tool i Enterprise Update Scan Tool (EST). Więcej informacji na ten temat można znaleźć w [artykule 910723 bazy wiedzy Microsoft Knowledge Base](http://support.microsoft.com/kb/910723).
 
-**Narzędzie Microsoft Baseline Security Analyzer i** **narzędzia skanowania** **Update Scan Tool**
+**Narzędzie Microsoft Baseline Security Analyzer inarzędzia skanowaniaUpdate Scan Tool**
 
 Narzędzie Microsoft Baseline Security Analyzer umożliwia administratorom skanowanie lokalnych i zdalnych systemów w poszukiwaniu brakujących aktualizacji zabezpieczeń oraz typowych błędów konfiguracji zabezpieczeń. Więcej informacji na temat narzędzia MBSA można znaleźć w witrynie sieci Web[Microsoft Baseline Security Analyzer](http://www.microsoft.com/poland/technet/security/tools/mbsa.mspx).
 

@@ -6,7 +6,6 @@ ms:contentKeyID: 61233049
 ms:mtpsurl: 'https://technet.microsoft.com/pl-PL/library/ms04-sep(v=Security.10)'
 ---
 
-Security Bulletin Summary
 
 Microsoft Security Bulletin Summary for wrzesień 2004
 =====================================================
@@ -15,7 +14,7 @@ Opublikowano: 18 września 2004
 
 **Wersja:** 1.0
 
-**Opublikowano:** 18 września 2004 r.
+**Opublikowano:** 18 września 2004 r.  
 **Numer wersji:** 1.0
 
 Wersja tych informacji przeznaczona dla użytkownika końcowego jest dostępna w następującej [witrynie sieci Web](http://go.microsoft.com/fwlink/?linkid=34583).
@@ -38,9 +37,10 @@ Ten biuletyn obejmuje aktualizacje eliminujące nowo odkryte usterki zabezpiecze
 Krytyczne (1)
 -------------
 
-<span></span>
+
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -81,7 +81,7 @@ Krytyczne (1)
 Ważne (1)
 ---------
 
-<span></span>
+
 
 | Identyfikator biuletynu          | Biuletyn zabezpieczeń firmy Microsoft MS04-027                                                                                                                                                                               |
 |----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -94,7 +94,7 @@ Ważne (1)
 Podlegające oprogramowanie i lokalizacje, z których można pobrać tę aktualizację
 --------------------------------------------------------------------------------
 
-<span></span>
+
 **W jaki sposób należy korzystać z tej tabeli?**
 
 Tabela ta zawiera informacje na temat aktualizacji zabezpieczeń, które należy zainstalować. Należy wziąć pod uwagę każdy program lub składnik w niej wymieniony w celu stwierdzenia, czy zawiera wymagane aktualizacje zabezpieczeń. Jeśli program lub składnik występuje w tabeli, wówczas podany jest również wpływ usterki na niego i dostępne jest hiperłącze do dostępnej aktualizacji oprogramowania.
@@ -108,6 +108,7 @@ Na przykład biuletyn zabezpieczeń **MS04-028** opisuje kilka aktualizacji zabe
 **Podlegające oprogramowanie i lokalizacje, z których można pobrać tę aktualizację**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -422,7 +423,7 @@ Na przykład biuletyn zabezpieczeń **MS04-028** opisuje kilka aktualizacji zabe
 Wdrażanie  
 ---------
   
-<span></span>
+
 **Usługi Software Update Services:**
   
 Usługi Microsoft Software Update Services (SUS) umożliwiają administratorom szybkie i niezawodne wdrażanie najnowszych aktualizacji krytycznych i aktualizacji zabezpieczeń na serwerach działających w systemach Windows 2000 oraz Windows Server 2003, a także na komputerach stacjonarnych z systemami Windows 2000 Professional lub Windows XP Professional.

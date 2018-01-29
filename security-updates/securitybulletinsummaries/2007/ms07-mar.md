@@ -6,7 +6,6 @@ ms:contentKeyID: 61233079
 ms:mtpsurl: 'https://technet.microsoft.com/pl-PL/library/ms07-mar(v=Security.10)'
 ---
 
-Security Bulletin Summary
 
 Microsoft Security Bulletin Summary for marzec 2007
 ===================================================
@@ -35,7 +34,7 @@ Niniejsze podsumowanie biuletynów zabezpieczeń zawiera spis biuletynów za mar
 Wdrażanie
 ---------
 
-<span></span>
+
 **Usługi Software Update Services:**
 
 Usługi Microsoft Software Update Services (SUS) umożliwiają administratorom szybkie i niezawodne wdrażanie najnowszych aktualizacji krytycznych i aktualizacji zabezpieczeń na serwerach działających w systemach Windows 2000 oraz Windows Server 2003, a także na komputerach stacjonarnych z systemami Windows 2000 Professional lub Windows XP Professional.

@@ -6,7 +6,6 @@ ms:contentKeyID: 61233062
 ms:mtpsurl: 'https://technet.microsoft.com/pl-PL/library/ms06-dec(v=Security.10)'
 ---
 
-Security Bulletin Summary
 
 Microsoft Security Bulletin Summary for grudzień 2006
 =====================================================
@@ -35,7 +34,7 @@ Ten biuletyn obejmuje aktualizacje eliminujące nowo odkryte luki w zabezpieczen
 Krytyczny (3)
 -------------
 
-<span></span>
+
 
 | Identyfikator biuletynu               | Biuletyn zabezpieczeń firmy Microsoft MS06-072                                                                                                                  |
 |---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -64,7 +63,7 @@ Krytyczny (3)
 Ważne (4)
 ---------
 
-<span></span>
+
 
 | Identyfikator biuletynu               | Biuletyn zabezpieczeń firmy Microsoft MS06-074                                                                                                                                             |
 |---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -101,7 +100,7 @@ Ważne (4)
 Programy, których dotyczy problem, i lokalizacje, z których można pobrać poprawki
 ---------------------------------------------------------------------------------
 
-<span></span>
+
 **W jaki sposób korzystać z tej tabeli?**
 
 Tabela ta pozwala odczytać informacje o aktualizacjach zabezpieczeń, których zainstalowanie może być konieczne. Należy przejrzeć informacje dla każdego wymienionego programu lub składnika oprogramowania w celu sprawdzenia, czy są wymagane aktualizacje zabezpieczeń. Dla każdego programu lub składnika oprogramowania wymienionego na liście podany jest wpływ luki oraz hiperłącze do dostępnej aktualizacji oprogramowania.
@@ -111,6 +110,7 @@ Numer w nawiasach kwadratowych \[x\] w tabeli oznacza, że istnieje dodatkowe wy
 **Programy, których dotyczy problem, i lokalizacje, z których można pobrać poprawki objęte biuletynami od MS06-072 do MS06-074**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -259,6 +259,7 @@ Numer w nawiasach kwadratowych \[x\] w tabeli oznacza, że istnieje dodatkowe wy
 **Programy, których dotyczy problem, i lokalizacje, z których można pobrać poprawki objęte biuletynami od MS06-075 do MS06-078**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -476,7 +477,7 @@ Numer w nawiasach kwadratowych \[x\] w tabeli oznacza, że istnieje dodatkowe wy
 Wdrażanie  
 ---------
   
-<span></span>
+
 **Usługi Software Update Services:**
   
 Usługi Microsoft Software Update Services (SUS) umożliwiają administratorom szybkie i niezawodne wdrażanie najnowszych aktualizacji krytycznych i aktualizacji zabezpieczeń na serwerach działających w systemach Windows 2000 oraz Windows Server 2003, a także na komputerach stacjonarnych z systemami Windows 2000 Professional lub Windows XP Professional.

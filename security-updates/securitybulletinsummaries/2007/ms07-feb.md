@@ -6,7 +6,6 @@ ms:contentKeyID: 61233075
 ms:mtpsurl: 'https://technet.microsoft.com/pl-PL/library/ms07-feb(v=Security.10)'
 ---
 
-Security Bulletin Summary
 
 Microsoft Security Bulletin Summary for luty 2007
 =================================================
@@ -35,7 +34,7 @@ Ten biuletyn obejmuje aktualizacje eliminujące nowo odkryte luki w zabezpieczen
 Krytyczny (6)
 -------------
 
-<span></span>
+
 
 | Identyfikator biuletynu               | Biuletyn zabezpieczeń firmy Microsoft MS07-008                                                                                                                                  |
 |---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -88,7 +87,7 @@ Krytyczny (6)
 Ważny (6)
 ---------
 
-<span></span>
+
 
 | Identyfikator biuletynu               | Biuletyn zabezpieczeń firmy Microsoft MS07-005                                                                                                                                                                    |
 |---------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -141,7 +140,7 @@ Ważny (6)
 Programy, których dotyczy problem, i lokalizacje, z których można pobrać poprawki
 ---------------------------------------------------------------------------------
 
-<span></span>
+
 **W jaki sposób korzystać z tej tabeli?**
 
 Tabela ta pozwala odczytać informacje o aktualizacjach zabezpieczeń, których zainstalowanie może być konieczne. Należy przejrzeć informacje dla każdego wymienionego programu lub składnika oprogramowania w celu sprawdzenia, czy są wymagane aktualizacje zabezpieczeń. Dla każdego programu lub składnika oprogramowania wymienionego na liście podany jest wpływ luki oraz hiperłącze do dostępnej aktualizacji oprogramowania.
@@ -156,6 +155,7 @@ Na przykład biuletyn zabezpieczeń [MS07-016](http://technet.microsoft.com/secu
 
 **Programy, których dotyczy problem i lokalizacje, z których można pobrać poprawki**
 
+<p> </p>
 <table style="width:100%;">
 <colgroup>
 <col width="14%" />
@@ -497,6 +497,7 @@ Na przykład biuletyn zabezpieczeń [MS07-016](http://technet.microsoft.com/secu
   
 **Programy, których dotyczy problem i lokalizacje, z których można pobrać poprawki**
   
+<p> </p>
 <table style="width:100%;">
 <colgroup>
 <col width="14%" />
@@ -962,7 +963,7 @@ Na przykład biuletyn zabezpieczeń [MS07-016](http://technet.microsoft.com/secu
 Wdrażanie  
 ---------
   
-<span></span>
+
 **Usługi Software Update Services:**
   
 Usługi Microsoft Software Update Services (SUS) umożliwiają administratorom szybkie i niezawodne wdrażanie najnowszych aktualizacji krytycznych i aktualizacji zabezpieczeń na serwerach działających w systemach Windows 2000 oraz Windows Server 2003, a także na komputerach stacjonarnych z systemami Windows 2000 Professional lub Windows XP Professional.

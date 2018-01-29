@@ -6,7 +6,6 @@ ms:contentKeyID: 61233081
 ms:mtpsurl: 'https://technet.microsoft.com/pl-PL/library/ms07-nov(v=Security.10)'
 ---
 
-Security Bulletin Summary
 
 Microsoft Security Bulletin Summary for listopad 2007
 =====================================================
@@ -34,7 +33,7 @@ W bieżącym miesiącu opublikowano następujące biuletyny (w kolejności wska�
 Krytyczny (1)
 -------------
 
-<span></span>
+
 | Identyfikator biuletynu           | Biuletyn zabezpieczeń firmy Microsoft MS07-061                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |-----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Tytuł biuletynu**               | [**Luka w zabezpieczeniach mechanizmu obsługi identyfikatorów URI w systemie Windows potencjalnie umożliwia zdalne wykonanie kodu (943460)**](http://technet.microsoft.com/security/bulletin/ms07-061)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
@@ -47,7 +46,7 @@ Krytyczny (1)
 Ważny (1)
 ---------
 
-<span></span>
+
 | Identyfikator biuletynu           | Biuletyn zabezpieczeń firmy Microsoft MS07-062                                                                                                                                                                                                                                                                                         |
 |-----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Tytuł biuletynu**               | [**Luka w zabezpieczeniach DNS może pozwolić na fałszowanie (941672)**](http://technet.microsoft.com/security/bulletin/ms07-062)                                                                                                                                                                                                       |
@@ -60,7 +59,7 @@ Ważny (1)
 Programy, których dotyczy problem, i lokalizacje, z których można pobrać poprawki
 ---------------------------------------------------------------------------------
 
-<span></span>
+
 **How do I use this table?**
 
 Tabela ta pozwala odczytać informacje o aktualizacjach zabezpieczeń, których zainstalowanie może być konieczne. Należy przejrzeć informacje dla każdego wymienionego programu lub składnika oprogramowania w celu sprawdzenia, czy są wymagane aktualizacje zabezpieczeń. Dla każdego programu lub składnika oprogramowania wymienionego na liście podany jest wpływ luki oraz hiperłącze do dostępnej aktualizacji oprogramowania.
@@ -70,6 +69,7 @@ Tabela ta pozwala odczytać informacje o aktualizacjach zabezpieczeń, których 
 **Programy, których dotyczy problem, i lokalizacje, z których można pobrać poprawki**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <tr class="thead">
 <th style="border:1px solid black;" >
@@ -126,7 +126,7 @@ Microsoft Windows XP z dodatkiem Service Pack 2
 [Krytyczny](http://www.microsoft.com/downloads/details.aspx?familyid=8ba1c2f9-1bde-4e97-b327-21259c5e5104&displaylang=pl)
 </td>
 <td style="border:1px solid black;">
-** **
+
 </td>
 </tr>
 <tr>
@@ -147,7 +147,7 @@ Windows XP Professional x64 Edition z dodatkiem Service Pack 2
 [Krytyczny (j.ang.)](http://www.microsoft.com/downloads/details.aspx?familyid=4ef7fdd7-8887-4c64-a70c-c6ae734d7c5f)
 </td>
 <td style="border:1px solid black;">
-** **
+
 </td>
 </tr>
 <tr>
@@ -222,7 +222,7 @@ Windows Server 2003 z dodatkiem SP2 dla systemów z procesorem Itanium
 Narzędzia wykrywania i wdrażania oraz wskazówki
 -----------------------------------------------
 
-<span></span>
+
 **Centrum zabezpieczeń**
 
 Zarządzanie oprogramowaniem oraz aktualizacjami zabezpieczeń, które należy zainstalować na serwerach oraz komputerach stacjonarnych i przenośnych w organizacji. Więcej informacji można znaleźć w [Centrum TechNet Update Management Center (j.ang.)](http://go.microsoft.com/fwlink/?linkid=69903). Witryna [TechNet Security Center](http://www.microsoft.com/poland/technet/security/) zawiera dodatkowe informacje na temat zabezpieczeń w produktach firmy Microsoft. Użytkownicy mogą także uzyskać dostęp do tych informacji w witrynie [Bezpieczeństwo w domu](http://www.microsoft.com/poland/athome/security/default.mspx), klikając łącze „Najnowsze aktualizacje zabezpieczeń”.

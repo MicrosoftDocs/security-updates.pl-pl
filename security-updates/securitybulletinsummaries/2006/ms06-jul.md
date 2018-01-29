@@ -6,7 +6,6 @@ ms:contentKeyID: 61233065
 ms:mtpsurl: 'https://technet.microsoft.com/pl-PL/library/ms06-jul(v=Security.10)'
 ---
 
-Security Bulletin Summary
 
 Microsoft Security Bulletin Summary for lipiec 2006
 ===================================================
@@ -35,7 +34,7 @@ Ten biuletyn obejmuje aktualizacje eliminujące nowo odkryte luki w zabezpieczen
 Krytyczny (5)
 -------------
 
-<span></span>
+
 | Identyfikator biuletynu               | Biuletyn zabezpieczeń firmy Microsoft MS06-035                                                                                                      |
 |---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Tytuł biuletynu**                   | [**Luka w zabezpieczeniach usługi Serwer umożliwia zdalne wykonanie kodu (917159)**](http://technet.microsoft.com/security/bulletin/ms06-035)       |
@@ -79,7 +78,7 @@ Krytyczny (5)
 Ważny (2)
 ---------
 
-<span></span>
+
 | Identyfikator biuletynu               | Biuletyn zabezpieczeń firmy Microsoft MS06-033                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Tytuł biuletynu**                   | [**Luka w zabezpieczeniach ASP.NET może zezwalać na ujawnienie informacji (917283)**](http://technet.microsoft.com/security/bulletin/ms06-033)                                                                                                                                                                                                                                                                                                                                    |
@@ -99,7 +98,7 @@ Ważny (2)
 Programy, których dotyczy problem, i lokalizacje, z których można pobrać poprawki
 ---------------------------------------------------------------------------------
 
-<span></span>
+
 **W jaki sposób korzystać z tej tabeli?**
 
 Tabela ta pozwala odczytać informacje o aktualizacjach zabezpieczeń, których zainstalowanie może być konieczne. Należy przejrzeć informacje dla każdego wymienionego programu lub składnika oprogramowania w celu sprawdzenia, czy są wymagane aktualizacje zabezpieczeń. Dla każdego programu lub składnika oprogramowania wymienionego na liście podany jest wpływ luki oraz hiperłącze do dostępnej aktualizacji oprogramowania.
@@ -109,6 +108,7 @@ Numer w nawiasach kwadratowych \[x\] w tabeli oznacza, że istnieje dodatkowe wy
 #### Programy, których dotyczy problem, i lokalizacje, z których można pobrać poprawki objęte biuletynami od MS06-033 do MS06-036
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -245,6 +245,7 @@ Numer w nawiasach kwadratowych \[x\] w tabeli oznacza, że istnieje dodatkowe wy
 #### Programy, których dotyczy problem, i lokalizacje, z których można pobrać poprawki objęte biuletynami od MS06-037 do MS06-039
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -409,7 +410,7 @@ Numer w nawiasach kwadratowych \[x\] w tabeli oznacza, że istnieje dodatkowe wy
 Wdrażanie  
 ---------
   
-<span></span>
+
 **Usługi Software Update Services:**
   
 Usługi Microsoft Software Update Services (SUS) umożliwiają administratorom szybkie i niezawodne wdrażanie najnowszych aktualizacji krytycznych i aktualizacji zabezpieczeń na serwerach działających w systemach Windows 2000 oraz Windows Server 2003, a także na komputerach stacjonarnych z systemami Windows 2000 Professional lub Windows XP Professional.

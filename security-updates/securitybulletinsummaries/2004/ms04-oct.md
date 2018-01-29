@@ -6,7 +6,6 @@ ms:contentKeyID: 61233048
 ms:mtpsurl: 'https://technet.microsoft.com/pl-PL/library/ms04-oct(v=Security.10)'
 ---
 
-Security Bulletin Summary
 
 Microsoft Security Bulletin Summary for październik 2004
 ========================================================
@@ -15,8 +14,8 @@ Opublikowano: 12 października 2004 | Zaktualizowano: 8 lutego 2005
 
 **Wersja:** 2.0
 
-**Opublikowano:** 12 październik 2004
-**Zaktualizowano:** 8 lutego 2005
+**Opublikowano:** 12 październik 2004  
+**Zaktualizowano:** 8 lutego 2005  
 **Numer wersji:** 2.0
 
 Wersja użytkownika końcowego tego biuletynu jest dostępna w następującej [witrynie sieci Web](http://www.microsoft.com/security/default.mspx).
@@ -39,7 +38,7 @@ Ten biuletyn obejmuje aktualizacje eliminujące nowo odkryte usterki zabezpiecze
 Krytyczny (7)
 -------------
 
-<span></span>
+
 
 | Bulletin Identifier               | Biuletyn zabezpieczeń MS04-032                                                                                                                                                                                                                                                  |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -100,7 +99,7 @@ Krytyczny (7)
 Ważny <sup>[3]</sup>
 -----------
 
-<span></span>
+
 
 | Identyfikator biuletynu           | Biuletyn zabezpieczeń MS04-029                                                                                                                                                                                                                     |
 |-----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -129,7 +128,7 @@ Ważny <sup>[3]</sup>
 Podlegające oprogramowanie i lokalizacje, z których można pobrać tę aktualizację
 --------------------------------------------------------------------------------
 
-<span></span>
+
 **W jaki sposób należy korzystać z tej tabeli?**
 
 Tabela ta zawiera informacje na temat aktualizacji zabezpieczeń, które należy zainstalować. Należy wziąć pod uwagę każdy program lub składnik w niej wymieniony w celu stwierdzenia, czy zawiera wymagane aktualizacje zabezpieczeń. Jeśli program lub składnik występuje w tabeli, wówczas podany jest również wpływ usterki na niego i dostępne jest hiperłącze do dostępnej aktualizacji oprogramowania.
@@ -195,7 +194,7 @@ Odpowiednie krytyczne aktualizacje zabezpieczeń dla programu Internet Explorer 
 Wdrażanie
 ---------
 
-<span></span>
+
 **Usługi Software Update Services:**
 
 Usługi Microsoft Software Update Services (SUS) umożliwiają administratorom szybkie i niezawodne wdrażanie najnowszych aktualizacji krytycznych i aktualizacji zabezpieczeń na serwerach działających w systemach Windows 2000 oraz Windows Server 2003, a także na komputerach stacjonarnych z systemami Windows 2000 Professional lub Windows XP Professional.
