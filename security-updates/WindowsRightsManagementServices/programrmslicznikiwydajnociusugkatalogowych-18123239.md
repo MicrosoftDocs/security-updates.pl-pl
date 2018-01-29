@@ -11,9 +11,8 @@ Program RMS: Liczniki wydajności usług katalogowych
 
 W poniższej tabeli wymieniono liczniki wydajności dostępne dla obiektu wydajności RMS: Usługi katalogowe.
 
-###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

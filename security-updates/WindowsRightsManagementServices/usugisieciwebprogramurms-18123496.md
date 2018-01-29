@@ -20,9 +20,8 @@ Usługi sieci Web zapewniają:
 
 Poniższa tabela zawiera opis usług sieci Web programu RMS.
 
-###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

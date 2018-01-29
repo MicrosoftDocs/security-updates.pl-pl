@@ -11,9 +11,8 @@ Podsumowanie informacji o certyfikatach i licencjach w programie RMS
 
 W poniższej tabeli przedstawiono certyfikaty i licencje używane przez program RMS. Zostały one szczegółowo omówione w pozostałych tematach tej części.
 
-###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />

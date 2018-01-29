@@ -84,7 +84,7 @@ Aby uzyskać więcej informacji dotyczących określania elementów REVOKE, zoba
 
 W tym przykładzie przedstawiono odwołanie podmiotu zabezpieczeń na podstawie jego klucza publicznego. Zawartość tagu &lt;PUBLICKEY&gt; pochodzi tutaj z węzła &lt;BODY&gt;&lt;ISSUEDPRINCIPALS&gt;&lt;PRINCIPAL&gt;&lt;PUBLICKEY&gt; certyfikatu, który spowodował wystawienie klucza.
 
-	```
+```
       <REVOKE category="principal" type="principal-key">
         <PUBLICKEY>
           <ALGORITHM>RSA-1024</ALGORITHM>
@@ -98,20 +98,20 @@ W tym przykładzie przedstawiono odwołanie podmiotu zabezpieczeń na podstawie 
           </PARAMETER>
         </PUBLICKEY>
       </REVOKE>
-	```
+```
 
 <span id="BKMK_2"></span>
 #### Odwołanie certyfikatów i licencji na podstawie identyfikatora GUID
 
 W tym przykładzie przedstawiono odwołanie certyfikatu lub licencji na podstawie ich unikatowego identyfikatora globalnego (GUID). Użycie tej listy odwołania powoduje, że nie można korzystać z certyfikatu lub licencji o pasującym identyfikatorze GUID. W tym przykładzie zawartość tagu &lt;ID&gt; pochodzi z węzła &lt;BODYDESCRIPTOROBJECTID&gt;&lt;DESCRIPTOR&gt;&lt;OBJECT&gt;&lt;ID&gt; odwoływanego certyfikatu lub licencji. (Za pomocą tego mechanizmu można także odwołać aplikacje przez określenie identyfikatora manifestu aplikacji.)
 
-	```
+```
 	<REVOKE category="license" type="license-id">
         <OBJECT>
           <ID type="MS-GUID">{06BCB94D-43E5-419f-B180-AA9FD321ED7A}</ID>
         </OBJECT>
       </REVOKE>
-	```
+```
 #### Odwołanie poprzez manifest aplikacji
 
 Aby odwołać za pomocą manifestu aplikacji, konieczne jest wyodrębnienie identyfikatora wystawcy, klucza publicznego wystawcy, identyfikatora licencji lub wartości mieszania licencji z manifestu aplikacji. Jednak manifesty aplikacji są szyfrowane algorytmem Base-64, dlatego też informacje nie są dostępne w postaci zwykłego tekstu. Korzystając z pakietu SDK Windows Rights Management Services, za pomocą metod DRMConstructCertificateChain, DRMDeconstructCertificateChain i DRMDecode można opracować program umożliwiający odszyfrowanie manifestu aplikacji i uzyskanie żądanych informacji.
@@ -123,7 +123,7 @@ Aby uniemożliwić pewnym aplikacjom korzystanie z zawartości chronionej na pod
 
 W tym przykładzie przedstawiono odwołanie certyfikatu lub licencji na podstawie jej wartości mieszania. Zawartość tagu &lt;VALUE&gt; pochodzi tutaj z wartości mieszania SHA-1 znaków UNICODE z &lt;BODY&gt; do &lt;/BODY&gt; włącznie w certyfikacie lub licencji. Tę wartość mieszania można znaleźć w części &lt;SIGNATURE&gt; certyfikatu lub licencji. (Za pomocą tego mechanizmu można także odwołać aplikacje przez określenie wartości mieszania manifestu aplikacji.)
 
-	```
+```
 	<REVOKE category="license" type="license-hash">
         <DIGEST>
           <ALGORITHM>SHA1</ALGORITHM>
@@ -132,7 +132,7 @@ W tym przykładzie przedstawiono odwołanie certyfikatu lub licencji na podstawi
           </VALUE>
         </DIGEST>
       </REVOKE>
-	```
+```
 #### Odwołanie poprzez manifest aplikacji
 
 Aby odwołać za pomocą manifestu aplikacji, konieczne jest wyodrębnienie identyfikatora wystawcy, klucza publicznego wystawcy, identyfikatora licencji lub wartości mieszania licencji z manifestu aplikacji. Jednak manifesty aplikacji są szyfrowane algorytmem Base-64, dlatego też informacje nie są dostępne w postaci zwykłego tekstu. Korzystając z pakietu SDK Rights Management Services, za pomocą metod DRMConstructCertificateChain, DRMDeconstructCertificateChain i DRMDecode można opracować program umożliwiający odszyfrowanie manifestu aplikacji i uzyskanie żądanych informacji.
@@ -144,7 +144,7 @@ Aby uniemożliwić pewnym aplikacjom korzystanie z zawartości chronionej na pod
 
 W tym przykładzie przedstawiono odwołanie wszystkich certyfikatów i licencji wystawionych przez właściciela określonego klucza publicznego. Zawartość tagu &lt;PUBLICKEY&gt; pochodzi z węzła &lt;BODY&gt;&lt;ISSUER&gt;&lt;PUBLICKEY&gt; odwoływanych certyfikatów lub licencji.
 
-	```
+```
 	<REVOKE category="license" type="issuer-key">
         <PUBLICKEY>
           <ALGORITHM>RSA-1024</ALGORITHM>
@@ -158,20 +158,20 @@ AAn0kEAWU+1AFWtuUmBYL8Jza8tLhUv/BCmgcq/Pc08Au3DvXkH65s+0MEyZjM+71j3F1xaXUSst+wH2
           </PARAMETER>
         </PUBLICKEY>
       </REVOKE>
-	```
+```
 
 <span id="BKMK_5"></span>
 #### Odwołanie certyfikatów i licencji na podstawie identyfikatora wystawcy
 
 W tym przykładzie przedstawiono odwołanie zestawu certyfikatów lub licencji na podstawie identyfikatora wystawcy. Zawartość tagu &lt;ID&gt; pochodzi tutaj z węzła &lt;BODY&gt;&lt;ISSUER&gt;&lt;OBJECT&gt;&lt;ID&gt; odwoływanych certyfikatów lub licencji.
 
-	```
+```
 	      <REVOKE category="license" type="issuer-id">
         <OBJECT type="MS-DRM-Server">
           <ID type="MS-GUID">{2BE9E200-3040-41B9-8832-D4D0445EBBD6}</ID> 
         </OBJECT>
       </REVOKE>
-	```
+```
 	
 > [!note]  
 > Przy określaniu typu identyfikatora należy zwrócić uwagę, aby pomiędzy unikatowym identyfikatorem globalnym (GUID) a tagiem zamykającym nie występował znak powrotu karetki. W razie przypadkowego wstawienia znaku powrotu karetki klient RMS nie będzie mógł przetworzyć listy odwołania. 
@@ -271,9 +271,8 @@ Aby podpisać listę odwołania za pomocą narzędzia RLsigner.exe, wpisz nastę
 
 W uzupełnianiu parametrów wejściowych polecenia pomocne będą następujące informacje:
 
-###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -317,9 +316,8 @@ W poniższych przykładach opisano, jak w wierszu polecenia można użyć narzę
   
 W kodzie zwracanym przez narzędzie RLsigner.exe znajdują się podstawowe informacje na temat błędów i powodzenia. Możliwe kody zwracane przez narzędzie opisano w poniższej tabeli.
   
-###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -367,5 +365,25 @@ Podpisywanie list odwołania można zaplanować zgodnie z częstotliwością od�
   
 Proces podpisywania list odwołania można zautomatyzować za pomocą skryptów. Poniższy przykładowy skrypt VBScript powoduje wywołanie narzędzia RLsigner.exe i wpisanie wyników do dziennika zdarzeń systemowych.
   
-<codesnippet asp="http://msdn2.microsoft.com/asp" language displaylanguage="Visual Basic">const EVT\_SUCCESS = 0 const EVT\_ERROR = 1 const EVT\_WARNING = 2 const EVT\_INFORMATION = 4 const EVT\_AUDIT\_SUCCESS = 8 const EVT\_AUDIT\_FAILURE = 16 Dim WshShell, oExec Set WshShell = CreateObject( "WScript.Shell" ) Set oExec = WshShell.Exec("rlsigner.exe input\_file key\_file output\_file") Do While oExec.Status = 0 WScript.Sleep 100 Loop if WshShell.ExitCode &lt;&gt; 0 Then WshShell.LogEvent EVT\_ERROR, "RLsigner failed with error """ + WshShell.ExitCode + """" else WshShell.LogEvent EVT\_SUCCESS, "RLsigner completed successfully" end if  
+```VB
+const EVT_SUCCESS       = 0
+const EVT_ERROR         = 1
+const EVT_WARNING       = 2
+const EVT_INFORMATION   = 4
+const EVT_AUDIT_SUCCESS = 8
+const EVT_AUDIT_FAILURE = 16
+
+Dim WshShell, oExec
+
+Set WshShell = CreateObject( "WScript.Shell" )
+Set oExec = WshShell.Exec("rlsigner.exe input_file key_file output_file")
+Do While oExec.Status = 0
+     WScript.Sleep 100
+Loop
+
+if WshShell.ExitCode <> 0 Then
+    WshShell.LogEvent EVT_ERROR, "RLsigner failed with error """ + WshShell.ExitCode + """"
+else
+    WshShell.LogEvent EVT_SUCCESS, "RLsigner completed successfully"
+end if
 ```

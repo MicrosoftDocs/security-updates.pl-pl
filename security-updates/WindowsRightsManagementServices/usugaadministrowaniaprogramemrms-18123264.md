@@ -15,9 +15,8 @@ Plik aplikacji usługi administracji, Default.aspx, znajduje się w katalogu wir
 
 W poniższej tabeli przedstawiono domyślną listę kontroli dostępu w ramach tej usługi:
 
-###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

@@ -13,9 +13,8 @@ W przykładowej instalacji testowej jest tylko jeden serwer głównej certyfikac
 
 Po zainstalowaniu kontrolera domeny i skonfigurowaniu serwerów bazy danych (tak jak to opisano w poprzedniej części) oraz po wykonaniu czynności z poniższej tabeli, użytkownik będzie gotowy do zainstalowania programu RMS.
 
-###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />

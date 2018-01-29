@@ -15,9 +15,8 @@ Plik aplikacji usługi lokalizatora usług, ServiceLocator.asmx, znajduje się w
 
 W poniższej tabeli przedstawiono domyślną listę kontroli dostępu w ramach tej usługi:
 
-###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

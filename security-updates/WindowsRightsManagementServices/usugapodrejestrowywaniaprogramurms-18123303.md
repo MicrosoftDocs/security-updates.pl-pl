@@ -17,9 +17,8 @@ Domyślnie dostęp do tej usługi jest ograniczony do lokalnego konta SYSTEM. W 
 
 W poniższej tabeli przedstawiono domyślną listę kontroli dostępu w ramach tej usługi:
 
-###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
