@@ -6,7 +6,6 @@ ms:contentKeyID: 61233090
 ms:mtpsurl: 'https://technet.microsoft.com/pl-PL/library/ms08-jun(v=Security.10)'
 ---
 
-Security Bulletin Summary
 
 Microsoft Security Bulletin Summary for czerwiec 2008
 =====================================================
@@ -443,41 +442,41 @@ Tabela ta pozwala odczytać informacje o aktualizacjach zabezpieczeń, których 
 <td style="border:1px solid black;">Windows Server 2008 dla systemów 32-bitowych</td>
 <td style="border:1px solid black;">Nie dotyczy</td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=a8922e7e-9264-4e09-b8ad-c5420fed8690">Windows Internet Explorer 7</a><br />
-(Umiarkowany)<strong>**</strong></td>
+(Umiarkowany)**</td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=c0c495f8-2a35-4638-a635-1e55dd15e062">DirectX 10.0</a><br />
-(Krytyczny)<strong>**</strong></td>
+(Krytyczny)**</td>
 <td style="border:1px solid black;">Nie dotyczy</td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=2981156e-2e2f-469e-91be-da127d50f3fc">Active Directory</a><br />
 (KB949014)<br />
-(Umiarkowany)<strong>*</strong><br />
+(Umiarkowany)*<br />
 <br />
 <a href="http://www.microsoft.com/downloads/details.aspx?familyid=2981156e-2e2f-469e-91be-da127d50f3fc">AD LDS</a><br />
 (KB949014)<br />
-(Umiarkowany)<strong>*</strong></td>
+(Umiarkowany)*</td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=0466a6e7-fdca-4647-af62-449e5f20d1e4">Windows Server 2008 dla systemów 32-bitowych</a><br />
-(Umiarkowany)<strong>**</strong></td>
+(Umiarkowany)**</td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=8a507fba-8c93-4952-91e4-98e9e7affbd2">Windows Server 2008 dla systemów 32-bitowych</a><br />
-(Niski)<strong>***</strong></td>
+(Niski)***</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Windows Server 2008 dla systemów opartych na procesorach X64</td>
 <td style="border:1px solid black;">Nie dotyczy</td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=05b0e838-24d7-4387-b069-2604bbcc43b9">Windows Internet Explorer 7</a><br />
-(Umiarkowany)<strong>**</strong></td>
+(Umiarkowany)**</td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=0b70fc2e-4e80-4ae8-8682-41ea04c24e4e">DirectX 10.0</a><br />
-(Krytyczny)<strong>**</strong></td>
+(Krytyczny)**</td>
 <td style="border:1px solid black;">Nie dotyczy</td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=b5cfe6f4-c5ba-4be9-a6b8-9381c40c85aa">Active Directory</a><br />
 (KB949014)<br />
-(Umiarkowany)<strong>*</strong><br />
+(Umiarkowany)*<br />
 <br />
 <a href="http://www.microsoft.com/downloads/details.aspx?familyid=b5cfe6f4-c5ba-4be9-a6b8-9381c40c85aa">AD LDS</a><br />
 (KB949014)<br />
-(Umiarkowany)<strong>*</strong></td>
+(Umiarkowany)*</td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=304898e6-21a7-476f-b9ed-7ac0d88a91e2">Windows Server 2008 dla systemów opartych na procesorach X64</a><br />
-(Umiarkowany)<strong>**</strong></td>
+(Umiarkowany)**</td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=1a11499d-a008-407f-9084-a5189fa27015">Windows Server 2008 dla systemów opartych na procesorach X64</a><br />
-(Niski)<strong>***</strong></td>
+(Niski)***</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Windows Server 2008 dla systemów z procesorem Itanium</td>
