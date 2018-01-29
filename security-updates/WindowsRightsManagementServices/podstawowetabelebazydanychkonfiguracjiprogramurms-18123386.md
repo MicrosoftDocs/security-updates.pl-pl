@@ -16,9 +16,8 @@ DRMS\_ApplicationExclusionList
 
 Poniższa tabela zawiera informacje o wykluczonych aplikacjach.
 
-###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -121,9 +120,8 @@ DRMS\_AsynchronousQueue
   
 Poniższa tabela zawiera informacje dotyczące kolejki komunikatów.
   
-###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -172,9 +170,8 @@ DRMS\_CaType
   
 Poniższa tabela zawiera informacje dotyczące typu certyfikatu wystawionego klientowi.
   
-###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -223,9 +220,8 @@ DRMS\_ClusterConfiguration
   
 Poniższa tabela zawiera informacje na temat bieżącego certyfikatu licencjodawcy serwera znajdującego się w tabeli DRMS\_LicensorCertificate.
   
-###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -268,9 +264,8 @@ DRMS\_ClusterPolicies
   
 Poniższa tabela zawiera listę lokalizacji, w których przechowywane są zasady klastrów.
   
-###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -325,9 +320,8 @@ DRMS\_ClusterServer
   
 Poniższa tabela zawiera informacje na temat serwerów znajdujących się w klastrze.
   
-###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -376,9 +370,8 @@ DRMS\_GICExclusionList
   
 Poniższa tabela zawiera informacje o wykluczonych certyfikatach kont praw.
   
-###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -445,9 +438,8 @@ DRMS\_LicensorCertificate
   
 Poniższa tabela zawiera informacje o aktywnym certyfikacie licencjodawcy serwera.
   
-###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -508,9 +500,8 @@ DRMS\_LicensorPrivateKey
   
 Poniższa tabela zawiera informacje o kluczu prywatnym aktywnego certyfikatu licencjodawcy serwera.
   
-###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -595,9 +586,8 @@ DRMS\_PassportDenyList
   
 Poniższa tabela zawiera informacje o kontach usługi Microsoft® .NET Passport, którym należy odmówić licencji.
   
-###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -646,9 +636,8 @@ DRMS\_Plugin
   
 Poniższa tabela zawiera informacje o dodatkach.
   
-###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -745,9 +734,8 @@ DRMS\_AllowedPluginVersions
   
 Poniższa tabela zawiera informacje o wersjach dodatków, które można wykorzystać w systemie RMS.
   
-###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -790,9 +778,8 @@ DRMS\_PluginProperties
   
 Poniższa tabela zawiera informacje o właściwościach dodatku.
   
-###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -853,9 +840,8 @@ DRMS\_PluginType
   
 Poniższa tabela zawiera informacje o typie dodatku.
   
-###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -904,9 +890,8 @@ DRMS\_RightsTemplate
   
 Poniższa tabela zawiera informacje o szablonach zasad praw.
   
-###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -955,9 +940,8 @@ DRMS\_TrustedCertificateAuthorities
   
 Poniższa tabela zawiera informacje o zaufanych urzędach certyfikacji.
   
-###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1018,9 +1002,8 @@ DRMS\_TrustedEmailDomains
   
 Poniższa tabela zawiera informacje o zaufanych domenach poczty e-mail w środowisku RMS
   
-###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1063,9 +1046,8 @@ DRMS\_TrustedIdentityDomain
   
 Poniższa tabela zawiera informacje o zaufanych domenach użytkownika i zaufanych domenach publikacji.
   
-###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1144,9 +1126,8 @@ DRMS\_XrML\_Certificate
   
 Poniższa tabela zawiera informacje o certyfikatach licencjodawcy serwera XrML, do których odwołuje się tabela DRMS\_LicensorCertificate. Zawiera ona również odwzorowanie łańcucha certyfikatów.
   
-###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />

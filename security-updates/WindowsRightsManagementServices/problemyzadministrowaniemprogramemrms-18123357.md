@@ -101,13 +101,19 @@ Bazę danych można przywrócić z kopii zapasowej, wykonując poniższą proced
 4.  Jeśli przywracana baza danych jest przeznaczona dla pojedynczego serwera głównej certyfikacji, zmodyfikuj następujący klucz rejestru przed rozpoczęciem ponownego zastrzegania usługi:
 
     -   W komputerach z 32-bitową wersją systemu Windows Server 2003
-        `HKEY_LOCAL_MACHINE\Software\Microsoft\DRMS\1.0\`
+        ```
+        HKEY_LOCAL_MACHINE\Software\Microsoft\DRMS\1.0\
+        ```
     -   W komputerach z 64-bitową wersją systemu Windows Server 2003
-        `HKEY_LOCAL_MACHINE\Software\WOW6432Node\Microsoft\DRMS\1.0\`
+        ```
+        HKEY_LOCAL_MACHINE\Software\WOW6432Node\Microsoft\DRMS\1.0\
+        ```
 
     Dodaj następujący wpis jako wartość ciągu, pozostawiając samą wartość pustą:
 
-    `GicURL`
+    ```
+    GicURL
+    ```
 
     Ta wartość zastępuje wykrywanie serwera głównej certyfikacji w usłudze Active Directory i umożliwia uzyskanie dostępu do stron zastrzegania serwera głównej certyfikacji.
 
@@ -190,7 +196,9 @@ Aby wyeliminować ten problem, można zmienić klucz sterujący tym zachowaniem 
 
 Następującemu kluczowi rejestru nadaj ustawienie 0 zamiast 1, a następnie uruchom ponownie komputer, aby zmiana odniosła skutek.
 
-`HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\Application`
+```
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\Application
+```
 
 Nazwa: `RestrictGuestAccess`
 

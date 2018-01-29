@@ -16,9 +16,8 @@ DRMS\_Log\_Master
 
 Poniższa tabela zawiera wpis odpowiadający każdemu rekordowi rejestrowania.
 
-###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -145,9 +144,8 @@ DRMS\_Log\_Detail
   
 Poniższa tabela zawiera dodatkowe dane dotyczące rekordu rejestrowania. Zwykle w tej tabeli rejestrowane są dane XrML.
   
-###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -196,9 +194,8 @@ DRMS\_Log\_Filter
   
 Poniższa tabela zawiera listę pól rejestrowanych w usłudze odbiornika rejestrowania.
   
-###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />

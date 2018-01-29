@@ -271,9 +271,8 @@ Aby podpisać listę odwołania za pomocą narzędzia RLsigner.exe, wpisz nastę
 
 W uzupełnianiu parametrów wejściowych polecenia pomocne będą następujące informacje:
 
-###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -317,9 +316,8 @@ W poniższych przykładach opisano, jak w wierszu polecenia można użyć narzę
   
 W kodzie zwracanym przez narzędzie RLsigner.exe znajdują się podstawowe informacje na temat błędów i powodzenia. Możliwe kody zwracane przez narzędzie opisano w poniższej tabeli.
   
-###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -367,5 +365,25 @@ Podpisywanie list odwołania można zaplanować zgodnie z częstotliwością od�
   
 Proces podpisywania list odwołania można zautomatyzować za pomocą skryptów. Poniższy przykładowy skrypt VBScript powoduje wywołanie narzędzia RLsigner.exe i wpisanie wyników do dziennika zdarzeń systemowych.
   
-<codesnippet asp="http://msdn2.microsoft.com/asp" language displaylanguage="Visual Basic">const EVT\_SUCCESS = 0 const EVT\_ERROR = 1 const EVT\_WARNING = 2 const EVT\_INFORMATION = 4 const EVT\_AUDIT\_SUCCESS = 8 const EVT\_AUDIT\_FAILURE = 16 Dim WshShell, oExec Set WshShell = CreateObject( "WScript.Shell" ) Set oExec = WshShell.Exec("rlsigner.exe input\_file key\_file output\_file") Do While oExec.Status = 0 WScript.Sleep 100 Loop if WshShell.ExitCode &lt;&gt; 0 Then WshShell.LogEvent EVT\_ERROR, "RLsigner failed with error """ + WshShell.ExitCode + """" else WshShell.LogEvent EVT\_SUCCESS, "RLsigner completed successfully" end if  
+```VB
+const EVT_SUCCESS       = 0
+const EVT_ERROR         = 1
+const EVT_WARNING       = 2
+const EVT_INFORMATION   = 4
+const EVT_AUDIT_SUCCESS = 8
+const EVT_AUDIT_FAILURE = 16
+
+Dim WshShell, oExec
+
+Set WshShell = CreateObject( "WScript.Shell" )
+Set oExec = WshShell.Exec("rlsigner.exe input_file key_file output_file")
+Do While oExec.Status = 0
+     WScript.Sleep 100
+Loop
+
+if WshShell.ExitCode <> 0 Then
+    WshShell.LogEvent EVT_ERROR, "RLsigner failed with error """ + WshShell.ExitCode + """"
+else
+    WshShell.LogEvent EVT_SUCCESS, "RLsigner completed successfully"
+end if
 ```

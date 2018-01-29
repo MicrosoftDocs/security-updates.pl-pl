@@ -11,9 +11,8 @@ Prawa programu RMS a język XrML
 
 Poniższa tabela pokazuje relacje między prawami dostępu, które można wybrać do szablonu zasad praw, a elementami praw istniejącymi w języku XrML.
 
-###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
