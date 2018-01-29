@@ -23,6 +23,5 @@ http://*nazwa\_serwera*/\_wmcs/Certification/Activation.asmx
 
 Klienci działający poza siecią firmową korzystają z rejestru usług UDDI w celu odnajdowania usługi aktywacji. Aby uzyskać więcej informacji, zobacz „[Publikowanie usług obsługiwanych przez firmę Microsoft](https://technet.microsoft.com/7ee8cb4d-1b46-48be-8a4c-5ff6a458231a)” we wcześniejszej części tematu.
 
-| ![](images/Cc747697.note(WS.10).gif)Uwaga                                               |
-|----------------------------------------------------------------------------------------------------------------------|
-| Jeśli włączono protokół SSL dla serwera programu RMS, te adresy URL będą korzystały z protokołu połączenia https://. |
+> [!note]  
+> Jeśli włączono protokół SSL dla serwera programu RMS, te adresy URL będą korzystały z protokołu połączenia https://. 

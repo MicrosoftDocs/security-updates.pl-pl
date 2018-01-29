@@ -31,12 +31,10 @@ Wykluczanie certyfikatów kont praw
     -   Aby wykluczyć certyfikat konta według nazwy użytkownika, kliknij opcję **Nazwa użytkownika** certyfikatu konta praw, który ma zostać wykluczony, wpisz nazwę użytkownika, który ma być wykluczony (w formie *nazwa\_użytkownika*@*nazwa\_domeny*.com), a następnie kliknij przycisk **Dodaj**. Tej opcji należy użyć, aby wykluczyć certyfikaty kont użytkowników wewnętrznych, którzy mają konta użytkowników usługi Active Directory.
     -   Aby wykluczyć certyfikat konta według jego klucza publicznego, kliknij opcję **Ciąg klucza publicznego** dla certyfikatu konta praw, który ma zostać wykluczony, wpisz odpowiedni ciąg klucza publicznego certyfikatu konta praw, a następnie kliknij przycisk **Dodaj**. Tej opcji należy użyć, aby wykluczyć certyfikaty kont użytkowników zewnętrznych, którzy nie mają kont użytkowników usługi Active Directory.
 
-    | ![](images/Cc747785.note(WS.10).gif)Uwaga                                                                                                                                                                                                                                                                                    |
-    |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Aby usunąć certyfikat konta z listy wykluczania, należy kliknąć na liście wykluczony certyfikat konta praw, a następnie kliknąć opcję **Usuń wybrane klucze publiczne z listy wykluczania**. Użytkownik mający taki charakterystyczny certyfikat konta będzie mógł od tej chwili uzyskiwać licencje zawartości chronionej technologią RMS z tego serwera. |
+    > [!note]  
+    > Aby usunąć certyfikat konta z listy wykluczania, należy kliknąć na liście wykluczony certyfikat konta praw, a następnie kliknąć opcję **Usuń wybrane klucze publiczne z listy wykluczania**. Użytkownik mający taki charakterystyczny certyfikat konta będzie mógł od tej chwili uzyskiwać licencje zawartości chronionej technologią RMS z tego serwera. 
 
-    | ![](images/Cc747785.note(WS.10).gif)Uwaga               |
-    |--------------------------------------------------------------------------------------|
-    | Aby wyłączyć wykluczanie certyfikatów kont praw, należy kliknąć przycisk **Wyłącz**. |
+    > [!note]  
+    > Aby wyłączyć wykluczanie certyfikatów kont praw, należy kliknąć przycisk **Wyłącz**. 
 
 Aby uzyskać więcej informacji dotyczących wykonywania tej procedury, zobacz „[Wykluczanie certyfikatów kont praw](https://technet.microsoft.com/cba5e901-942c-4d06-9865-e6c4648c95e6)” we wcześniejszej części tego tematu.

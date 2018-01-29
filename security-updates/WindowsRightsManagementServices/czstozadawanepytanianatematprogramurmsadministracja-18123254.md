@@ -85,18 +85,26 @@ Ponieważ program Usługi zarządzania prawami dostępu powstał przy użyciu pl
 
 **Aby włączyć śledzenie**
 1.  Otwórz plik Machine.config lub Web.config, a następnie dodaj poniższe wiersze w sekcji &lt;system.diagnostics&gt; tego pliku:
+	
+	```
+	<system.diagnostics>
+	<switches>
+	<add name="Microsoft Windows Rights Management Services-Global" value="4" />
+	<add name="Microsoft Windows Rights Management Services-TimeStamps" value="1" /> 
+	<add name="Microsoft Windows Rights Management Services-Indents" value="0" /> 
+	</switches>
+	<trace autoflush="false" indentsize="4"/>
+	</system.diagnostics>
+    ```
 
-    
-        ```
 2.  Uruchom ponownie usługi IIS, wykonując polecenie IISRESET w wierszu polecenia.
 
 3.  Po zebraniu potrzebnych danych usuń z pliku .config wiersze, które dodano w kroku 1.
 
 4.  Uruchom ponownie usługi IIS, wykonując polecenie IISRESET w wierszu polecenia.
 
-| ![](images/Cc747547.Important(WS.10).gif)Ważne                                                                                                                                                                                                                                          |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| W przypadku korzystania ze śledzenia na serwerze programu RMS mogą wystąpić problemy z wydajnością, takie jak dłuższe oczekiwanie na uzyskanie licencji lub na wystawienie certyfikatu konta praw. Śledzenia należy używać tylko w szczególnych przypadkach do diagnozowania i rozwiązywania istniejących problemów. |
+> [!Important]  
+> W przypadku korzystania ze śledzenia na serwerze programu RMS mogą wystąpić problemy z wydajnością, takie jak dłuższe oczekiwanie na uzyskanie licencji lub na wystawienie certyfikatu konta praw. Śledzenia należy używać tylko w szczególnych przypadkach do diagnozowania i rozwiązywania istniejących problemów. 
 
 <span id="BKMK_9"></span>
 #### Co to jest odchylenie zegara i jak sobie z nim poradzić?

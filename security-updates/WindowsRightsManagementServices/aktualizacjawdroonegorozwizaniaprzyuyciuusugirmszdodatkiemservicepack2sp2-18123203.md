@@ -13,9 +13,8 @@ Poniższa sekcja zawiera informacje pomocne w instalacji usługi Microsoft® Win
 
 Instalacja usług RMS z dodatkiem SP2 nie wymaga usuwania istniejącej instalacji RMS z dodatkiem SP1. Instalator usług RMS z dodatkiem SP2 wykrywa instalację usług RMS z dodatkiem SP1 i w miarę potrzeb dodaje odpowiednie funkcje i ustawienia.
 
-| ![](images/Cc720225.note(WS.10).gif)Uwaga                                                                                                                                                                                                                                                                                                                         |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Nie jest obsługiwana ścieżka uaktualnienia od serwera RMS bez dodatku Service Pack do wersji RMS z dodatkiem SP2. Użytkownicy korzystający z serwera RMS bez dodatku Service Pack muszą uaktualnić zainstalowane oprogramowanie do wersji RMS z dodatkiem SP1, a dopiero następnie do wersji z dodatkiem SP2. W przypadku klientów RMS uaktualnienie możliwe jest od dowolnej starszej wersji. |
+> [!note]  
+> Nie jest obsługiwana ścieżka uaktualnienia od serwera RMS bez dodatku Service Pack do wersji RMS z dodatkiem SP2. Użytkownicy korzystający z serwera RMS bez dodatku Service Pack muszą uaktualnić zainstalowane oprogramowanie do wersji RMS z dodatkiem SP1, a dopiero następnie do wersji z dodatkiem SP2. W przypadku klientów RMS uaktualnienie możliwe jest od dowolnej starszej wersji. 
 
 **W tym temacie**
 

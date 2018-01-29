@@ -63,6 +63,5 @@ Składnie poszczególnych poleceń opisano w poniższej tabeli.
 </tbody>
 </table>
   
-| ![](images/Cc747733.note(WS.10).gif)Uwaga                                                                                                                                             |  
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Niezależnie od wybranej metody instalacji należy prawidłowo zainstalować oba pliki .msi. Jeśli wystąpi błąd uniemożliwiający instalację pliku MSDrmClient.msi, nie należy instalować pliku RMClientBackCompat.msi. |
+> [!note]  
+> Niezależnie od wybranej metody instalacji należy prawidłowo zainstalować oba pliki .msi. Jeśli wystąpi błąd uniemożliwiający instalację pliku MSDrmClient.msi, nie należy instalować pliku RMClientBackCompat.msi. 

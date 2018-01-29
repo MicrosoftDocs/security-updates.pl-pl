@@ -33,9 +33,8 @@ lub
 
 **HKEY\_CURRENT\_USER\\Software\\Microsoft\\Office\\12.0\\Common\\DRM\\AdminTemplatePath** dla Microsoft Office 2007.
 
-| ![](images/Cc720175.note(WS.10).gif)Uwaga                                                                                                                                                                     |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Jeśli ten wpis wskazuje lokalny folder na komputerze klienta, pliki szablonów muszą zostać skopiowane na klienta. Jeśli wpis wskazuje na folder udostępniony w sieci, szablon nie będzie dostępny, jeśli użytkownik jest w trybie offline. |
+> [!note]  
+> Jeśli ten wpis wskazuje lokalny folder na komputerze klienta, pliki szablonów muszą zostać skopiowane na klienta. Jeśli wpis wskazuje na folder udostępniony w sieci, szablon nie będzie dostępny, jeśli użytkownik jest w trybie offline. 
 
 <span id="BKMK_59"></span>
 #### Po utworzeniu szablonów zostają z nimi związane aliasy użytkowników i listy rozpowszechniania. W jaki sposób organizacja o wielu oddziałach może przygotować szablony z jednakowym zestawem podstawowych praw, jednak przydzielać te prawa różnym grupom zależnie od zawartości?

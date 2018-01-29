@@ -22,6 +22,5 @@ Aby użytkownicy mogli korzystać z usługi likwidowania, trzeba tak zmodyfikowa
 4.  Kliknij wpis prawym przyciskiem myszy i wybierz polecenie **Modyfikuj**, aby określić dane wartości, które trzeba wskazać usłudze likwidowania:
     `http://`*Twój serwer licencji*`/_wmcs/decommission`
 
-| ![](images/Cc747549.note(WS.10).gif)Uwaga                                                       |
-|------------------------------------------------------------------------------------------------------------------------------|
-| Można zdefiniować kilka wartości tego klucza, jeśli wiele serwerów programu RMS w organizacji pracuje w trybie likwidowania. |
+> [!note]  
+> Można zdefiniować kilka wartości tego klucza, jeśli wiele serwerów programu RMS w organizacji pracuje w trybie likwidowania. 

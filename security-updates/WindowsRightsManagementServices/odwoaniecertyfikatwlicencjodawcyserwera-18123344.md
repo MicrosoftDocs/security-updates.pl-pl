@@ -36,7 +36,10 @@ Aby uzyskać certyfikat licencjodawcy serwera odpowiadający instalacji programu
 1.  Otwórz program SQL Query Analyzer, a następnie połącz się z bazą danych konfiguracji serwera głównej certyfikacji.
 2.  W menu **Query** (Kwerenda) kliknij polecenie **Results in Text** (Wyniki w postaci tekstu).
 3.  W menu **Tools** (Narzędzia) kliknij polecenie **Options** (Opcje) w celu otwarcia okna dialogowego **Options** (Opcje). Kliknij kartę **Results** (Wyniki), a następnie w polu **Maximum characters per column** (Maksymalna liczba znaków w kolumnie) ustaw wartość **8192**.
-        ```
+4.	W oknie dialogowym Query (Kwerenda) wprowadź poniższe ciągi kwerendy.
+	```
+	select DRMS_XrML_Certificate.s_certificate from DRMS_XrML_Certificate, DRMS_LicensorCertificate, DRMS_ClusterConfiguration where DRMS_ClusterConfiguration.CurrentLicensorCertID = DRMS_LicensorCertificate.i_CertID and DRMS_LicensorCertificate.i_CertificateID = DRMS_XrML_Certificate.i_CertificateID
+	```
 1.  Skopiuj wyniki z okna **Results** (Wyniki), a następnie wklej je do edytora tekstu, na przykład do Notatnika. Zapisz wyniki w pliku z rozszerzeniem .xml.
 
 Aby uzyskać więcej informacji dotyczących zastosowania tych informacji w liście odwołania, zobacz „[Tworzenie list odwołania](https://technet.microsoft.com/1ef75199-3344-4225-84de-a863a777696a)” we wcześniejszej części tego tematu.
@@ -54,6 +57,5 @@ Po odwołaniu certyfikatu licencjodawcy serwera wystawionego dla serwera główn
 
 W obu scenariuszach — odwołania przez firmę Microsoft oraz odwołania przez niezależny podmiot — lista odwołania zaczyna obowiązywać względem wszystkich żądań powiązania, ponieważ została podpisana przy użyciu klucza prywatnego podmiotu występującego w łańcuchu zaufania licencji użytkowania. Dlatego też niepowodzeniem zakończą się wszystkie żądania powiązania dotyczące licencji wystawionych przez daną instalację programu RMS przy użyciu odwołanego certyfikatu licencjodawcy serwera.
 
-| ![](images/Cc747578.note(WS.10).gif)Uwaga                                            |
-|-------------------------------------------------------------------------------------------------------------------|
-| Firma Microsoft odwoła certyfikat licencjodawcy serwera tylko w sytuacji, gdy będzie to wymagane nakazem sądowym. |
+> [!note]  
+> Firma Microsoft odwoła certyfikat licencjodawcy serwera tylko w sytuacji, gdy będzie to wymagane nakazem sądowym. 

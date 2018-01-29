@@ -136,6 +136,5 @@ Poniższa tabela zawiera wpisy, które można dodać w celu zastąpienia domyśl
 </tbody>
 </table>
   
-| ![](images/Cc747660.Caution(WS.10).gif)Przestroga                                                                                                                                |  
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Nieprawidłowa edycja rejestru może spowodować poważne uszkodzenie systemu. Przed wprowadzaniem zmian w rejestrze należy wykonać kopię zapasową wszystkich wartościowych danych przechowywanych na komputerze. |
+> [!Caution]  
+> Nieprawidłowa edycja rejestru może spowodować poważne uszkodzenie systemu. Przed wprowadzaniem zmian w rejestrze należy wykonać kopię zapasową wszystkich wartościowych danych przechowywanych na komputerze. 

@@ -37,9 +37,8 @@ Dodawanie serwerów do klastrów certyfikacji i licencji wymaga ukończenia prze
 -   W przypadku zastrzegania osobnego serwera licencji należy określić bazę danych konfiguracji, konto usługi programu RMS, adres URL klastra oraz informacje dotyczące ochrony klucza prywatnego, w ten sam sposób, w jaki podano te informacje dla serwera głównej certyfikacji. Nie należy jednak określać zasad odwołania certyfikatu licencjodawcy serwera, ponieważ zasady te są kontrolowane przez serwer głównej certyfikacji.
 -   W przypadku zastrzegania serwera jako członka klastra jedynymi informacjami wymaganymi podczas zastrzegania są: konto usługi programu RMS, baza danych konfiguracji oraz hasło do ochrony klucza prywatnego (lub określenie tego samego dostawcy CSP i klucza prywatnego, co w przypadku istniejącego klastra). Wszystkie serwery w klastrze współdzielą ten sam certyfikat licencjodawcy serwera oraz parę kluczy serwera.
 
-| ![](images/Cc720189.Important(WS.10).gif)Ważne                                                                                                                   |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Nie należy rozpoczynać instalowania programu RMS na innych serwerach przed ukończeniem konfigurowania programu RMS na pierwszym serwerze, w tym procesów instalowania i zastrzegania serwera. |
+> [!Important]  
+> Nie należy rozpoczynać instalowania programu RMS na innych serwerach przed ukończeniem konfigurowania programu RMS na pierwszym serwerze, w tym procesów instalowania i zastrzegania serwera. 
 
 Po zainstalowaniu i zastrzeżeniu dodatkowego serwera, serwer jest automatycznie konfigurowany jako członek klastra. Jednak w przypadku gdy zaimplementowano równoważenie obciążenia, należy skonfigurować oprogramowanie równoważenia obciążenia do pracy z nowym serwerem.
 

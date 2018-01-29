@@ -12,23 +12,8 @@ Managing WSUS 3.0 from the Command Line
 The **wsusutil** command-line utility is used in managing WSUS servers and is located in the *WSUSInstallDir*\\Tools folder of WSUS servers. The table below summarizes the different parameters that can be used with this utility, and later sections explain the syntax and usage of each parameter.
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939838.note(WS.10).gif" />Uwaga</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">You can also use Windows® PowerShell® to access the WSUS 3.0 APIs from the command line.
-</td>
-</tr>
-</tbody>
-</table>
- 
+> [!note]  
+> You can also use Windows® PowerShell® to access the WSUS 3.0 APIs from the command line. 
 
 Using the wsusutil utility
 --------------------------
@@ -36,6 +21,7 @@ Using the wsusutil utility
 You must be an administrator to run the **wsusutil** utility. This utility is installed only on WSUS server machines, not on console-only installations.
 
  
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -57,6 +43,7 @@ You must be an administrator to run the **wsusutil** utility. This utility is in
 ### Summary of wsusutil Commands
 
  
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -136,9 +123,7 @@ The following command updates the server certificateName:
   
 **wsusutil configuressl ***ServerCertificateName***//sets the server certificate name**
   
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -171,33 +156,16 @@ This command sets and gets the different parameters for WSUS health monitoring.
 **Wsusutil healthmonitoring ***parameterName*
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939838.note(WS.10).gif" />Uwaga</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">You may set or get only one parameter at a time.
-</td>
-</tr>
-</tbody>
-</table>
- 
+> [!note]  
+> You may set or get only one parameter at a time. 
 
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <tr>
-<th colspan="2">
+<th colspan="2" style="border:1px solid black;">
 Parameter
 </th>
-<th colspan="2">
+<th colspan="2" style="border:1px solid black;">
 Description
 </th>
 </tr>
@@ -480,9 +448,7 @@ For more information about exporting and importing updates, see "Set Up a Discon
 
 **wsusutil export** *package* *logfile*
 
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -507,23 +473,8 @@ For more information about exporting and importing updates, see "Set Up a Discon
 </table>
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939838.note(WS.10).gif" />Uwaga</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">Exporting from a WSUS 2.0 server to a WSUS 3.0 server (or from a WSUS 3.0 server to a WSUS 2.0 server) is not supported.
-</td>
-</tr>
-</tbody>
-</table>
- 
+> [!note]  
+> Exporting from a WSUS 2.0 server to a WSUS 3.0 server (or from a WSUS 3.0 server to a WSUS 2.0 server) is not supported. 
 
 ### Import
 
@@ -533,9 +484,7 @@ For background and procedural information about exporting and importing updates,
 
 **wsusutil import** *package* *logfile*
 
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -560,23 +509,8 @@ For background and procedural information about exporting and importing updates,
 </table>
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939838.note(WS.10).gif" />Uwaga</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">Importing from a WSUS 2.0 server to a WSUS 3.0 server (or from a WSUS 3.0 server to a WSUS 2.0 server) is not supported.
-</td>
-</tr>
-</tbody>
-</table>
- 
+> [!note]  
+> Importing from a WSUS 2.0 server to a WSUS 3.0 server (or from a WSUS 3.0 server to a WSUS 2.0 server) is not supported. 
 
 ### Movecontent
 
@@ -589,23 +523,8 @@ When you run this command, **wsusutil** does the following:
 The destination folder to which update files are moved must be on an NTFS partition. The utility will not try to copy update files if they already exist in the destination folder. The destination folder will have the same permissions that were set on the original folder.
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939838.note(WS.10).gif" />Uwaga</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">You can use <strong>xcopy</strong>, the Backup utility, or other methods to copy update files from the old location to the new one. If you copy the files by using a method other than <strong>wsusutil</strong>, you still need to run <strong>wsusutil</strong> to perform the second part of the move, using the -<strong>skipcopy</strong> parameter. See the &quot;Syntax&quot; section for more information.
-</td>
-</tr>
-</tbody>
-</table>
- 
+> [!note]  
+> You can use <strong>xcopy</strong>, the Backup utility, or other methods to copy update files from the old location to the new one. If you copy the files by using a method other than <strong>wsusutil</strong>, you still need to run <strong>wsusutil</strong> to perform the second part of the move, using the -<strong>skipcopy</strong> parameter. See the &quot;Syntax&quot; section for more information. 
 
 There are two scenarios in which you might move update files from one WSUS drive to another:
 
@@ -631,9 +550,7 @@ If the hard disk fails, you must do the following:
 
 **wsusutil movecontent** *contentpath logfile* **-skipcopy**
 
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -673,9 +590,7 @@ This command deletes the given front-end server.
   
 **wsusutil deletefrontendserver** *serverName*
   
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -696,23 +611,8 @@ This command deletes the given front-end server.
 </table>
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939838.Important(WS.10).gif" />Ważne</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">This command removes the front-end server from the database only. You will need to run <strong>wsussetup /u</strong> on the front-end server to uninstall WSUS.
-</td>
-</tr>
-</tbody>
-</table>
- 
+> [!Important]  
+> This command removes the front-end server from the database only. You will need to run <strong>wsussetup /u</strong> on the front-end server to uninstall WSUS. 
 
 ### checkhealth
 
@@ -751,61 +651,16 @@ See the explanation above for a description of situations in which you might nee
 If you set this value to **true**, WSUS Setup will use port 8530 for its Default Web site. If you set it to **false**, WSUS will use port 80.
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939838.Important(WS.10).gif" />Ważne</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">You must use this command before you configure SSL.
-</td>
-</tr>
-</tbody>
-</table>
- 
+> [!Important]  
+> You must use this command before you configure SSL. 
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939838.Important(WS.10).gif" />Ważne</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">If you are installing SharePoint on the same machine as WSUS, the value of <strong>usecustomwebsite</strong> should be set to <strong>true</strong> before the install.
-</td>
-</tr>
-</tbody>
-</table>
- 
+> [!Important]  
+> If you are installing SharePoint on the same machine as WSUS, the value of <strong>usecustomwebsite</strong> should be set to <strong>true</strong> before the install. 
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939838.Important(WS.10).gif" />Ważne</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">Using this command after running WSUS Setup will fail if the index of the default Web site is set to a value other than 1.
-</td>
-</tr>
-</tbody>
-</table>
- 
+> [!Important]  
+> Using this command after running WSUS Setup will fail if the index of the default Web site is set to a value other than 1. 
 
 #### Syntax
 

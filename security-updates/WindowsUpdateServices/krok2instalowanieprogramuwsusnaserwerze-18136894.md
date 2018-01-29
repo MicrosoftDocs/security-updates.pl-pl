@@ -16,9 +16,8 @@ W poniższej procedurze są używane domyślne opcje instalacyjne programu WSUS 
 **Aby zainstalować program WSUS w systemie Windows Server 2003:**
 1.  Kliknij dwukrotnie plik instalatora **WSUSSetup.exe**.
 
-    | ![](images/Cc708622.note(WS.10).gif)Uwaga                                                                                                                                         |
-    |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | The latest version of WSUSSetup.exe is available on the [Microsoft Web site](http://go.microsoft.com/fwlink/?linkid=47374) for Windows Server Update Services at http://go.microsoft.com/fwlink/?LinkId=47374. |
+    > [!note]  
+    > The latest version of WSUSSetup.exe is available on the [Microsoft Web site](http://go.microsoft.com/fwlink/?linkid=47374) for Windows Server Update Services at http://go.microsoft.com/fwlink/?LinkId=47374. 
 
 2.  Na stronie **Zapraszamy** kreatora kliknij przycisk **Dalej**.
 

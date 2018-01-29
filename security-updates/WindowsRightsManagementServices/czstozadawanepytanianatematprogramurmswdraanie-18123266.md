@@ -77,9 +77,8 @@ Poniższa procedura pozwala całkowicie usunąć instalację programu RMS.
 
 6.  Jeśli na komputerach klienckich RMS działa system Windows XP lub Windows 2000, usuń klienta RMS z tych komputerów.
 
-| ![](images/Cc720274.Important(WS.10).gif)Ważne                                                                                                                                                          |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Po wykonaniu tej procedury otwarcie zawartości chronionej prawami dostępu przestaje być możliwe. Jeśli program RMS służył do ochrony cennych danych, przed usunięciem instalacji należy wykonać procedurę likwidowania programu RMS. |
+> [!Important]  
+> Po wykonaniu tej procedury otwarcie zawartości chronionej prawami dostępu przestaje być możliwe. Jeśli program RMS służył do ochrony cennych danych, przed usunięciem instalacji należy wykonać procedurę likwidowania programu RMS. 
 
 <span id="BKMK_27"></span>
 #### Czy po odinstalowaniu klienta RMS za pomocą funkcji Dodaj lub usuń programy, zostają jeszcze jakieś pliki, które trzeba usunąć ręcznie?

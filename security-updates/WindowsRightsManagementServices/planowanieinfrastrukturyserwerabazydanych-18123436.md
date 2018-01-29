@@ -28,9 +28,8 @@ Dostawca bazy danych musi także:
 
 W przypadku korzystania z programu RMS w dowolnych innych konfiguracjach należy skontaktować się z odpowiednim producentem bazy danych lub dostawcą rozwiązań, którego produkt został użyty w niestandardowym wdrożeniu.
 
-| ![](images/Cc747731.Caution(WS.10).gif)Przestroga                                                                                                                                                                                                                                                                                                                                                                             |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Wszystkie bazy danych programu RMS są tworzone przy domyślnie włączonej opcji Pełne przywracanie, ale nie tworzy się zadań tworzenia kopii zapasowej dziennika transakcji. Może to spowodować zapełnienie dysku twardego serwera i awarię serwera bazy danych. Dla bazy danych DRMS\_configuration zaleca się używanie opcji Pełne przywracanie. Dla innych baz danych DRMS można skonfigurować inny model przywracania, odpowiedni dla danej organizacji. |
+> [!Caution]  
+> Wszystkie bazy danych programu RMS są tworzone przy domyślnie włączonej opcji Pełne przywracanie, ale nie tworzy się zadań tworzenia kopii zapasowej dziennika transakcji. Może to spowodować zapełnienie dysku twardego serwera i awarię serwera bazy danych. Dla bazy danych DRMS\_configuration zaleca się używanie opcji Pełne przywracanie. Dla innych baz danych DRMS można skonfigurować inny model przywracania, odpowiedni dla danej organizacji. 
 
 W tej części omówiono następujące zagadnienia:
 

@@ -13,6 +13,5 @@ Podczas zastrzegania program RMS tworzy klucz prywatny programu RMS przeznaczony
 
 Jeżeli serwer był używany do ochrony zawartości, wszyscy właściciele zawartości powinni zostać poinformowani o tym fakcie, a zawartość należy ponownie opublikować, korzystając z serwera programu RMS z nowym kluczem prywatnym. Wszystkie kopie zawartości chronione za pomocą klucza prywatnego, który został złamany, powinny zostać zniszczone, ponieważ nie są one już właściwie chronione.
 
-| ![](images/Cc747765.Important(WS.10).gif)Ważne                                                                                                                                                                                                                                     |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Niezależnie od tego, czy serwer został zarejestrowany w usłudze rejestrowania firmy Microsoft, konieczne jest powtórzenie procesu rejestracji serwera w celu uzyskania nowego klucza prywatnego. W przypadku ponownej rejestracji serwera programu RMS zostanie użyty wcześniejszy klucz prywatny programu RMS. |
+> [!Important]  
+> Niezależnie od tego, czy serwer został zarejestrowany w usłudze rejestrowania firmy Microsoft, konieczne jest powtórzenie procesu rejestracji serwera w celu uzyskania nowego klucza prywatnego. W przypadku ponownej rejestracji serwera programu RMS zostanie użyty wcześniejszy klucz prywatny programu RMS. 
