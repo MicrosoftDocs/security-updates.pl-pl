@@ -21,9 +21,8 @@ Na komputerach z 64-bitową wersją systemu Windows Server 2003 poniższy klucz
 
 Poniższa tabela zawiera wpisy, które można dodać w celu zastąpienia domyślnych ustawień puli połączeń usługi Active Directory. Wyświetlone wartości to wartości domyślne. Aby uzyskać więcej informacji dotyczących konstruowania listy kwerend i używania tych ustawień w programie RMS, zobacz „Optymalizowanie ustawień puli połączeń usługi Active Directory” we wcześniejszej części tego tematu.
 
-###  
-
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />

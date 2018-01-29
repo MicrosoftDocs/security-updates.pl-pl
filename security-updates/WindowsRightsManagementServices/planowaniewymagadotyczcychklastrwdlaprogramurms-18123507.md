@@ -11,9 +11,8 @@ Planowanie wymagań dotyczących klastrów dla programu RMS
 
 Jeśli program RMS jest używany w środowisku klastrowym, należy rozważyć sposób spełniania następujących warunków, które mogą istnieć w danej organizacji.
 
-###  
-
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

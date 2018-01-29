@@ -25,9 +25,8 @@ Po wyodrębnieniu plików .msi można zainstalować program RMS za pomocą poni�
 
 Składnie poszczególnych poleceń opisano w poniższej tabeli.
 
-###  
-
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
