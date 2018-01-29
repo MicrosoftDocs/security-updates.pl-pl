@@ -6,8 +6,6 @@ ms:contentKeyID: 61233093
 ms:mtpsurl: 'https://technet.microsoft.com/pl-PL/library/ms08-nov(v=Security.10)'
 ---
 
-Security Bulletin Summary
-
 Podsumowanie biuletynów zabezpieczeń firmy Microsoft za listopad 2008 r.
 ========================================================================
 
