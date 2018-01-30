@@ -52,10 +52,9 @@ The WSUS 3.0 server can be configured to send e-mail notifications of new update
 6.  If the SMTP server requires logon information, select the **My SMTP server requires authentication** check box.
 
 7.  Enter the user name and password in the respective boxes.
-
  
-    > [!note]  
-    > You can change authentication credentials only on a WSUS server, not from a remote administration console. 
+   > [!note]  
+   > You can change authentication credentials only on a WSUS server, not from a remote administration console. 
 
 8.  Click **Apply** to save this information.
 
