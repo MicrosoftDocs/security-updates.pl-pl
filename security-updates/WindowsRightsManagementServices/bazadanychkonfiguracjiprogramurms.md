@@ -15,4 +15,4 @@ Baza danych konfiguracji serwera lub klastra głównej certyfikacji zawiera list
 
 Grupa RMS Service Group ma uprawnienia do wykonywania dla procedur przechowywanych w tej bazie danych.
 
-**Ważne   **Zaleca się, aby korzystać z programu MSDE 2000 do obsługi baz danych RMS wyłącznie w środowiskach testowych, ponieważ program ten nie obsługuje żadnych interfejsów sieciowych. Oprócz tego w warunkach użytkowania programu MSDE 2000 określono, że nie można korzystać z narzędzi klienta programu SQL Server w celu obsługi bazy danych MSDE 2000. To ograniczenie uniemożliwi przeglądanie informacji rejestrowania lub zmienianie danych przechowywanych w bazie danych konfiguracji.
+**Ważne** Zaleca się, aby korzystać z programu MSDE 2000 do obsługi baz danych RMS wyłącznie w środowiskach testowych, ponieważ program ten nie obsługuje żadnych interfejsów sieciowych. Oprócz tego w warunkach użytkowania programu MSDE 2000 określono, że nie można korzystać z narzędzi klienta programu SQL Server w celu obsługi bazy danych MSDE 2000. To ograniczenie uniemożliwi przeglądanie informacji rejestrowania lub zmienianie danych przechowywanych w bazie danych konfiguracji.
