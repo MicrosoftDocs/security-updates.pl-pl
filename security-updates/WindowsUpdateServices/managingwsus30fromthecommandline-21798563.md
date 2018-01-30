@@ -151,7 +151,7 @@ Description
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
-**IntervalsInMinutes*** \[DetectInterval\] \[RefreshInterval\]*
+**IntervalsInMinutes** *\[DetectInterval\] \[RefreshInterval\]*
 
 </td>
 <td style="border:1px solid black;" colspan="2">
