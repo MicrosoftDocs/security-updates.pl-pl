@@ -6,7 +6,6 @@ ms:contentKeyID: 61233092
 ms:mtpsurl: 'https://technet.microsoft.com/pl-PL/library/ms08-may(v=Security.10)'
 ---
 
-Security Bulletin Summary
 
 Microsoft Security Bulletin Summary for maj 2008
 ================================================
