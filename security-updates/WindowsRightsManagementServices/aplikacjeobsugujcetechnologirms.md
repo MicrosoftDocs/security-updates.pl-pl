@@ -19,7 +19,7 @@ Projektanci mogą też tworzyć aplikacje serwerowe obsługujące technologię R
 
 Użytkownicy, którzy nie mają innej aplikacji obsługującej technologię RMS do korzystania z zawartości chronionej technologią RMS w poczcie e-mail i na stronach sieci Web, mogą uzyskać i korzystać z dodatku zarządzania prawami dostępu dla programu Microsoft® Internet Explorer. Na przykład użytkownicy usługi Outlook Web Access (OWA) mogą za pomocą dodatku zarządzania prawami dostępu dla programu Internet Explorer korzystać z wiadomości e-mail chronionych technologią RMS.
 
-Dodatek zarządzania prawami dostępu dla programu Internet Explorer można pobrać z [witryny sieci Web firmy Microsoft](http://go.microsoft.com/fwlink/?linkid=14450)(http://go.microsoft.com/fwlink/?LinkId=14450).
+Dodatek zarządzania prawami dostępu dla programu Internet Explorer można pobrać z [witryny sieci Web firmy Microsoft](http://go.microsoft.com/fwlink/?linkid=14450).
 
 > [!note]  
 > Jeżeli dodatek zarządzania prawami dostępu dla programu Internet Explorer jest używany w systemie Windows XP z dodatkiem Service Pack 2, mogą pojawić się problemy ze zgodnością aplikacji, wynikające z rozszerzonej konfiguracji zabezpieczeń. 
