@@ -40,9 +40,9 @@ Podczas uaktualniania programu WSUS RTM Instalator programu WSUS z dodatkiem SP1
 
 **Aby sprawdzić, czy ilość wolnego miejsca na dysku jest odpowiednia**
 1.  Otwórz Eksploratora Windows i przejdź do folderu zawierającego bazę danych WSUS. Domyślnie w ramach instalacji programu WSUS baza danych jest instalowana w następującym folderze:
-
-    
-        ```
+    ```
+    <DriveLetter>:\WSUS\MSSQL$WSUS\Data\
+    ```
 2.  Naciśnij i przytrzymaj klawisz **CTRL**, zaznacz pliki **SUSDB.MDF** i **SUSDB\_log.LDF**, a następnie kliknij prawym przyciskiem myszy i wybierz polecenie **Właściwości**.
 
 3.  W oknie dialogowym **Pliki** odczytaj wartość w polu **Rozmiar na dysku**. Na dysku musi znajdować się co najmniej taka ilość wolnego miejsca, aby możliwa była instalacja programu WSUS z dodatkiem SP1.
@@ -145,7 +145,15 @@ W przypadku zmiany nazwy komputera po zainstalowaniu programu WSUS RTM, ale prze
 
 Za pomocą poniższego skryptu usuń i ponownie dodaj grupy Administratorów ASPNET i WSUS. Następnie ponownie uruchom uaktualnienie.
 
-        ```
+```
+osql.exe -S %computername%\WSUS -E -Q "USE SUSDB DECLARE @asplogin varchar(200) SELECT @asplogin=name from sysusers WHERE name like '%ASPNET' EXEC sp_revokedbaccess @asplogin"
+osql.exe -S %computername%\WSUS -E -Q "USE SUSDB DECLARE @wsusadminslogin varchar(200) SELECT @wsusadminslogin=name from sysusers WHERE name like '%WSUS Administrators' EXEC sp_revokedbaccess @wsusadminslogin"
+
+osql.exe -S %computername%\WSUS -E -Q "USE SUSDB DECLARE @asplogin varchar(200) SELECT @asplogin=HOST_NAME()+'\ASPNET' EXEC sp_grantlogin @asplogin EXEC sp_grantdbaccess @asplogin EXEC sp_addrolemember webService,@asplogin"
+osql.exe -S %computername%\WSUS -E -Q "USE SUSDB DECLARE @wsusadminslogin varchar(200) SELECT @wsusadminslogin=HOST_NAME()+'\WSUS Administrators' EXEC sp_grantlogin @wsusadminslogin EXEC sp_grantdbaccess @wsusadminslogin EXEC sp_addrolemember webService,@wsusadminslogin"
+
+osql.exe -S %computername%\WSUS -E -Q "backup database SUSDB to disk=N'<ContentDirectory>\SUSDB.Dat' with init"
+```
 > [!note]  
 > Konieczne może być zastąpienie wartości &lt;ContentDirectory&gt; w ostatnim wierszu ścieżką do aktualnego miejsca przechowywania zawartości. 
 

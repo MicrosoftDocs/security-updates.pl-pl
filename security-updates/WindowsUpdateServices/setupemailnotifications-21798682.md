@@ -52,10 +52,9 @@ The WSUS 3.0 server can be configured to send e-mail notifications of new update
 6.  If the SMTP server requires logon information, select the **My SMTP server requires authentication** check box.
 
 7.  Enter the user name and password in the respective boxes.
-
  
-    > [!note]  
-    > You can change authentication credentials only on a WSUS server, not from a remote administration console. 
+   > [!note]  
+   > You can change authentication credentials only on a WSUS server, not from a remote administration console. 
 
 8.  Click **Apply** to save this information.
 
@@ -63,6 +62,8 @@ The WSUS 3.0 server can be configured to send e-mail notifications of new update
 
 10. If your e-mail notification is not working properly, one place to look is the SoftwareDistribution.log file (found in your WSUS directory, usually …\\Program Files\\Update Services\\LogFiles). One error message that is symptomatic of an incorrect SMTP configuration is the following:
 
-    `EmailNotificationAgent.WakeUpWorkerThreadProc Exception occurred when sending email of type Summary: System.Net.Mail.SmtpException: Failure sending mail. ---> System.IO.IOException: Unable to read data from the transport connection: net_io_connectionclosed`.
+    ```
+    EmailNotificationAgent.WakeUpWorkerThreadProc Exception occurred when sending email of type Summary: System.Net.Mail.SmtpException: Failure sending mail. ---> System.IO.IOException: Unable to read data from the transport connection: net_io_connectionclosed.
+    ```
 
     Investigate your SMTP e-mail server configuration to resolve this problem.
