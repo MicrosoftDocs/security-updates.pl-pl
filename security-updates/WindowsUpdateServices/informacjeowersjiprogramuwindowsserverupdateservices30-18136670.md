@@ -355,7 +355,8 @@ W tabeli poniżej podano właściwości wiersza polecenia programu WSUS 3.0.
 #### Przykładowe użycie
   
 ```  
-WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (install in quiet mode using port 8530) WSUSSetup.exe /q /u (uninstall WSUS)  
+WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (install in quiet mode using port 8530) 
+WSUSSetup.exe /q /u (uninstall WSUS)  
 ```  
 > [!Important]  
 > Jeśli program WSUS 3.0 jest instalowany w trybie cichym (/q), a komputer nie spełnia wymagań wstępnych, instalator wygeneruje plik o nazwie WSUSPreReqCheck.xml i zapisze go w katalogu %TEMP%. 
@@ -403,7 +404,13 @@ Użyj następującego skryptu, aby usunąć i dodać ponownie grupy ASPNET i Adm
 Nazwę *&lt;lokalizacja\_bazy\_danych&gt;* należy zastąpić nazwą folderu, w którym baza danych jest zainstalowana, a nazwę *&lt;katalog\_zawartosci&gt;* należy zastąpić nazwą folderu przechowywania plików.
   
 ```  
-sqlcmd.exe -S *&lt;DBLocation&gt;* -E -Q "USE SUSDB DECLARE @asplogin varchar(200) SELECT @asplogin=name from sysusers WHERE name like '%ASPNET' EXEC sp\_revokedbaccess @asplogin" sqlcmd.exe -S *&lt;DBLocation&gt;* -E -Q "USE SUSDB DECLARE @wsusadminslogin varchar(200) SELECT @wsusadminslogin=name from sysusers WHERE name like '%WSUS Administrators' EXEC sp\_revokedbaccess @wsusadminslogin"   sqlcmd.exe -S *&lt;DBLocation&gt;* -E -Q "USE SUSDB DECLARE @asplogin varchar(200) SELECT @asplogin=HOST\_NAME()+'\\ASPNET' EXEC sp\_grantlogin @asplogin EXEC sp\_grantdbaccess @asplogin EXEC sp\_addrolemember webService,@asplogin" sqlcmd.exe -S *&lt;DBLocation&gt;* -E -Q "USE SUSDB DECLARE @wsusadminslogin varchar(200) SELECT @wsusadminslogin=HOST\_NAME()+'\\WSUS Administrators' EXEC sp\_grantlogin @wsusadminslogin EXEC sp\_grantdbaccess @wsusadminslogin EXEC sp\_addrolemember webService,@wsusadminslogin"   sqlcmd.exe -S *&lt;DBLocation&gt;* -E -Q "backup database SUSDB to disk=N'*&lt;ContentDirectory&gt;*\\SUSDB.Dat' with init"  
+sqlcmd.exe -S <DBLocation> -E -Q "USE SUSDB DECLARE @asplogin varchar(200) SELECT @asplogin=name from sysusers WHERE name like '%ASPNET' EXEC sp_revokedbaccess @asplogin"
+sqlcmd.exe -S <DBLocation> -E -Q "USE SUSDB DECLARE @wsusadminslogin varchar(200) SELECT @wsusadminslogin=name from sysusers WHERE name like '%WSUS Administrators' EXEC sp_revokedbaccess @wsusadminslogin"
+
+sqlcmd.exe -S <DBLocation> -E -Q "USE SUSDB DECLARE @asplogin varchar(200) SELECT @asplogin=HOST_NAME()+'\ASPNET' EXEC sp_grantlogin @asplogin EXEC sp_grantdbaccess @asplogin EXEC sp_addrolemember webService,@asplogin"
+sqlcmd.exe -S <DBLocation> -E -Q "USE SUSDB DECLARE @wsusadminslogin varchar(200) SELECT @wsusadminslogin=HOST_NAME()+'\WSUS Administrators' EXEC sp_grantlogin @wsusadminslogin EXEC sp_grantdbaccess @wsusadminslogin EXEC sp_addrolemember webService,@wsusadminslogin"
+
+sqlcmd.exe -S <DBLocation> -E -Q "backup database SUSDB to disk=N'<ContentDirectory>\SUSDB.Dat' with init" 
 ```
   
 #### Instalator może zastąpić kopię zapasową poprzedniej bazy danych.
@@ -558,10 +565,15 @@ Program WSUS 3.0 obsługuje system Windows Server 2008 w wersjach 32-bitowych i
 <tr class="odd">
 <td style="border:1px solid black;">Program Microsoft Internet Information Services (IIS)</td>
 <td style="border:1px solid black;">Instalacja z poziomu systemu operacyjnego. Należy upewnić się, że następujące składniki są włączone:
+
 Funkcja uwierzytelniania systemu Windows
+
 Funkcja zawartości statycznej
+
 Program ASP.NET
+
 Funkcja zgodności zarządzania z wersją 6.0
+
 Funkcja zgodności metabazy programu IIS</td>
 </tr>
 <tr class="even">
@@ -592,7 +604,11 @@ Przed uruchomieniem programu WSUS 3.0 w systemie Windows Server 2008 należy za
 Metka powstała w wyniku tych operacji powinna mieć następującą postać:
   
 ```  
- &lt;System.webServer&gt; &lt;modules&gt; &lt;remove name="CustomErrorMode"&gt; &lt;/modules&gt; &lt;/System.webServer&gt;  
+      <System.webServer>
+<modules>
+<remove name="CustomErrorMode">
+</modules>
+</System.webServer>
 ```
   
 #### Problem 2: Aby zainstalować program WSUS 3.0 przy użyciu niestandardowego portu w systemie Windows Server 2008 Beta 3, należy wstępnie utworzyć witrynę sieci Web
