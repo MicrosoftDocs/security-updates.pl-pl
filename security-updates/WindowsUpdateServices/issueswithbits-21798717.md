@@ -17,10 +17,37 @@ BITS provides a downloadable tool called bitsadmin that allows you to verify and
 
 Finding BITS
 ------------
+To find the BITS service, open a Command Prompt and type:
 
-        ```
-        ```
-        ```
+```
+sc query bits 
+```
+
+If BITS is running, you should see output like the following:
+
+```
+SERVICE_NAME: bits
+TYPE               : 20  WIN32_SHARE_PROCESS
+ STATE              : 4  RUNNING
+                         (STOPPABLE,NOT_PAUSABLE,ACCEPTS_SHUTDOWN)
+ WIN32_EXIT_CODE    : 0  (0x0)
+ SERVICE_EXIT_CODE  : 0  (0x0)
+ CHECKPOINT         : 0x0
+ WAIT_HINT          : 0x0
+```
+
+If BITS is not running, you should see output like the following:
+
+```
+SERVICE_NAME: bits
+ TYPE               : 20  WIN32_SHARE_PROCESS
+ STATE              : 1  STOPPED
+                         (NOT_STOPPABLE,NOT_PAUSABLE,IGNORES_SHUTDOWN)
+ WIN32_EXIT_CODE    : 0  (0x0)
+ SERVICE_EXIT_CODE  : 0  (0x0)
+ CHECKPOINT         : 0x0
+ WAIT_HINT          : 0x0
+ ```
 
 Stopping and Restarting BITS
 ----------------------------
@@ -51,7 +78,9 @@ By default BITS runs under the LocalSystem account.
 1.  Open a Command Prompt window.
 
     Type:
-    `sc config bits obj= LocalSystem`
+    ```
+    sc config bits obj= LocalSystem
+    ```
 
     Note that a space must occur between `obj=` and `LocalSystem`.
 
@@ -205,7 +234,7 @@ To repair corrupted BITS service configuration, you can enter the BITS service c
 1.  Open a Command Prompt window.
 
 2.  Type:
-
+    ```
     Sc config bits binpath=”%systemroot%\\system32\\svchost.exe –k netsvcs“ Sc config bits depend = RpcSs EventSystem
 
     Sc config bits start=delayed-auto
@@ -221,5 +250,5 @@ To repair corrupted BITS service configuration, you can enter the BITS service c
     Sc sidtype bits type= unrestricted
 
     Sc failure bits reset= 86400 actions=restart/60000/restart/120000
-
+    ```
 3.  Stop and restart BITS.

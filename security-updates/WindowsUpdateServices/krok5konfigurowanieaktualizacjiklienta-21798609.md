@@ -17,9 +17,6 @@ W poniższych procedurach założono, że w sieci działa usługa Active Directo
 
 Więcej informacji o zasadach grupy można znaleźć w witrynie dotyczącej zasad grupy w witrynie Tech Center w sieci Web [http://go.microsoft.com/fwlink/?LinkID=47375](http://go.microsoft.com/fwlink/?linkid=47375) (strona może zostać wyświetlona w języku angielskim).
 
- 
--
-
 Procedury kroku 5
 -----------------
 
@@ -51,7 +48,6 @@ Dwie pierwsze procedury należy wykonać w wybranym obiekcie zasad grupy opartym
 1.  W okienku szczegółów **Windows Update** kliknij dwukrotnie pozycję **Określ lokalizację intranetowej usługi aktualizującej firmy Microsoft**.
 
 2.  Kliknij pozycję **Włączona**, a następnie w polach **Ustaw intranetową usługę aktualizacji do wykrywania aktualizacji** oraz **Ustaw serwer statystyk intranetowych** wpisz adres URL tego samego serwera WSUS. Na przykład w obydwu polach wpisz *http://nazwa\_serwera*, a następnie kliknij przycisk **OK**.
-
  
 > [!note]  
 > Jeśli do wskazywania komputerowi serwera WSUS jest używany lokalny obiekt zasad grupy, to ustawienie jest stosowane natychmiast i wkrótce nazwa tego komputera jest wyświetlana w konsoli administracyjnej programu WSUS. Ręcznie inicjując cykl wykrywania, możesz przyspieszyć ten proces. 
