@@ -80,5 +80,5 @@ On the **Updates** page, you can do the following:
     7.  The update ID
 
  
-> [!note]  
+> [!Note]  
 > You can perform this procedure on only one update at a time. If you select multiple updates, the first update in the list will be displayed in the <strong>Properties</strong> pane.
