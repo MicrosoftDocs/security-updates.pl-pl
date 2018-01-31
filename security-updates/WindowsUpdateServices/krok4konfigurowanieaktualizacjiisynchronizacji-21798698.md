@@ -68,7 +68,6 @@ W ramach procedur kroku 3 ukończono konfigurację serwera nadrzędnego i serwer
 
 4.  Kliknij przycisk **Zakończ**.
 
- 
     > [!Important]  
     > Podczas synchronizowania serwera nie można zapisać zmian dokonanych w konfiguracji. Aby dokonać zmian, należy poczekać na zakończenie synchronizacji. 
 
