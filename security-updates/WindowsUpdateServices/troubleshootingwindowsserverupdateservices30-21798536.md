@@ -15,4 +15,4 @@ This guide provides troubleshooting information for Windows Server Update Servic
 
 -   [Health Monitoring in WSUS 3.0](https://technet.microsoft.com/7f2a52af-1738-4320-9066-e58fa904fc70)
 -   [WSUS 3.0 Server Administration Issues](https://technet.microsoft.com/91735c6a-2860-4f68-aa29-f48ecfaa970a)
--   [WSUS 3.0 Client Computer Administration Issues](https://technet.microsoft.com/12e5a90c-a6b2-40b2-9d08-a65636ff10e9)
+-   [WSUS 3.0 Client Computer Administration Issues](https://technet.microsoft.com/12e5a90c-a6b2-40b2-9d08-a65636ff10e9) 
