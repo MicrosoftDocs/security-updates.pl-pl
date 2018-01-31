@@ -13,7 +13,7 @@ Każdy klaster główny lub klaster licencji obsługuje administracyjną witryn�
 
 W tym temacie opisano możliwości administracyjnej witryny sieci Web. Instrukcje dotyczące administrowania programem RMS za pomocą witryny sieci Web można znaleźć w punktach „RMS - Jak...” i „Zarządzanie programem RMS” w części dotyczącej operacji w programie RMS w niniejszym zestawie dokumentów.
 
-**Uwaga   **Konfiguracja klastra jest globalna. Konfiguracją klastra można zarządzać z administracyjnej witryny sieci Web znajdującej się na dowolnym serwerze w klastrze.
+**Uwaga** Konfiguracja klastra jest globalna. Konfiguracją klastra można zarządzać z administracyjnej witryny sieci Web znajdującej się na dowolnym serwerze w klastrze.
 
 Otwarcie strony **Administracja globalna** umożliwia wykonanie następujących zadań:
 

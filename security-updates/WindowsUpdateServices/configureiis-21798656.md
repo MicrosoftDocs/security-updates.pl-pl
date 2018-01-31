@@ -22,7 +22,6 @@ If the IIS service (W3SVC) is stopped during WSUS installation, WSUS Setup start
 
 4.  Click **OK**, click **Next**, and then follow the instructions on the screen.
 
- 
 > [!note]  
 > If this machine has been upgraded from Windows 2000, it may have the IIS 5.0 Isolation mode turned on. This must be turned off before installing WSUS 3.0. 
 
@@ -57,7 +56,15 @@ After installing IIS 7.0 on Windows Server 2008, you will need to update the II
 
 3. In the `<system.webServer><modules>` tag, add `<remove name="CustomErrorModule">`.
 
-        ```
+    The resulting tag should look like this:
+
+    ```
+        <system.webServer>
+    <modules>
+    <remove name="CustomErrorModule">
+    </modules>
+    </system.webServer>
+    ```
 
 Client self-update
 ------------------

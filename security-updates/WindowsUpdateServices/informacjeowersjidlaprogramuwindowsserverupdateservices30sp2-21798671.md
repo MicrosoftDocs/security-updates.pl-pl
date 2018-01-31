@@ -225,7 +225,16 @@ Jeśli nazwa komputera zostanie zmieniona po zainstalowaniu programu WSUS 2.0, a
 
 Użyj następującego skryptu, aby usunąć i dodać ponownie grupy ASPNET i Administratorzy WSUS. Następnie ponownie uruchom uaktualnianie.
 
-        ```
+(platformy 32-bitowe)
+  
+```  
+msiexec /x {CEB5780F-1A70-44A9-850F-DE6C4F6AA8FB} callerid=ocsetup.exe  
+```  
+(platformy 64-bitowe)
+  
+```  
+msiexec /x {BDD79957-5801-4A2D-B09E-852E7FA64D01} callerid=ocsetup.exe  
+```
 
 ### Jeśli przeprowadzono migrację z programu MSDE do programu SQL Server 2008 lub SQL Server 2005 w programie WSUS 2.0, należy zmienić odpowiednią wartość rejestru
 
@@ -372,7 +381,8 @@ W tabeli poniżej podano właściwości wiersza polecenia dla programu WSUS 3.0 
 ### Przykładowe użycie
   
 ```  
-WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (instalacja w trybie cichym przy użyciu portu 8530) WSUSSetup.exe /q /u (dezinstalacja programu WSUS)  
+WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (instalacja w trybie cichym przy użyciu portu 8530) 
+WSUSSetup.exe /q /u (dezinstalacja programu WSUS)  
 ```
  
 > [!Important]  

@@ -18,3 +18,4 @@ After planning the deployment, and installing and configuring the WSUS server, y
 -   [Determine a Method to Configure Clients](https://technet.microsoft.com/4906fa0d-47b0-48a0-90c7-90bd179a7eed)
 -   [Manipulate Client Behavior Using Command-line Options](https://technet.microsoft.com/1c04efba-4793-41f4-9e4c-dd5e8a82b059)
 -   [Client Behavior with Update Deadlines](https://technet.microsoft.com/f4aff13a-07f0-4939-881f-95191a025fcc)
+ 
