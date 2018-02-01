@@ -15,9 +15,8 @@ Usługa serwera proxy aktywacji przesyła żądania aktywacji komputera od klien
 
 Plik aplikacji usługi serwera proxy aktywacji, Activation.asmx, znajduje się w katalogu wirtualnym Certification w programie IIS. W poniższej tabeli przedstawiono domyślną listę kontroli dostępu w ramach tej usługi:
 
-###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

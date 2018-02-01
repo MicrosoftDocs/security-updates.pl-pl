@@ -25,9 +25,8 @@ Krok 7 obejmuje następujące procedury:
 
 4.  Na liście **Grupuj ustawienia zatwierdzeń dla wybranych aktualizacji** kliknij polecenie **Zainstaluj** (na liście w kolumnie **Zatwierdzenie** dla grupy testowej), a następnie kliknij przycisk **OK**.
 
-| ![](images/Cc720504.note(WS.10).gif)Uwaga                                                                                                                                                                                                                |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Z zatwierdzaniem aktualizacji skojarzono wiele opcji, na przykład ustawianie terminów ostatecznych i odinstalowywanie aktualizacji. Zostały one omówione w oficjalnym dokumencie „Microsoft Windows Server Update Services Operations Guide” (dokument dostępny w języku angielskim). |
+> [!note]  
+> Z zatwierdzaniem aktualizacji skojarzono wiele opcji, na przykład ustawianie terminów ostatecznych i odinstalowywanie aktualizacji. Zostały one omówione w oficjalnym dokumencie „Microsoft Windows Server Update Services Operations Guide” (dokument dostępny w języku angielskim). 
 
 Po 24 godzinach można skorzystać z funkcji raportowania WSUS w celu ustalenia, czy aktualizacje zostały rozmieszczone na komputerach.
 

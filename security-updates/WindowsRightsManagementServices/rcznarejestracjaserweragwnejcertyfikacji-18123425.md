@@ -32,9 +32,8 @@ Ręczna rejestracja serwera głównej certyfikacji
 
 4.  Kliknij przycisk **Zapisz**. Zostanie wyświetlone okno dialogowe **Zapisz jako**.
 
-    | ![](images/Cc747727.note(WS.10).gif)Uwaga                                                                                                                                     |
-    |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | W oknie dialogowym **Pobieranie pliku** nie klikaj przycisku **Otwórz**. Jeżeli klikniesz przycisk **Otwórz**, zostanie wyświetlony komunikat o błędzie, a plik żądania rejestracji nie zostanie zapisany. |
+    > [!note]  
+    > W oknie dialogowym **Pobieranie pliku** nie klikaj przycisku **Otwórz**. Jeżeli klikniesz przycisk **Otwórz**, zostanie wyświetlony komunikat o błędzie, a plik żądania rejestracji nie zostanie zapisany. 
 
 5.  Kliknij przycisk **Zapisz**, aby wyeksportować żądanie rejestrowania do pliku. Domyślnie plik zostanie zapisany na pulpicie i nazwany *Nazwa\_serwera*EnrollRequest.xml, gdzie *nazwa\_serwera* zostanie zastąpiona nazwą serwera systemu RMS. Plik można zapisać w innej lokalizacji, wybierając żądaną lokalizację z menu rozwijanego **Zapisz w**. Można także zmienić domyślną nazwę pliku, wpisując nową w polu **Nazwa pliku**.
 

@@ -27,9 +27,8 @@ W tym kroku zatwierdza się aktualizację testowych komputerów klienckich z gru
 
 5.  Zostanie wyświetlone nowe okno **Postęp zatwierdzania**, które przedstawia postęp różnych zadań wpływających na zatwierdzanie aktualizacji. Po zakończeniu potwierdzania kliknij przycisk **Zamknij**, aby zamknąć to okno.
 
-| ![](images/Cc708475.note(WS.10).gif)Uwaga                                                                     |
-|--------------------------------------------------------------------------------------------------------------------------------------------|
-| Z zatwierdzaniem aktualizacji jest skojarzonych wiele opcji, na przykład ustawianie terminów ostatecznych i odinstalowywanie aktualizacji. |
+> [!note]  
+> Z zatwierdzaniem aktualizacji jest skojarzonych wiele opcji, na przykład ustawianie terminów ostatecznych i odinstalowywanie aktualizacji. 
 
 Po 24 godzinach można skorzystać z funkcji raportowania WSUS w celu ustalenia, czy aktualizacje zostały rozmieszczone na komputerach.
 

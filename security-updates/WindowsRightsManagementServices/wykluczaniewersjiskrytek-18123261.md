@@ -32,8 +32,7 @@ Wykluczanie wersji skrytek
 
 6.  W polu **Minimalna wersja skrytki RM** wklej numer wersji, a następnie kliknij przycisk **Aktualizuj**.
 
-    | ![](images/Cc720270.note(WS.10).gif)Uwaga                   |
-    |------------------------------------------------------------------------------------------|
-    | Aby wyłączyć wykluczanie oparte na wersjach skrytek, należy kliknąć przycisk **Wyłącz**. |
+    > [!note]  
+    > Aby wyłączyć wykluczanie oparte na wersjach skrytek, należy kliknąć przycisk **Wyłącz**. 
 
 Aby uzyskać więcej informacji dotyczących wykonywania tej procedury, zobacz „[Wykluczanie wersji skrytek](https://technet.microsoft.com/e287f026-aab2-43ab-93bc-48087da82f36)” we wcześniejszej części tego tematu.

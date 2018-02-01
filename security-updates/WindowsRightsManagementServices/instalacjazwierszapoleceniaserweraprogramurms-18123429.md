@@ -25,9 +25,8 @@ Po wyodrębnieniu plików .msi można zainstalować program RMS za pomocą poni�
 
 Składnie poszczególnych poleceń opisano w poniższej tabeli.
 
-###  
-
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -63,6 +62,5 @@ Składnie poszczególnych poleceń opisano w poniższej tabeli.
 </tbody>
 </table>
   
-| ![](images/Cc747733.note(WS.10).gif)Uwaga                                                                                                                                             |  
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Niezależnie od wybranej metody instalacji należy prawidłowo zainstalować oba pliki .msi. Jeśli wystąpi błąd uniemożliwiający instalację pliku MSDrmClient.msi, nie należy instalować pliku RMClientBackCompat.msi. |
+> [!note]  
+> Niezależnie od wybranej metody instalacji należy prawidłowo zainstalować oba pliki .msi. Jeśli wystąpi błąd uniemożliwiający instalację pliku MSDrmClient.msi, nie należy instalować pliku RMClientBackCompat.msi. 

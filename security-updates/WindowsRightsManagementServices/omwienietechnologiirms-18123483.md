@@ -11,9 +11,8 @@ Omówienie technologii RMS
 
 System RMS zawiera technologie serwerowe i klienckie. W poniższej tabeli opisano technologie programu RMS.
 
-###  
-
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

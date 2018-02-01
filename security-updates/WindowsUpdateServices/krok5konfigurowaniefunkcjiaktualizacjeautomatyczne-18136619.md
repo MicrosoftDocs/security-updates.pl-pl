@@ -51,9 +51,8 @@ Aby wyświetlić ustawienia zasad służące do zarządzania programem WSUS, nal
 
 4.  Kliknij przycisk **OK**.
 
-| ![](images/Cc720532.note(WS.10).gif)Uwaga                                                                                                                           |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Ustawienie **Zezwalaj lokalnemu administratorowi na wybranie ustawienia** pojawia się tylko wtedy, gdy program Aktualizacje automatyczne jest zaktualizowany do wersji zgodnej z programem WSUS. |
+> [!note]  
+> Ustawienie **Zezwalaj lokalnemu administratorowi na wybranie ustawienia** pojawia się tylko wtedy, gdy program Aktualizacje automatyczne jest zaktualizowany do wersji zgodnej z programem WSUS. 
 
 **Aby wskazać komputer kliencki serwerowi WSUS**
 1.  W Edytorze obiektów zasad grupy rozwiń węzeł **Konfiguracja komputera**, rozwiń węzeł **Szablony administracyjne**, rozwiń węzeł **Składniki systemu Windows**, a następnie kliknij pozycję **Windows Update**.
@@ -62,9 +61,8 @@ Aby wyświetlić ustawienia zasad służące do zarządzania programem WSUS, nal
 
 3.  Kliknij pozycję **Włączona**, a następnie w polach **Ustaw intranetową usługę aktualizacji do wykrywania aktualizacji** oraz **Ustaw serwer statystyk intranetowych** wpisz adres URL tego samego serwera WSUS. Na przykład w obydwu polach wpisz *http://nazwa\_serwera*, a następnie kliknij przycisk **OK**.
 
-| ![](images/Cc720532.note(WS.10).gif)Uwaga                                                                                                                                                                                                                                     |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Jeśli do wskazania tego komputera serwerowi WSUS jest używany lokalny obiekt zasad grupy, to ustawienie zostanie uwzględnione bezzwłocznie, a komputer powinien pojawić się na ekranie konsoli administracyjnej WSUS po krótkim czasie. Ręcznie inicjując cykl wykrywania, możesz przyspieszyć ten proces. |
+> [!note]  
+> Jeśli do wskazania tego komputera serwerowi WSUS jest używany lokalny obiekt zasad grupy, to ustawienie zostanie uwzględnione bezzwłocznie, a komputer powinien pojawić się na ekranie konsoli administracyjnej WSUS po krótkim czasie. Ręcznie inicjując cykl wykrywania, możesz przyspieszyć ten proces. 
 
 Po skonfigurowaniu komputera klienckiego i upływie kilku minut pojawi się on na stronie **Komputery** na konsoli WSUS. W przypadku komputerów klienckich skonfigurowanych przy użyciu obiektu zasad grupy opartych na domenie nowe ustawienia dotyczące komputera klienckiego zostaną zastosowane po upływie około 20 minut po odświeżeniu tego obiektu. Domyślnie obiekt zasad grupy jest odświeżany w tle co 90 minut z losowym przesunięciem z przedziału od 0 do 30 minut. Aby szybciej odświeżyć obiekt zasad grupy, można przejść do wiersza polecenia na komputerze klienckim i wpisać polecenie: **gpupdate /force**.
 

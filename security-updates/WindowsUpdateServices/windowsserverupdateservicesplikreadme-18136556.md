@@ -11,9 +11,8 @@ Windows Server Update Services — plik ReadMe
 
 W tym dokumencie zamieszczono opis znanych problemów dotyczących Usług Windows Server Update Services (WSUS). Zawiera on także zalecenia oraz wymagania dotyczące instalacji Usług WSUS.
 
-| ![](images/Cc720505.note(WS.10).gif)Uwaga                                                                                                                                 |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Kopia tego dokumentu w wersji do pobrania jest dostępna w witrynie Microsoft Download Center pod adresem [http://go.microsoft.com/fwlink/?LinkId=48126](http://go.microsoft.com/fwlink/?linkid=48126). |
+> [!Note]  
+> Kopia tego dokumentu w wersji do pobrania jest dostępna w witrynie Microsoft Download Center pod adresem [http://go.microsoft.com/fwlink/?LinkId=48126](http://go.microsoft.com/fwlink/?linkid=48126). 
 
 Zanim rozpoczniesz
 ------------------
@@ -49,9 +48,7 @@ Jeśli już podjęto próbę zainstalowania programu WSUS i instalacja nie powio
 
 W poniższej tabeli przedstawiono oprogramowanie wymagane dla poszczególnych obsługiwanych systemów operacyjnych. Przed uruchomieniem Instalatora programu WSUS należy upewnić się, czy serwer WSUS spełnia wymagania wymienione na tej liście. Jeśli jakiekolwiek z tych uaktualnień wymagają ponownego uruchomienia komputera po zakończeniu aktualizacji, komputera należy ponownie uruchomić przed zainstalowaniem programu WSUS.
 
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -200,9 +197,8 @@ Znane problemy
 
 W przypadku uruchamiania Internetowych usług informacyjnych (IIS) na komputerze z zainstalowanym systemem Windows 2000 Server zainstaluj najnowszą wersję Kreatora IIS Lockdown (zawierającej narzędzie URLScan) ze strony IIS Lockdown Tool (Narzędzie IIS Lockdown) w bazie informacji technicznych Microsoft TechNet. Firma Microsoft zdecydowanie zaleca zainstalowanie tego narzędzia w celu zabezpieczenia serwerów Internetowych usług informacyjnych. Działanie Kreatora IIS Lockdown polega na wyłączeniu zbędnych funkcji Internetowych usług informacyjnych, co ogranicza zagrożenie dla bezpieczeństwa.
 
-| ![](images/Cc720505.note(WS.10).gif)Uwaga                                                                                                                                                                                     |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Instalator programu WSUS nie instaluje tych składników. Te składniki muszą zostać zainstalowane ręcznie. Nie ma potrzeby instalowania narzędzia IIS Lockdown na komputerach z systemem Windows Server 2003, ponieważ ta funkcja jest częścią tego systemu. |
+> [!Note]  
+> Instalator programu WSUS nie instaluje tych składników. Te składniki muszą zostać zainstalowane ręcznie. Nie ma potrzeby instalowania narzędzia IIS Lockdown na komputerach z systemem Windows Server 2003, ponieważ ta funkcja jest częścią tego systemu. 
 
 #### Problem 2: Zmiana konfiguracji programu WSUS bezpośrednio w bazie danych nie jest obsługiwana
 

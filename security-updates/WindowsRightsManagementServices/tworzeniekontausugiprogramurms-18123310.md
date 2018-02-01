@@ -13,14 +13,12 @@ Podczas instalacji program RMS tworzy grupę zabezpieczeń o nazwie **RMS Servic
 
 Podczas zastrzegania programu RMS na serwerze użytkownik określa konto użytkownika, które będzie używane jako konto usługi programu RMS. Określone konto staje się członkiem grupy RMS Service Group i tym samym otrzymuje uprawnienia skojarzone z tą grupą. Podczas normalnej pracy program RMS w większości przypadków działa na koncie usługi programu RMS.
 
-| ![](images/Cc747546.note(WS.10).gif)Uwaga                          |
-|-------------------------------------------------------------------------------------------------|
-| Jako konta usługi programu RMS nie można użyć konta, za pomocą którego instalowano program RMS. |
+> [!note]  
+> Jako konta usługi programu RMS nie można użyć konta, za pomocą którego instalowano program RMS. 
 
 Ze względów bezpieczeństwa zaleca się utworzenie specjalnego konta użytkownika, które będzie używane jak konto usługi programu RMS i nie będzie służyło do innych celów. Ponadto kontu temu nie należy udzielać żadnych dodatkowych uprawnień.
 
-| ![](images/Cc747546.Important(WS.10).gif)Ważne                        |
-|----------------------------------------------------------------------------------------------------|
-| To specjalne konto użytkownika należy utworzyć przed zainstalowaniem i zastrzeżeniem programu RMS. |
+> [!Important]  
+> To specjalne konto użytkownika należy utworzyć przed zainstalowaniem i zastrzeżeniem programu RMS. 
 
 Aby uzyskać więcej informacji dotyczących uprawnień udzielanych grupie RMS Service Group i kontom, w oparciu o które działa program RMS, zobacz „Model zabezpieczeń programu RMS” w części „Informacje techniczne dotyczące programu RMS” w tym zestawie dokumentacji.

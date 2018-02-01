@@ -11,9 +11,8 @@ Technologie klienckie RMS
 
 Komputery klienckie należące do rozmieszczenia programu RMS korzystają z następujących technologii, które umożliwiają użytkownikom tworzenie, publikowanie i używanie zawartości chronionej technologią RMS.
 
-###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />

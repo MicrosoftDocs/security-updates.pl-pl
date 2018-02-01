@@ -13,13 +13,11 @@ Aby wykonać tę procedurę, należy zalogować się lokalnie w administracyjnej
 
 Komputer, na którym instalowany jest program RMS, musi być serwerem członkowskim w domenie lub musi być kontrolerem domeny. Programu RMS nie można rozmieścić na autonomicznym serwerze w grupie roboczej.
 
-| ![](images/Cc747689.Important(WS.10).gif)Ważne                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Przed ukończeniem instalacji i zastrzegania pierwszego serwera głównej certyfikacji nie należy zastrzegać programu RMS na żadnym innym serwerze. Aby uzyskać instrukcje, zobacz „[Zastrzeganie pierwszego serwera głównej certyfikacji](https://technet.microsoft.com/debc42f3-74ff-4c99-b7a4-4921fccdabc2)”, „[Zastrzeganie serwera licencji](https://technet.microsoft.com/4d67b898-0ba9-4eef-ab7d-ee0ca55a688e)” lub „[Dodawanie serwera do klastra](https://technet.microsoft.com/db635238-5528-4bec-9cc6-8244e2b3d733)” w dalszej części tego tematu. |
+> [!Important]  
+> Przed ukończeniem instalacji i zastrzegania pierwszego serwera głównej certyfikacji nie należy zastrzegać programu RMS na żadnym innym serwerze. Aby uzyskać instrukcje, zobacz „[Zastrzeganie pierwszego serwera głównej certyfikacji](https://technet.microsoft.com/debc42f3-74ff-4c99-b7a4-4921fccdabc2)”, „[Zastrzeganie serwera licencji](https://technet.microsoft.com/4d67b898-0ba9-4eef-ab7d-ee0ca55a688e)” lub „[Dodawanie serwera do klastra](https://technet.microsoft.com/db635238-5528-4bec-9cc6-8244e2b3d733)” w dalszej części tego tematu. 
 
-| ![](images/Cc747689.Important(WS.10).gif)Ważne                                                                                                                                                                                          |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Program RMS z dodatkiem SP1 można zainstalować na serwerze z poprzednią wersją programu RMS. Jednak po zlikwidowaniu programu RMS, przed próbą zainstalowania programu RMS z dodatkiem SP1 należy program całkowicie usunąć za pomocą opcji Dodaj lub usuń programy. |
+> [!Important]  
+> Program RMS z dodatkiem SP1 można zainstalować na serwerze z poprzednią wersją programu RMS. Jednak po zlikwidowaniu programu RMS, przed próbą zainstalowania programu RMS z dodatkiem SP1 należy program całkowicie usunąć za pomocą opcji Dodaj lub usuń programy. 
 
 Instalowanie programu RMS z dodatkiem Service Pack 1
 ----------------------------------------------------
@@ -38,8 +36,7 @@ Instalowanie programu RMS z dodatkiem Service Pack 1
 
 6.  Po wyświetleniu okna dialogowego **Instalacja ukończona** kliknij przycisk **Zamknij**.
 
-    | ![](images/Cc747689.note(WS.10).gif)Uwaga                                                                                                            |
-    |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Jeśli zostanie wyświetlony komunikat o błędzie „Trwa ponowne uruchamianie aplikacji”, należy w programie Microsoft Internet Explorer odświeżyć stronę **Administracja globalna**. |
+    > [!note]  
+    > Jeśli zostanie wyświetlony komunikat o błędzie „Trwa ponowne uruchamianie aplikacji”, należy w programie Microsoft Internet Explorer odświeżyć stronę **Administracja globalna**. 
 
 Program RMS można również zainstalować z poziomu wiersza polecenia. Aby uzyskać instrukcje, zobacz „[Instalacja z wiersza polecenia serwera programu RMS](https://technet.microsoft.com/b55b1e2a-dd14-4168-a37f-9cdedbec660b)” w dalszej części tego tematu.

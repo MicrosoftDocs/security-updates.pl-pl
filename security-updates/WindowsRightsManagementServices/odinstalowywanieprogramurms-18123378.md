@@ -20,9 +20,8 @@ Odinstalowywanie programu RMS
 
 1.  Zaloguj się na serwerze, na którym chcesz odinstalować program RMS.
 
-    | ![](images/Cc747587.Important(WS.10).gif)Ważne                                                                                                                                                                                                                                                    |
-    |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Aby usunąć program RMS z serwera w klastrze głównej certyfikacji, należy najpierw usunąć jego zastrzeżenie, przechodząc do strony **Administracja globalna** i klikając opcję **Usuń program RMS z tej witryny sieci Web**. Przed odinstalowaniem programu RMS z serwera licencji nie trzeba usuwać zastrzeżenia tego serwera. |
+    > [!Important]  
+    > Aby usunąć program RMS z serwera w klastrze głównej certyfikacji, należy najpierw usunąć jego zastrzeżenie, przechodząc do strony **Administracja globalna** i klikając opcję **Usuń program RMS z tej witryny sieci Web**. Przed odinstalowaniem programu RMS z serwera licencji nie trzeba usuwać zastrzeżenia tego serwera. 
 
 2.  W **Panelu sterowania** otwórz aplet **Dodaj lub usuń programy**.
 

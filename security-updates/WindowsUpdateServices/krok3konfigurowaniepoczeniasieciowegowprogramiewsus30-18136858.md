@@ -21,9 +21,8 @@ Przed rozpoczęciem procesu konfiguracji należy uzyskać odpowiedzi na następu
 
 Domyślnie program WSUS jest skonfigurowany tak, aby aktualizacje były pobierane z witryny Microsoft Update. W przypadku korzystania w sieci z serwera proxy należy skonfigurować program WSUS w celu użycia tego serwera proxy. Jeśli między serwerem WSUS a Internetem znajduje się zapora firmowa, może być konieczne jej skonfigurowanie w celu umożliwienia pobierania aktualizacji przez program WSUS.
 
-| ![](images/Cc708602.note(WS.10).gif)Uwaga                                                                                                                                    |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Aby można było pobierać aktualizacje z witryny Microsoft Update, konieczne jest połączenie z Internetem. Program WSUS umożliwia natomiast importowanie aktualizacji do sieci niepołączonych z Internetem. |
+> [!note]  
+> Aby można było pobierać aktualizacje z witryny Microsoft Update, konieczne jest połączenie z Internetem. Program WSUS umożliwia natomiast importowanie aktualizacji do sieci niepołączonych z Internetem. 
 
 **Krok 3 obejmuje następujące procedury**:
 
@@ -48,9 +47,8 @@ Domyślnie program WSUS jest skonfigurowany tak, aby aktualizacje były pobieran
     -   http://wustat.windows.com
     -   http://ntservicepack.microsoft.com
 
-| ![](images/Cc708602.note(WS.10).gif)Uwaga                                                                                                                                                                                                                             |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Te instrukcje konfiguracji zapory dotyczą sytuacji, gdy między serwerem WSUS a Internetem znajduje się zapora firnowa. Ponieważ program WSUS inicjuje cały ruch w sieci (związany z realizowanymi przez siebie zadaniami), nie ma potrzeby konfigurowania zapory systemu Windows na serwerze WSUS. |
+> [!note]  
+> Te instrukcje konfiguracji zapory dotyczą sytuacji, gdy między serwerem WSUS a Internetem znajduje się zapora firnowa. Ponieważ program WSUS inicjuje cały ruch w sieci (związany z realizowanymi przez siebie zadaniami), nie ma potrzeby konfigurowania zapory systemu Windows na serwerze WSUS. 
 
 Mimo że połączenie między witryną Microsoft Update a programem WSUS wymaga otwartych portów 80 i 443, można skonfigurować kilka serwerów WSUS synchronizowanych za pośrednictwem portu niestandardowego.
 
@@ -81,9 +79,8 @@ W przypadku dwóch poniższych procedur przyjęto założenie, że do konfigurow
 **Aby uruchomić konsolę administracyjną programu WSUS**
 -   Aby uruchomić konsolę administracyjną programu WSUS, kliknij przycisk **Start**, wskaż kolejno polecenia **Wszystkie programy** i **Narzędzia administracyjne**, a następnie kliknij pozycję **Microsoft Windows Server Update Services 3.0**.
 
-| ![](images/Cc708602.note(WS.10).gif)Uwaga                                                                                                                                                                                                                                                                   |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Ze wszystkich funkcji konsoli WSUS mogą korzystać wyłącznie użytkownicy należący do grupy zabezpieczeń Administratorzy WSUS lub lokalnej grupy zabezpieczeń Administratorzy (na serwerze z zainstalowanym programem WSUS). Jednakże członkowie grupy zabezpieczeń Raporty WSUS mają dostęp tylko do odczytu do konsoli administracyjnej. |
+> [!note]  
+> Ze wszystkich funkcji konsoli WSUS mogą korzystać wyłącznie użytkownicy należący do grupy zabezpieczeń Administratorzy WSUS lub lokalnej grupy zabezpieczeń Administratorzy (na serwerze z zainstalowanym programem WSUS). Jednakże członkowie grupy zabezpieczeń Raporty WSUS mają dostęp tylko do odczytu do konsoli administracyjnej. 
 
 **Aby określić źródło aktualizacji i serwer proxy**
 1.  W konsoli programu WSUS kliknij w lewym panelu pozycję **Opcje** poniżej nazwy serwera, a następnie kliknij w środkowym panelu pozycję **Źródło aktualizacji i ustawienia serwera proxy**.

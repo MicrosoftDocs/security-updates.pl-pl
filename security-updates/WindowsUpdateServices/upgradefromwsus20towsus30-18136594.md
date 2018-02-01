@@ -5,7 +5,6 @@ ms:assetid: '673902d4-17ee-4769-aaf4-da09524cb822'
 ms:contentKeyID: 18136594
 ms:mtpsurl: 'https://technet.microsoft.com/pl-pl/library/Cc720542(v=WS.10)'
 ---
-
 Upgrade from WSUS 2.0 to WSUS 3.0
 =================================
 
@@ -25,9 +24,8 @@ Upgrading a Remote SQL Server Installation from WSUS 2.0 to WSUS 3.0
 
 If you have installed WSUS 2.0 on one computer and the SQL Server database on another, you must uninstall WSUS 2.0 from the database server before upgrading to WSUS 3.0.
 
-| ![](images/Cc720542.note(WS.10).gif)Uwaga        |
-|-------------------------------------------------------------------------------|
-| Please make sure that your WSUS 2.0 database is not corrupt before upgrading. |
+> [!Note]  
+> Please make sure that your WSUS 2.0 database is not corrupt before upgrading. 
 
 **To upgrade WSUS 2.0 to WSUS 3.0 with a remote SQL Server installation**
 1.  Uninstall WSUS 2.0 from the back-end computer. Do not choose to delete the database.

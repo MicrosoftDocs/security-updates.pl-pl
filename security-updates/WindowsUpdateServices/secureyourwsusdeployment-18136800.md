@@ -37,7 +37,18 @@ WSUS setup creates a configuration file that enables you to add an explicit list
 
 Use the &lt;authorization&gt; element to define an authentication list. You must add the &lt;authorization&gt; element below the &lt;configuration&gt; and &lt;system.web&gt; elements.
 
-        ```
+Consider the example below:
+
+```
+<configuration>
+<system.web>
+<authorization>
+<allow users="domain\computer_name,domain\computer_name" />
+<deny users="*" />
+</authorization>
+</system.web>
+</configuration>
+```
 Within opening and closing authorization tags, you specify a list of computers that are allowed a connection to the Web service. You must enter these computers as *Domain\\computer\_name*. If you want multiple computers, use a comma to separate the names. You can also specify an explicit list of computers that are denied access. Order in this list is important, as the evaluation stops with the first item that applies to the user.
 
 The XML schema for this list can be found on an [MSDN Web site](http://go.microsoft.com/fwlink/?linkid=47691) at http://go.microsoft.com/fwlink/?LinkId=47691.
@@ -104,9 +115,8 @@ The most important thing to remember when configuring the WSUS server to use SSL
     -   If you use the industry standard port of 443 for HTTPS traffic, then WSUS uses port 80 for clear HTTP traffic, which is the industry standard for HTTP.
     -   If you use any other port for HTTPS traffic, WSUS assumes the clear HTTP traffic should be sent over the port that numerically precedes the port for HTTPS. For example, if you use port 8531 for HTTPS, WSUS uses 8530 for HTTP.
 
-| ![](images/Cc708550.note(WS.10).gif)Uwaga                                                                                                                                                                                                                                                                    |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| If you change the port number or want to use HTTPS to access the WSUS administration console, you have to create a new shortcut on your **Start** menu with the new URL in order to access the WSUS administration console from the **Start** menu. See Help and Support in Windows Server 2003 for information about creating shortcuts. |
+> [!note]  
+> If you change the port number or want to use HTTPS to access the WSUS administration console, you have to create a new shortcut on your **Start** menu with the new URL in order to access the WSUS administration console from the **Start** menu. See Help and Support in Windows Server 2003 for information about creating shortcuts. 
 
 #### Sample SSL URLs to Access WSUS Administrative Console
 
@@ -118,9 +128,8 @@ If you were to install WSUS to the default site, and then set up SSL to use indu
 
 https://*WSUSServerName*/WSUSAdmin/
 
-| ![](images/Cc708550.note(WS.10).gif)Uwaga                                                                                              |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Remember that if you change WSUS port assignments after installation and you are using SSL, WSUS uses the rules noted above to assign a port for the HTTP protocol. |
+> [!note]  
+> Remember that if you change WSUS port assignments after installation and you are using SSL, WSUS uses the rules noted above to assign a port for the HTTP protocol. 
 
 #### Accessing WSUS Administrative Console by Using Custom Port Assignments for SSL
 
@@ -128,15 +137,14 @@ If you were to install WSUS to the custom site, and then set up SSL to use a cus
 
 https://*WSUSServerName*: 8531/WSUSAdmin/
 
-| ![](images/Cc708550.note(WS.10).gif)Uwaga                                                                                                                                                                                                         |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| You do not have to use 8531 for the SSL port. You can use any free port, but WSUS requires two ports for SSL: the port that you assign and the port that numerically precedes it. For example, if you pick 2424 for SSL port, WSUS would use 2424 for HTTPS and 2423 for HTTP. |
+> [!note]  
+> You do not have to use 8531 for the SSL port. You can use any free port, but WSUS requires two ports for SSL: the port that you assign and the port that numerically precedes it. For example, if you pick 2424 for SSL port, WSUS would use 2424 for HTTPS and 2423 for HTTP. 
 
 #### Configuring SSL on Client Computers
 
 There are two important caveats when configuring client computers:
 
--   You must include a URL for a secure port that the WSUS server is listening on. Because you cannot require SSL on the server, the only way to ensure that client computers use a secure channel is to make sure they use a URL that specifies HTTPS. If you are using any port other than 443 for SSL, you must include that port in the URL, too.
+-   You must include a URL for a secure port that the WSUS server is listening on. Because you cannot require SSL on the server, the only way to ensure that client computers use a secure channel is to make sure they use a URL that specifies HTTPS. If you are using any port other than 443 for SSL, you must include that port in the URL, too.  
     For example, you might use https://*ssl-servername*:3051 to point clients to a WSUS server that is using a custom SSL port of 3051.
     Likewise, you might use https://*ssl-servername* for a WSUS server that is using port 443 for HTTPS.
     For more information about how to point client computers to the WSUS server, see "Specify intranet Microsoft Update service location" in [Configure Automatic Updates by Using Group Policy](https://technet.microsoft.com/51c8a814-6665-4d50-a0d8-2ae27e69ca7c) later in this guide.

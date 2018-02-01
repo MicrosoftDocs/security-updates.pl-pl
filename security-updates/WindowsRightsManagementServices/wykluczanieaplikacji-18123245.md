@@ -32,9 +32,8 @@ Wykluczanie aplikacji lub zatrzymywanie wykluczania aplikacji
 
     Aby usunąć aplikację lub składnik z listy wykluczania, zaznacz nazwę pliku, a następnie kliknij opcję **Usuń zaznaczone aplikacje z listy wykluczania**.
 
-    | ![](images/Cc720262.note(WS.10).gif)Uwaga                                                                                                                                                                                                                                                                             |
-    |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Program RMS wymaga określenia wersji aplikacji w formacie 4-cyfrowym z separatorem w postaci kropki (\#.\#.\#.\# ). Jednak oznaczenia wersji niektórych aplikacji składają się z 2 lub 3 cyfr rozdzielonych kropkami. W takim przypadku należy odpowiednio dopisać .0, aby format numeru wersji był zgodny z formatem wymaganym przez program RMS. |
+    > [!note]  
+    > Program RMS wymaga określenia wersji aplikacji w formacie 4-cyfrowym z separatorem w postaci kropki (\#.\#.\#.\# ). Jednak oznaczenia wersji niektórych aplikacji składają się z 2 lub 3 cyfr rozdzielonych kropkami. W takim przypadku należy odpowiednio dopisać .0, aby format numeru wersji był zgodny z formatem wymaganym przez program RMS. 
 
 #### Zatrzymywanie wykluczania aplikacji
 

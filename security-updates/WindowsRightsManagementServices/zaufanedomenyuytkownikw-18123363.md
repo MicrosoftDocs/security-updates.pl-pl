@@ -13,9 +13,8 @@ Domyślnie program RMS nie wystawia licencji użytkowania dla użytkowników, kt
 
 Można skonfigurować program RMS, tak aby przetwarzał żądania tego typu, importując certyfikat licencjodawcy serwera z innej domeny użytkowników, a następnie dodając go do listy zaufanych domen użytkowników. W takim przypadku użytkownicy, których certyfikaty kont zostały wystawione przez zaufaną domenę użytkowników, mogą wysyłać żądania licencji użytkowania do tej instalacji. Licencje użytkowania będą przetwarzane tak jak żądania od użytkowników wewnętrznych.
 
-| ![](images/Cc747618.note(WS.10).gif)Uwaga                                                                                          |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Klaster głównej certyfikacji jest automatycznie umieszczany na liście zaufanych domen użytkowników dla wszystkich serwerów programu RMS w tej samej instalacji. |
+> [!note]  
+> Klaster głównej certyfikacji jest automatycznie umieszczany na liście zaufanych domen użytkowników dla wszystkich serwerów programu RMS w tej samej instalacji. 
 
 Można umożliwić użytkownikom z innych domen użytkowników współużytkowanie zawartości chronionej. Opisano to w poniższych przykładach:
 

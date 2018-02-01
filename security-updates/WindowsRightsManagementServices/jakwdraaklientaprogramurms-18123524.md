@@ -15,9 +15,8 @@ Wiele organizacji chce kontrolować rozmieszczenie oprogramowania klienckiego. D
 
 Przed rozpoczęciem rozmieszczania zobacz [http://go.microsoft.com/fwlink/?LinkID=67736](http://go.microsoft.com/fwlink/?linkid=67736), aby pobrać klienta programu RMS.
 
-| ![](images/Cc747749.Important(WS.10).gif)Ważne                                               |
-|---------------------------------------------------------------------------------------------------------------------------|
-| Klient programu RMS został zintegrowany z systemem Windows Vista. Dzięki temu oddzielna instalacja nie jest już wymagana. |
+> [!Important]  
+> Klient programu RMS został zintegrowany z systemem Windows Vista. Dzięki temu oddzielna instalacja nie jest już wymagana. 
 
 Wyodrębnianie plików instalacyjnych
 -----------------------------------
@@ -39,9 +38,8 @@ Uruchomienie tego polecenia powoduje wyodrębnienie następujących plików do w
 -   RMClientBackCompat.msi
     Jest to plik instalacyjny, w którym zdefiniowano nowego klienta programu RMS z dodatkiem SP2 dla aplikacji korzystających z programu RMS (np. Microsoft Office Professional 2003 lub 2007 Microsoft Office System) zależnych od poprzedniej wersji klienta programu RMS. Dzięki temu mogą one korzystać z klienta programu RMS z dodatkiem SP2. Program ten należy instalować na komputerach klienckich po pomyślnym zainstalowaniu pliku MSDrmClient.msi.
 
-| ![](images/Cc747749.note(WS.10).gif)Uwaga                                                                                                                                                            |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Niezależnie od wybranej metody instalacji należy prawidłowo zainstalować oba pliki Instalatora Windows. Jeśli wystąpi błąd uniemożliwiający instalację pliku MSDrmClient.msi, nie należy instalować pliku RMClientBackCompat.msi. |
+> [!note]  
+> Niezależnie od wybranej metody instalacji należy prawidłowo zainstalować oba pliki Instalatora Windows. Jeśli wystąpi błąd uniemożliwiający instalację pliku MSDrmClient.msi, nie należy instalować pliku RMClientBackCompat.msi. 
 
 Rozmieszczanie klienta programu RMS za pomocą instalacji dyskretnej
 -------------------------------------------------------------------
@@ -52,9 +50,8 @@ Wyodrębnianie plików w celu zainstalowania plików Instalatora Windows jest op
 
 To polecenie uruchamia instalację dyskretną klienta programu RMS.
 
-| ![](images/Cc747749.note(WS.10).gif)Uwaga                                                                                                         |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Ponieważ jest to instalacja dyskretna, instalator nie informuje użytkownika o jej zakończeniu. Instalacje dyskretne są zwykle uruchamianie w pliku wsadowym lub pliku skryptu. |
+> [!note]  
+> Ponieważ jest to instalacja dyskretna, instalator nie informuje użytkownika o jej zakończeniu. Instalacje dyskretne są zwykle uruchamianie w pliku wsadowym lub pliku skryptu. 
 
 Rozmieszczanie klienta programu RMS za pomocą programu SMS
 ----------------------------------------------------------
@@ -72,9 +69,8 @@ Rozmieszczanie klienta programu RMS za pomocą programu SMS
 
     -   W **wierszu polecenia** wpisz:
         `msiexec.exe /q ALLUSERS=2 /m MSIDGHOG /i "<file_name>.msi"`
-        | ![](images/Cc747749.note(WS.10).gif)Uwaga                                                                                |
-        |-------------------------------------------------------------------------------------------------------------------------------------------------------|
-        | MSIDGHOG jest wartością losową. Zastąp zmienną &lt;nazwa\_pliku&gt; nazwą pliku Instalatora Windows, za pomocą którego będzie instalowany ten pakiet. |
+        > [!note]  
+        > MSIDGHOG jest wartością losową. Zastąp zmienną &lt;nazwa\_pliku&gt; nazwą pliku Instalatora Windows, za pomocą którego będzie instalowany ten pakiet. 
 
     -   W obszarze **Uruchom** zaznacz opcję **Ukryty**.
     -   W obszarze **Po uruchomieniu** zaznacz opcję **Nie jest wymagana żadna akcja**.
@@ -140,14 +136,36 @@ Poniżej przedstawiono kilka wskazówek dla administratorów niezaznajomionych z
 
 11. Ponownie wykonaj czynności opisane w punktach od 5 do 10, aby utworzyć obiekt zasad grupy, który zainstaluje plik RMClientBackCompat.msi.
 
-| ![](images/Cc747749.note(WS.10).gif)Uwaga                                                                                                                                                                                                                                                                                                                                                       |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Powyższy opis zawiera jedynie wskazówki dla użytkowników, którzy nie mają doświadczenia w korzystaniu z przystawki Zasady grupy. Jeśli jesteś doświadczonym administratorem zasad grupy, możesz rozpowszechniać pakiet MSDrmClient.msi według własnych procedur. Ponadto czynności te należy wykonywać na kontrolerze domeny z systemem Windows Server 2003 — w domenie Windows 2000 procedura i terminologia mogą być inne. |
+> [!note]  
+> Powyższy opis zawiera jedynie wskazówki dla użytkowników, którzy nie mają doświadczenia w korzystaniu z przystawki Zasady grupy. Jeśli jesteś doświadczonym administratorem zasad grupy, możesz rozpowszechniać pakiet MSDrmClient.msi według własnych procedur. Ponadto czynności te należy wykonywać na kontrolerze domeny z systemem Windows Server 2003 — w domenie Windows 2000 procedura i terminologia mogą być inne. 
 
 Uaktualnianie z poprzedniej wersji
 ----------------------------------
 
-        ```
-| ![](images/Cc747749.note(WS.10).gif)Uwaga                                          |
-|-----------------------------------------------------------------------------------------------------------------|
-| Ten skrypt nie działa w systemie Windows Vista, ponieważ klient programu RMS jest częścią systemu operacyjnego. |
+Istnieje możliwość użycia instalacji dyskretnej w skrypcie, który wykryje, czy został zainstalowany program RMS z dodatkiem SP2. Jeśli klient nie został zainstalowany, skrypt uaktualni istniejącego klienta lub zainstaluje klienta programu RMS z dodatkiem SP2. Skrypt ma następującą postać:
+
+```
+Set objShell = Wscript.CreateObject("Wscript.Shell")
+Set objWindowsInstaller = Wscript.CreateObject("WindowsInstaller.Installer") 
+Set colProducts = objWindowsInstaller.Products 
+
+For Each product In colProducts 
+strProductName = objWindowsInstaller.ProductInfo (product, "ProductName")
+
+if strProductName = "Windows Rights Management Client z dodatkiem Service Pack 2" then
+strInstallFlag = "False"
+Exit For
+else
+strInstallFlag = "True"
+end if
+Next
+
+if strInstallFlag = "True" then
+objShell.run "WindowsRightsManagementServicesSP2-KB917275-Client-ENU.exe -override 1 /I MsDrmClient.msi REBOOT=ReallySuppress /q -override 2 /I RmClientBackCompat.msi REBOOT=ReallySuppress /q "
+else
+wscript.echo "Instalacja nie jest wymagana"
+end if
+```
+
+> [!note]  
+> Ten skrypt nie działa w systemie Windows Vista, ponieważ klient programu RMS jest częścią systemu operacyjnego. 

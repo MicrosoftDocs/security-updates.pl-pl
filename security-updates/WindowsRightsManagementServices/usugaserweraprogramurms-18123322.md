@@ -15,9 +15,8 @@ Plik aplikacji usługi serwera, Server.asmx, znajduje się w katalogu wirtualnym
 
 W poniższej tabeli przedstawiono domyślną listę kontroli dostępu w ramach tej usługi:
 
-###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

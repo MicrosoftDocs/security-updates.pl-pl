@@ -18,6 +18,5 @@ Program Microsoft Windows Server Update Services (WSUS) 3.0 to zaawansowane narz
 
 Chociaż program WSUS 3.0 służy do zarządzania aktualizacjami i dysponuje wieloma funkcjami, w tym przewodniku zaprezentowano tylko jeden sposób realizacji poszczególnych zadań. Jeśli istnieją różne sposoby wykonania danego zadania, w tekście wspomniano o alternatywnych podejściach.
 
-| ![](images/Cc708519.note(WS.10).gif)Uwaga                                                                                                                       |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Aby pobrać kopię tego dokumentu, należy odwiedzić stronę [http://go.microsoft.com/fwlink/?LinkId=71190](http://go.microsoft.com/fwlink/?linkid=71190) (strona może być w języku angielskim). |
+> [!Note]  
+> Aby pobrać kopię tego dokumentu, należy odwiedzić stronę [http://go.microsoft.com/fwlink/?LinkId=71190](http://go.microsoft.com/fwlink/?linkid=71190) (strona może być w języku angielskim). 

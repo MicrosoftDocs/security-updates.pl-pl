@@ -17,9 +17,8 @@ Przed rozpoczęciem wdrażania należy upewnić się, czy w planie programu RMS:
 -   Wybrano topologię programu RMS, podstawową lub rozproszoną.
 -   Na kontrolerach domeny z systemem Windows 2000 z dodatkiem Service Pack 3 (SP3) lub nowszym zainstalowano usługę Active Directory i czy wszyscy użytkownicy mają obiekt kontaktowy ze skonfigurowanym atrybutem poczty e-mail. Zainstalowano system Windows Server 2003 i jego najnowsze aktualizacje. Włączono usługę kolejkowania wiadomości, Internetowe usługi informacyjne (IIS) oraz platformę ASP.NET w wersji 1.1.
 
-| ![](images/Cc720185.note(WS.10).gif)Uwaga                                                                                                                                                                                                                        |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Planując zainstalowanie programu RMS na komputerze 64-bitowym, należy zapoznać się z częścią „RMS — wymagania dotyczące oprogramowania” w rozdziale „Planowanie rozmieszczenia programu RMS” w niniejszym zestawie dokumentacji. Znajdują się tam specjalne wskazówki dotyczące konfiguracji. |
+> [!note]  
+> Planując zainstalowanie programu RMS na komputerze 64-bitowym, należy zapoznać się z częścią „RMS — wymagania dotyczące oprogramowania” w rozdziale „Planowanie rozmieszczenia programu RMS” w niniejszym zestawie dokumentacji. Znajdują się tam specjalne wskazówki dotyczące konfiguracji. 
 
 -   Określono metody równoważenia obciążenia i postępowania w wypadku awarii serwera.
 -   Skonfigurowano rejestrację DNS dla serwerów programu RMS.

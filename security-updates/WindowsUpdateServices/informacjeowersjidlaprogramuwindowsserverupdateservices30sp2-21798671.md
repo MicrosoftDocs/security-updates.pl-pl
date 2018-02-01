@@ -56,23 +56,8 @@ W tej sekcji opisano wymagania dotyczące sprzętu i oprogramowania, które musz
     -   Windows Server 2008 R2
     -   Windows Server 2008 z dodatkiem SP1 lub nowsza wersja
  
-        <table style="border:1px solid black;">
-        <colgroup>
-        <col width="100%" />
-        </colgroup>
-        <thead>
-        <tr class="header">
-        <th style="border:1px solid black;" ><img src="images/Dd939886.Warning(WS.10).gif" />Ostrzeżenie</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td style="border:1px solid black;">Jeśli program WSUS 3.0 z dodatkiem SP2 został zainstalowany w systemie Windows Server 2008 przed przeprowadzeniem uaktualnienia do systemu Windows Server 2008 R2, próba uaktualnienia do systemu Windows Server 2008 R2 nie powiedzie się. Aby uzyskać więcej informacji, zobacz sekcję <a href="#bkmk_knownissues">Znane problemy</a>.
-        </td>
-        </tr>
-        </tbody>
-        </table>
- 
+        > [!Warning]  
+        > Jeśli program WSUS 3.0 z dodatkiem SP2 został zainstalowany w systemie Windows Server 2008 przed przeprowadzeniem uaktualnienia do systemu Windows Server 2008 R2, próba uaktualnienia do systemu Windows Server 2008 R2 nie powiedzie się. Aby uzyskać więcej informacji, zobacz sekcję <a href="#bkmk_knownissues">Znane problemy</a>. 
 
     -   Windows Server 2003 SP1 lub nowsza wersja
     -   Windows Small Business Server 2008
@@ -91,23 +76,8 @@ W tej sekcji opisano wymagania dotyczące sprzętu i oprogramowania, które musz
 -   Program Microsoft Report Viewer Redistributable 2008
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939886.Important(WS.10).gif" />Ważne</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">System Windows Server 2008 R2 wymaga programu WSUS 3.0 z dodatkiem SP2. Jeśli zainstalowano system Windows Server 2008 R2, należy zainstalować program WSUS 3.0 z dodatkiem SP2. Nie należy instalować programu WSUS 3.0 z dodatkiem SP1 w systemie Windows Server 2008 R2.
-
-Programu WSUS 3.0 z dodatkiem SP2 nie można używać z usługami terminalowymi na serwerze frontonu zdalnej konfiguracji bazy danych SQL.
-</td>
-</tr>
-</tbody>
+> [!Important]  
+> System Windows Server 2008 R2 wymaga programu WSUS 3.0 z dodatkiem SP2. Jeśli zainstalowano system Windows Server 2008 R2, należy zainstalować program WSUS 3.0 z dodatkiem SP2. Nie należy instalować programu WSUS 3.0 z dodatkiem SP1 w systemie Windows Server 2008 R2.</tbody>
 </table>
  
 
@@ -128,23 +98,8 @@ Następująca lista zawiera minimalne wymagania dotyczące sprzętu niezbędne d
 -   Co najmniej 20 GB wolnego miejsca w woluminie, w którym będzie przechowywana zawartość (zalecane 30 GB).
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939886.Important(WS.10).gif" />Ważne</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">Programu WSUS 3.0 z dodatkiem SP2 nie można zainstalować na dyskach skompresowanych.
-</td>
-</tr>
-</tbody>
-</table>
- 
+> [!Important]  
+> Programu WSUS 3.0 z dodatkiem SP2 nie można zainstalować na dyskach skompresowanych. 
 
 Wymagania wstępne związane z konfiguracją oraz najważniejsze wskazówki dotyczące serwera WSUS
 ---------------------------------------------------------------------------------------------
@@ -170,24 +125,8 @@ Jeśli na porcie 80 są uruchomione co najmniej dwie witryny sieci Web (na przyk
 Przed rozpoczęciem instalowania programu WSUS 3.0 z dodatkiem SP2 może być wymagane wyłączenie programów antywirusowych. Gdy oprogramowanie antywirusowe zostanie wyłączone, należy uruchomić ponownie komputer przed rozpoczęciem instalacji programu WSUS. Ponowne uruchomienie komputera zapobiega zablokowaniu plików, do których dostęp będzie wymagany w czasie instalacji. Po ukończeniu instalacji należy włączyć ponownie oprogramowanie antywirusowe. Należy odwiedzić witrynę sieci Web producenta oprogramowania antywirusowego, aby uzyskać dokładny opis wyłączania i ponownego włączania tego oprogramowania.
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939886.Caution(WS.10).gif" />Przestroga</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">Zastosowanie tego obejścia może spowodować, że komputer lub sieć będą bardziej narażone na ataki złośliwych użytkowników lub złośliwego oprogramowania, na przykład wirusów. Nie zalecamy takiego rozwiązania, ale chcemy wskazać możliwość wykonania takiej procedury wedle uznania użytkownika. Tę procedurę należy przeprowadzać na własną odpowiedzialność.
-
-Oprogramowanie antywirusowe ułatwia ochronę komputera przed wirusami. Jeśli program antywirusowy jest wyłączony, nie należy pobierać ani otwierać plików pochodzących z niezaufanych źródeł. Nie wolno także odwiedzać niezaufanych witryn sieci Web ani otwierać załączników wiadomości e-mail.
-</td>
-</tr>
-</tbody>
-</table>
+> [!Caution]  
+> Zastosowanie tego obejścia może spowodować, że komputer lub sieć będą bardziej narażone na ataki złośliwych użytkowników lub złośliwego oprogramowania, na przykład wirusów. Nie zalecamy takiego rozwiązania, ale chcemy wskazać możliwość wykonania takiej procedury wedle uznania użytkownika. Tę procedurę należy przeprowadzać na własną odpowiedzialność.
  
 
 ### Opcja wyzwalaczy zagnieżdżonych programu SQL Server
@@ -286,7 +225,16 @@ Jeśli nazwa komputera zostanie zmieniona po zainstalowaniu programu WSUS 2.0, a
 
 Użyj następującego skryptu, aby usunąć i dodać ponownie grupy ASPNET i Administratorzy WSUS. Następnie ponownie uruchom uaktualnianie.
 
-        ```
+(platformy 32-bitowe)
+  
+```  
+msiexec /x {CEB5780F-1A70-44A9-850F-DE6C4F6AA8FB} callerid=ocsetup.exe  
+```  
+(platformy 64-bitowe)
+  
+```  
+msiexec /x {BDD79957-5801-4A2D-B09E-852E7FA64D01} callerid=ocsetup.exe  
+```
 
 ### Jeśli przeprowadzono migrację z programu MSDE do programu SQL Server 2008 lub SQL Server 2005 w programie WSUS 2.0, należy zmienić odpowiednią wartość rejestru
 
@@ -316,9 +264,7 @@ Parametry wiersza polecenia dotyczące instalacji nienadzorowanych programu WSUS
 
 Dostępny z poziomu wiersza polecenia Instalator programu WSUS umożliwia przeprowadzanie instalacji nienadzorowanych programu WSUS 3.0 z dodatkiem SP2. W tabeli poniżej podano parametry wiersza polecenia Instalatora programu WSUS 3.0 z dodatkiem SP2.
 
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -356,9 +302,7 @@ Dostępny z poziomu wiersza polecenia Instalator programu WSUS umożliwia przepr
   
 W tabeli poniżej podano właściwości wiersza polecenia dla programu WSUS 3.0 z dodatkiem SP2.
   
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -437,26 +381,12 @@ W tabeli poniżej podano właściwości wiersza polecenia dla programu WSUS 3.0 
 ### Przykładowe użycie
   
 ```  
-WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (instalacja w trybie cichym przy użyciu portu 8530) WSUSSetup.exe /q /u (dezinstalacja programu WSUS)  
+WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (instalacja w trybie cichym przy użyciu portu 8530) 
+WSUSSetup.exe /q /u (dezinstalacja programu WSUS)  
 ```
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939886.Important(WS.10).gif" />Ważne</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">Jeśli program WSUS 3.0 SP2 jest instalowany w trybie cichym (/q), a komputer nie spełnia wszystkich wymagań wstępnych dotyczących zainstalowanych elementów, program instalacyjny wygeneruje plik o nazwie WSUSPreReqCheck.xml i zapisze go w katalogu %TEMP%.
-</td>
-</tr>
-</tbody>
-</table>
- 
+> [!Important]  
+> Jeśli program WSUS 3.0 SP2 jest instalowany w trybie cichym (/q), a komputer nie spełnia wszystkich wymagań wstępnych dotyczących zainstalowanych elementów, program instalacyjny wygeneruje plik o nazwie WSUSPreReqCheck.xml i zapisze go w katalogu %TEMP%. 
 
 <span id="BKMK_KnownIssues"></span>
 Znane problemy

@@ -13,15 +13,13 @@ Usługa licencjonowania, która wystawia licencje użytkowania, działa klastrze
 
 Plik aplikacji usługi licencjonowania, License.asmx, znajduje się w katalogu wirtualnym Licensing w programie IIS.
 
-| ![](images/Cc720278.note(WS.10).gif)Uwaga                                                                                                                                                                                                                                                                                                                                                                                                   |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Można rozmieścić osobny klaster licencji w celu przejęcia żądań licencji kierowanych z klastra głównego. Można również rozmieścić osobny serwer lub klaster licencji dla oddziału, na przykład aby dać oddziałowi możliwość ustanowienia własnych zasad praw dostępu. Aby uzyskać więcej informacji dotyczących tych zagadnień, zobacz „Identyfikowanie podstawowych składników” w części dotyczącej planowania rozmieszczenia programu RMS w tym zestawie dokumentacji. |
+> [!note]  
+> Można rozmieścić osobny klaster licencji w celu przejęcia żądań licencji kierowanych z klastra głównego. Można również rozmieścić osobny serwer lub klaster licencji dla oddziału, na przykład aby dać oddziałowi możliwość ustanowienia własnych zasad praw dostępu. Aby uzyskać więcej informacji dotyczących tych zagadnień, zobacz „Identyfikowanie podstawowych składników” w części dotyczącej planowania rozmieszczenia programu RMS w tym zestawie dokumentacji. 
 
 W poniższej tabeli przedstawiono domyślną listę kontroli dostępu w ramach tej usługi:
 
-###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

@@ -101,13 +101,19 @@ Bazę danych można przywrócić z kopii zapasowej, wykonując poniższą proced
 4.  Jeśli przywracana baza danych jest przeznaczona dla pojedynczego serwera głównej certyfikacji, zmodyfikuj następujący klucz rejestru przed rozpoczęciem ponownego zastrzegania usługi:
 
     -   W komputerach z 32-bitową wersją systemu Windows Server 2003
-        `HKEY_LOCAL_MACHINE\Software\Microsoft\DRMS\1.0\`
+        ```
+        HKEY_LOCAL_MACHINE\Software\Microsoft\DRMS\1.0\
+        ```
     -   W komputerach z 64-bitową wersją systemu Windows Server 2003
-        `HKEY_LOCAL_MACHINE\Software\WOW6432Node\Microsoft\DRMS\1.0\`
+        ```
+        HKEY_LOCAL_MACHINE\Software\WOW6432Node\Microsoft\DRMS\1.0\
+        ```
 
     Dodaj następujący wpis jako wartość ciągu, pozostawiając samą wartość pustą:
 
-    `GicURL`
+    ```
+    GicURL
+    ```
 
     Ta wartość zastępuje wykrywanie serwera głównej certyfikacji w usłudze Active Directory i umożliwia uzyskanie dostępu do stron zastrzegania serwera głównej certyfikacji.
 
@@ -143,9 +149,8 @@ Przywracanie poprzedniej instalacji programu RMS
 
 W razie awarii sprzętowej lub programowej serwera RMS, serwer RMS można przywrócić, korzystając z uprzednio zainstalowanej bazy danych konfiguracji w celu zastrzeżenia nowego wystąpienia serwera.
 
-| ![](images/Cc747605.note(WS.10).gif)Uwaga                                                                                                                                                                                                                                                                                                |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Ta procedura ma zastosowanie, tylko jeśli serwer programu RMS ulegnie awarii. Jeśli awarii uległ serwer, na którym działa baza danych konfiguracji, patrz „Przywracanie bazy danych konfiguracji” we wcześniejszej części niniejszego tematu. Jeśli serwer RMS jest jednocześnie serwerem bazy danych, konieczne będzie odtworzenie całego serwera z kopii zapasowej. |
+> [!note]  
+> Ta procedura ma zastosowanie, tylko jeśli serwer programu RMS ulegnie awarii. Jeśli awarii uległ serwer, na którym działa baza danych konfiguracji, patrz „Przywracanie bazy danych konfiguracji” we wcześniejszej części niniejszego tematu. Jeśli serwer RMS jest jednocześnie serwerem bazy danych, konieczne będzie odtworzenie całego serwera z kopii zapasowej. 
 
 Wykonaj poniższą procedurę, aby wskazać tę samą bazę danych konfiguracji, której używano dla oryginalnej instalacji:
 
@@ -186,20 +191,20 @@ Według ustawień domyślnych, składniki w rodzaju RMS, uruchamiane za pośredn
 
 Aby wyeliminować ten problem, można zmienić klucz sterujący tym zachowaniem za pomocą Edytora rejestru.
 
-| ![](images/Cc747605.Caution(WS.10).gif)Przestroga                                                                                                                                |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Nieprawidłowa edycja rejestru może spowodować poważne uszkodzenie systemu. Przed wprowadzaniem zmian w rejestrze należy wykonać kopię zapasową wszystkich wartościowych danych przechowywanych na komputerze. |
+> [!Caution]  
+> Nieprawidłowa edycja rejestru może spowodować poważne uszkodzenie systemu. Przed wprowadzaniem zmian w rejestrze należy wykonać kopię zapasową wszystkich wartościowych danych przechowywanych na komputerze. 
 
 Następującemu kluczowi rejestru nadaj ustawienie 0 zamiast 1, a następnie uruchom ponownie komputer, aby zmiana odniosła skutek.
 
-`HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\Application`
+```
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\Application
+```
 
 Nazwa: `RestrictGuestAccess`
 
 Typ: `REG_DWORD`
 
-| ![](images/Cc747605.note(WS.10).gif)Uwaga                                                            |
-|-----------------------------------------------------------------------------------------------------------------------------------|
-| Dzięki tej zmianie wszystkie konta należące do grupy Goście uzyskają możliwość wprowadzania wpisów w dzienniku zdarzeń aplikacji. |
+> [!note]  
+> Dzięki tej zmianie wszystkie konta należące do grupy Goście uzyskają możliwość wprowadzania wpisów w dzienniku zdarzeń aplikacji. 
 
 Więcej informacji na temat przyczyn tego błędu można znaleźć w artykule na temat włączania zapisywania w dzienniku z poziomu stron ASP w [bazie wiedzy firmy Microsoft](http://go.microsoft.com/fwlink/?linkid=44167.)

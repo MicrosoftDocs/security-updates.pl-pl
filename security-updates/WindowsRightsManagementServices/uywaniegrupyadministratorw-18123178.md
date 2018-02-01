@@ -15,6 +15,5 @@ W grupie administratorów domyślnie nie znajdują się żadni członkowie, nawe
 
 Aby uzyskać informacje dotyczące sposobu określania grupy administratorów w programie RMS, zobacz „[Konfigurowanie grupy administratorów](https://technet.microsoft.com/f2ef847e-2824-471f-9079-5c343094aba8)”.
 
-| ![](images/Cc720198.note(WS.10).gif)Uwaga                                                                                                                                                                                                                                                                                    |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Jako grupę administratorów programu RMS można wyznaczyć tylko grupę istniejącą już w tym samym lesie usługi Active Directory, co informacja programu RMS. Właściwości tej grupy muszą obejmować adres e-mail, w tym w pełni kwalifikowaną nazwę domeny (FQDN) identyczną z nazwą konta. Adres e-mail powinien mieć format *nazwa\_grupy*@*nazwa\_domeny*. |
+> [!note]  
+> Jako grupę administratorów programu RMS można wyznaczyć tylko grupę istniejącą już w tym samym lesie usługi Active Directory, co informacja programu RMS. Właściwości tej grupy muszą obejmować adres e-mail, w tym w pełni kwalifikowaną nazwę domeny (FQDN) identyczną z nazwą konta. Adres e-mail powinien mieć format *nazwa\_grupy*@*nazwa\_domeny*. 

@@ -54,9 +54,8 @@ Pięć następnych procedur przedstawia sposób konfigurowania aktualizacji przy
 
 Po wykonaniu wszystkich powyższych kroków konfiguracji wybierz stronę **Zakończono** w kreatorze konfiguracji. Konsolę administracyjną programu WSUS można uruchomić poprzez pozostawienie zaznaczonego pola wyboru **Uruchom przystawkę administracyjną programu Windows Server Update Services**. Pierwszą synchronizację można rozpocząć, pozostawiając zaznaczone pole wyboru **Rozpocznij wstępną synchronizację**.
 
-| ![](images/Cc708447.note(WS.10).gif)Uwaga                                                                                |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Podczas synchronizowania serwera nie można zapisać zmian dokonanych w konfiguracji. Aby dokonać zmian, należy poczekać na zakończenie synchronizacji. |
+> [!note]  
+> Podczas synchronizowania serwera nie można zapisać zmian dokonanych w konfiguracji. Aby dokonać zmian, należy poczekać na zakończenie synchronizacji. 
 
 ![](images/Cc708447.3f774fd1-af87-47d8-8f50-a5d585687d70(WS.10).gif)
 
@@ -95,17 +94,15 @@ Po skonfigurowaniu połączenia sieciowego można pobierać aktualizacje, przepr
 
 Operacja synchronizacji dotyczy serwera WSUS połączonego z witryną Microsoft Update. Po nawiązaniu połączenia program WSUS ustala, czy od czasu ostatniej synchronizacji zostały udostępnione nowe aktualizacje. W przypadku pierwszej synchronizacji serwera WSUS wszystkie aktualizacje są dostępne i gotowe do zatwierdzenia do instalacji. Początkowa synchronizacja może potrwać dość długo.
 
-| ![](images/Cc708447.note(WS.10).gif)Uwaga                                                                                                                                                   |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| W tym dokumencie została opisana synchronizacja przy użyciu ustawień domyślnych, ale w programie WSUS można skorzystać z opcji pozwalających na zminimalizowanie wykorzystania przepustowości w procesie synchronizacji. |
+> [!note]  
+> W tym dokumencie została opisana synchronizacja przy użyciu ustawień domyślnych, ale w programie WSUS można skorzystać z opcji pozwalających na zminimalizowanie wykorzystania przepustowości w procesie synchronizacji. 
 
 **Aby przeprowadzić synchronizację serwera WSUS**
 1.  W konsoli administracyjnej programu WSUS kliknij pozycję **Synchronizacje**.
 
 2.  Kliknij prawym przyciskiem myszy lub przejdź do okienka **Akcje** po prawej stronie, a następnie kliknij pozycję **Synchronizuj teraz**.
 
-| ![](images/Cc708447.note(WS.10).gif)Uwaga                                                                                                                                                      |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Jeśli po prawej stronie konsoli nie jest wyświetlane okienko **Akcje**, kliknij ikonę **Wyświetl** na pasku narzędzi konsoli, kliknij pozycję **Dostosuj** i upewnij się, że pole wyboru **Okienko akcji** jest zaznaczone. |
+> [!note]  
+> Jeśli po prawej stronie konsoli nie jest wyświetlane okienko **Akcje**, kliknij ikonę **Wyświetl** na pasku narzędzi konsoli, kliknij pozycję **Dostosuj** i upewnij się, że pole wyboru **Okienko akcji** jest zaznaczone. 
 
 Po zakończeniu synchronizacji kliknij pozycję **Aktualizacje** w lewym panelu w celu wyświetlenia listy aktualizacji.

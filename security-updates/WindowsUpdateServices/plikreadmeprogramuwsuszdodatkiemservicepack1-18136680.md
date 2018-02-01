@@ -40,9 +40,9 @@ Podczas uaktualniania programu WSUS RTM Instalator programu WSUS z dodatkiem SP1
 
 **Aby sprawdzić, czy ilość wolnego miejsca na dysku jest odpowiednia**
 1.  Otwórz Eksploratora Windows i przejdź do folderu zawierającego bazę danych WSUS. Domyślnie w ramach instalacji programu WSUS baza danych jest instalowana w następującym folderze:
-
-    
-        ```
+    ```
+    <DriveLetter>:\WSUS\MSSQL$WSUS\Data\
+    ```
 2.  Naciśnij i przytrzymaj klawisz **CTRL**, zaznacz pliki **SUSDB.MDF** i **SUSDB\_log.LDF**, a następnie kliknij prawym przyciskiem myszy i wybierz polecenie **Właściwości**.
 
 3.  W oknie dialogowym **Pliki** odczytaj wartość w polu **Rozmiar na dysku**. Na dysku musi znajdować się co najmniej taka ilość wolnego miejsca, aby możliwa była instalacja programu WSUS z dodatkiem SP1.
@@ -67,13 +67,11 @@ Wywołania interfejsu aplikacji (API) programu WSUS powodują powstanie konflikt
 
 W przypadku uaktualnienia programu WSUS za pośrednictwem programu WSUS z dodatkiem SP1 konieczne może okazać się wyłączenie programów antywirusowych, aby możliwe było pomyślne wykonanie uaktualnienia lub zastosowanie dodatku Service Pack. Po wyłączeniu programów antywirusowych należy ponownie uruchomić komputer z systemem Windows Server zanim zostanie zastosowane uaktualnienie lub dodatek Service Pack. Ta procedura zapobiega blokowaniu plików, do których proces uaktualnienia wymaga dostępu. Po zakończeniu instalacji należy uruchomić program antywirusowy. Informacje dotyczące sposobu wyłączania i ponownego włączania programu antywirusowego oraz jego wersji można znaleźć w witrynie dostawcy programu antywirusowego w sieci Web.
 
-| ![](images/Cc708486.Caution(WS.10).gif)Przestroga                                                                                                                                                                                                                                                                                    |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| W wyniku tego obejścia komputer lub sieć stają się bardziej narażone na ataki ze strony użytkowników złośliwych lub oprogramowania złośliwego, takiego jak wirusy. Nie zalecamy stosowania tego obejścia, jednak podaliśmy te informacje, aby użytkownik mógł je zaimplementować według własnego uznania. To obejście należy stosować na własną odpowiedzialność. |
+> [!Caution]  
+> W wyniku tego obejścia komputer lub sieć stają się bardziej narażone na ataki ze strony użytkowników złośliwych lub oprogramowania złośliwego, takiego jak wirusy. Nie zalecamy stosowania tego obejścia, jednak podaliśmy te informacje, aby użytkownik mógł je zaimplementować według własnego uznania. To obejście należy stosować na własną odpowiedzialność. 
 
-| ![](images/Cc708486.note(WS.10).gif)Uwaga                                                                                                                                                                                   |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Program antywirusowy pomaga chronić komputer przed wirusami. Nie należy pobierać ani otwierać plików z niezaufanych źródeł, odwiedzać niezaufanych witryn sieci Web ani otwierać załączników wiadomości e-mail, gdy program antywirusowy jest wyłączony. |
+> [!note]  
+> Program antywirusowy pomaga chronić komputer przed wirusami. Nie należy pobierać ani otwierać plików z niezaufanych źródeł, odwiedzać niezaufanych witryn sieci Web ani otwierać załączników wiadomości e-mail, gdy program antywirusowy jest wyłączony. 
 
 #### Problem 6: W przypadku korzystania z serwera proxy uaktualnienie dodatku SP1 może spowodować skasowanie nazwy użytkownika i hasła konfiguracji proxy
 
@@ -147,10 +145,17 @@ W przypadku zmiany nazwy komputera po zainstalowaniu programu WSUS RTM, ale prze
 
 Za pomocą poniższego skryptu usuń i ponownie dodaj grupy Administratorów ASPNET i WSUS. Następnie ponownie uruchom uaktualnienie.
 
-        ```
-| ![](images/Cc708486.note(WS.10).gif)Uwaga                                                                       |
-|----------------------------------------------------------------------------------------------------------------------------------------------|
-| Konieczne może być zastąpienie wartości &lt;ContentDirectory&gt; w ostatnim wierszu ścieżką do aktualnego miejsca przechowywania zawartości. |
+```
+osql.exe -S %computername%\WSUS -E -Q "USE SUSDB DECLARE @asplogin varchar(200) SELECT @asplogin=name from sysusers WHERE name like '%ASPNET' EXEC sp_revokedbaccess @asplogin"
+osql.exe -S %computername%\WSUS -E -Q "USE SUSDB DECLARE @wsusadminslogin varchar(200) SELECT @wsusadminslogin=name from sysusers WHERE name like '%WSUS Administrators' EXEC sp_revokedbaccess @wsusadminslogin"
+
+osql.exe -S %computername%\WSUS -E -Q "USE SUSDB DECLARE @asplogin varchar(200) SELECT @asplogin=HOST_NAME()+'\ASPNET' EXEC sp_grantlogin @asplogin EXEC sp_grantdbaccess @asplogin EXEC sp_addrolemember webService,@asplogin"
+osql.exe -S %computername%\WSUS -E -Q "USE SUSDB DECLARE @wsusadminslogin varchar(200) SELECT @wsusadminslogin=HOST_NAME()+'\WSUS Administrators' EXEC sp_grantlogin @wsusadminslogin EXEC sp_grantdbaccess @wsusadminslogin EXEC sp_addrolemember webService,@wsusadminslogin"
+
+osql.exe -S %computername%\WSUS -E -Q "backup database SUSDB to disk=N'<ContentDirectory>\SUSDB.Dat' with init"
+```
+> [!note]  
+> Konieczne może być zastąpienie wartości &lt;ContentDirectory&gt; w ostatnim wierszu ścieżką do aktualnego miejsca przechowywania zawartości. 
 
 Oryginalna zawartość pliku Readme programu WSUS
 -----------------------------------------------
@@ -191,9 +196,7 @@ Jeśli już podjęto próbę zainstalowania programu WSUS i instalacja nie powio
 
 W poniższej tabeli przedstawiono oprogramowanie wymagane dla poszczególnych obsługiwanych systemów operacyjnych. Przed uruchomieniem Instalatora programu WSUS należy upewnić się, czy serwer WSUS spełnia wymagania wymienione na tej liście. Jeśli jakiekolwiek z tych uaktualnień wymagają ponownego uruchomienia komputera po zakończeniu aktualizacji, komputera należy ponownie uruchomić przed zainstalowaniem programu WSUS.
 
-###  
-
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -340,9 +343,8 @@ Znane problemy
 
 W przypadku uruchamiania Internetowych usług informacyjnych (IIS) na komputerze z zainstalowanym systemem Windows 2000 Server zainstaluj najnowszą wersję Kreatora IIS Lockdown (zawierającej narzędzie URLScan) ze strony IIS Lockdown Tool (Narzędzie IIS Lockdown) w bazie informacji technicznych Microsoft TechNet. Firma Microsoft zdecydowanie zaleca zainstalowanie tego narzędzia w celu zabezpieczenia serwerów Internetowych usług informacyjnych. Działanie Kreatora IIS Lockdown polega na wyłączeniu zbędnych funkcji Internetowych usług informacyjnych, co ogranicza zagrożenie dla bezpieczeństwa.
 
-| ![](images/Cc708486.note(WS.10).gif)Uwaga                                                                                                                                                                                     |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Instalator programu WSUS nie instaluje tych składników. Te składniki muszą zostać zainstalowane ręcznie. Nie ma potrzeby instalowania narzędzia IIS Lockdown na komputerach z systemem Windows Server 2003, ponieważ ta funkcja jest częścią tego systemu. |
+> [!note]  
+> Instalator programu WSUS nie instaluje tych składników. Te składniki muszą zostać zainstalowane ręcznie. Nie ma potrzeby instalowania narzędzia IIS Lockdown na komputerach z systemem Windows Server 2003, ponieważ ta funkcja jest częścią tego systemu. 
 
 #### Problem 2: Zmiana konfiguracji programu WSUS bezpośrednio w bazie danych nie jest obsługiwana
 

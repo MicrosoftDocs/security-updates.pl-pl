@@ -13,9 +13,8 @@ Ten temat zawiera informacje o współpracy usług sieci Web programu RMS oraz t
 
 W poniższej tabeli przedstawiono typy serwerów, które działają w rozmieszczeniu programu RMS oraz opis ich funkcji. Aby uzyskać szczegółowe informacje na temat rozmieszczania, zobacz „Rozmieszczanie systemu RMS” w niniejszym zestawie dokumentacji.
 
-###  
-
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

@@ -19,9 +19,8 @@ Jeśli baza danych rejestrowania zrobi się zbyt duża, można w dowolnej chwili
     -   Zmień wartość zasad LoggingDatabaseServer, tak aby odzwierciedlały nową nazwę serwera bazy danych.
     -   Zmień wartość zasad LoggingDatabaseName, tak aby odzwierciedlały nową nazwę bazy danych.
 
-    | ![](images/Cc720238.note(WS.10).gif)Uwaga                                                                                                                                                                                                              |
-    |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Program SQL Server Enterprise Manager nie współpracuje z polami db\_variant, tak więc nie można użyć go do wykonania tego zadania. Zamiast niego można skorzystać z programu Query Analyzer, dostarczanego z programem SQL Server, lub z innego narzędzia do edytowania baz danych. |
+    > [!note]  
+    > Program SQL Server Enterprise Manager nie współpracuje z polami db\_variant, tak więc nie można użyć go do wykonania tego zadania. Zamiast niego można skorzystać z programu Query Analyzer, dostarczanego z programem SQL Server, lub z innego narzędzia do edytowania baz danych. 
 
 4.  Uruchom ponownie usługi IIS na wszystkich serwerach wchodzących w skład klastra.
 5.  Ponownie włącz rejestrowanie.

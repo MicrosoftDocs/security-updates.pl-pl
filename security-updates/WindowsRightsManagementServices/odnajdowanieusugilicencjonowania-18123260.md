@@ -23,6 +23,5 @@ http://*nazwa\_serwera*/\_wmcs/Licensing/License.asmx
 
 Lokalizacją usługi jest serwer programu RMS lub konto .NET Passport, które wystawiło licencję publikacji. Adres URL jest uwzględniany w licencji publikacji.
 
-| ![](images/Cc720269.note(WS.10).gif)Uwaga                                               |
-|----------------------------------------------------------------------------------------------------------------------|
-| Jeśli włączono protokół SSL dla serwera programu RMS, te adresy URL będą korzystały z protokołu połączenia https://. |
+> [!note]  
+> Jeśli włączono protokół SSL dla serwera programu RMS, te adresy URL będą korzystały z protokołu połączenia https://. 

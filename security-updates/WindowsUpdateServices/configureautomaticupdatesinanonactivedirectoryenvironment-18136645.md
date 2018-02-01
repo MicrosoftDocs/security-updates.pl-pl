@@ -27,6 +27,7 @@ The keys and their value ranges are listed in the following table.
 ### Windows Update Agent Environment Options Registry Keys
 
  
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -44,7 +45,9 @@ The keys and their value ranges are listed in the following table.
 <tr class="odd">
 <td style="border:1px solid black;"><strong>ElevateNonAdmins</strong></td>
 <td style="border:1px solid black;">Range = 1|0
+
 1 = Users in the Users security group are allowed to approve or disapprove updates.
+
 0 = Only users in the Administrators user group can approve or disapprove updates.</td>
 <td style="border:1px solid black;">Reg_DWORD</td>
 </tr>
@@ -56,7 +59,9 @@ The keys and their value ranges are listed in the following table.
 <tr class="odd">
 <td style="border:1px solid black;"><strong>TargetGroupEnabled</strong></td>
 <td style="border:1px solid black;">Range = 1|0
+
 1 = Use client-side targeting.
+
 0 = Do not use client-side targeting. This policy is paired with <strong>TargetGroup</strong>.</td>
 <td style="border:1px solid black;">Reg_DWORD</td>
 </tr>
@@ -85,6 +90,7 @@ The keys and their value ranges are listed in the following table.
 ### Automatic Updates Configuration Registry Keys
 
  
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -102,91 +108,117 @@ The keys and their value ranges are listed in the following table.
 <tr class="odd">
 <td style="border:1px solid black;"><strong>AUOptions</strong></td>
 <td style="border:1px solid black;">Range = 2|3|4|5
+
 2 = Notify before download.
+
 3 = Automatically download and notify of installation.
+
 4 = Automatic download and scheduled installation. (Only valid if values exist for <strong>ScheduledInstallDay</strong> and <strong>ScheduledInstallTime</strong>.)
+
 5 = Automatic Updates is required, but end users can configure it.</td>
 <td style="border:1px solid black;">Reg_DWORD</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><strong>AutoInstallMinorUpdates</strong></td>
 <td style="border:1px solid black;">Range = 0|1
+
 0 = Treat minor updates like other updates.
+
 1 = Silently install minor updates.</td>
 <td style="border:1px solid black;">Reg_DWORD</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><strong>DetectionFrequency</strong></td>
 <td style="border:1px solid black;">Range=n; where n=time in hours (1-22).
+
 Time between detection cycles.</td>
 <td style="border:1px solid black;">Reg_DWORD</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><strong>DetectionFrequencyEnabled</strong></td>
 <td style="border:1px solid black;">Range = 0|1
+
 1 = Enable DetectionFrequency.
+
 0 = Disable custom DetectionFrequency (use default value of 22 hours).</td>
 <td style="border:1px solid black;">Reg_DWORD</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><strong>NoAutoRebootWithLoggedOnUsers</strong></td>
 <td style="border:1px solid black;">Range = 0|1;
+
 1 = Logged-on user gets to choose whether or not to restart his or her computer.
+
 0 = Automatic Updates notifies user that the computer will restart in 5 minutes.</td>
 <td style="border:1px solid black;">Reg_DWORD</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><strong>NoAutoUpdate</strong></td>
 <td style="border:1px solid black;">Range = 0|1
+
 0 = Enable Automatic Updates.
+
 1 = Disable Automatic Updates.</td>
 <td style="border:1px solid black;">Reg_DWORD</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><strong>RebootRelaunchTimeout</strong></td>
 <td style="border:1px solid black;">Range=n; where n=time in minutes (1-1440).
+
 Time between prompting again for a scheduled restart.</td>
 <td style="border:1px solid black;">Reg_DWORD</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><strong>RebootRelaunchTimeoutEnabled</strong></td>
 <td style="border:1px solid black;">Range = 0|1
+
 1 = Enable <strong>RebootRelaunchTimeout</strong>.
+
 0 = Disable custom <strong>RebootRelaunchTimeout</strong>(use default value of 10 minutes).</td>
 <td style="border:1px solid black;">Reg_DWORD</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><strong>RebootWarningTimeout</strong></td>
 <td style="border:1px solid black;">Range=n; where n=time in minutes (1-30).
+
 Length, in minutes, of the restart warning countdown after installing updates with a deadline or scheduled updates.</td>
 <td style="border:1px solid black;">Reg_DWORD</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><strong>RebootWarningTimeoutEnabled</strong></td>
 <td style="border:1px solid black;">Range = 0|1
+
 1 = Enable <strong>RebootWarningTimeout</strong>.
+
 0 = Disable custom <strong>RebootWarningTimeout</strong> (use default value of 5 minutes).</td>
 <td style="border:1px solid black;">Reg_DWORD</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><strong>RescheduleWaitTime</strong></td>
 <td style="border:1px solid black;">Range=n; where n=time in minutes (1-60).
+
 Time, in minutes, that Automatic Updates should wait at startup before applying updates from a missed scheduled installation time.
+
 Note that this policy applies only to scheduled installations, not deadlines. Updates whose deadlines have expired should always be installed as soon as possible.</td>
 <td style="border:1px solid black;">Reg_DWORD</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><strong>RescheduleWaitTimeEnabled</strong></td>
 <td style="border:1px solid black;">Range = 0|1
+
 1 = Enable <strong>RescheduleWaitTime</strong>
+
 0 = Disable <strong>RescheduleWaitTime</strong>(attempt the missed installation during the next scheduled installation time).</td>
 <td style="border:1px solid black;">Reg_DWORD</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><strong>ScheduledInstallDay</strong></td>
 <td style="border:1px solid black;">Range = 0|1|2|3|4|5|6|7
+
 0 = Every day.
+
 1 through 7 = The days of the week from Sunday (1) to Saturday (7).
+
 (Only valid if <strong>AUOptions</strong> equals 4.)</td>
 <td style="border:1px solid black;">Reg_DWORD</td>
 </tr>

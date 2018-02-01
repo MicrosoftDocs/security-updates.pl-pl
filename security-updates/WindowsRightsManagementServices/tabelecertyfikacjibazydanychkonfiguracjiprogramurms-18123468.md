@@ -16,9 +16,8 @@ UD\_Machines
 
 Poniższa tabela zawiera informacje o identyfikatorach sprzętu odpowiadających wszystkim komputerom.
 
-###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -61,9 +60,8 @@ UD\_PassportAuthIdentities
   
 Poniższa tabela zawiera informacje o usłudze Microsoft® .NET Passport dotyczące użytkowników.
   
-###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -100,9 +98,8 @@ UD\_UserMachine
   
 Poniższa tabela łączy dane certyfikowanych użytkowników z odpowiadającymi im informacjami o komputerach.
   
-###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -145,9 +142,8 @@ UD\_Users
   
 Poniższa tabela zawiera informacje dotyczące danych użytkowników.
   
-###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -250,9 +246,8 @@ UD\_Windows AuthIdentities
   
 Poniższa tabela zawiera listę identyfikatorów wszystkich uwierzytelnionych i certyfikowanych użytkowników systemu Windows.
   
-###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />

@@ -13,13 +13,11 @@ Aby wykonać tę procedurę, należy zalogować się lokalnie w administracyjnej
 
 Aby otworzyć stronę sieci Web **Administracja globalna**, należy kliknąć przycisk **Start**, wskazać polecenie **Wszystkie programy**, wskazać polecenie **Windows RMS**, a następnie kliknąć polecenie **Administracja programem Windows RMS**.
 
-| ![](images/Cc747665.Warning(WS.10).gif)Ostrzeżenie                                              |
-|------------------------------------------------------------------------------------------------------------------------------|
-| Po zlikwidowaniu serwera nie można przywrócić go do standardowej konfiguracji programu RMS. Jest to procedura nieodwracalna. |
+> [!Warning]  
+> Po zlikwidowaniu serwera nie można przywrócić go do standardowej konfiguracji programu RMS. Jest to procedura nieodwracalna. 
 
-| ![](images/Cc747665.Warning(WS.10).gif)Ostrzeżenie                                                                                      |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Po zlikwidowaniu programu RMS, przed próbą zainstalowania kolejnej jego instancji konieczne jest jego całkowite usunięcie za pomocą funkcji Dodaj lub usuń programy. |
+> [!Warning]  
+> Po zlikwidowaniu programu RMS, przed próbą zainstalowania kolejnej jego instancji konieczne jest jego całkowite usunięcie za pomocą funkcji Dodaj lub usuń programy. 
 
 Likwidowanie programu RMS
 -------------------------

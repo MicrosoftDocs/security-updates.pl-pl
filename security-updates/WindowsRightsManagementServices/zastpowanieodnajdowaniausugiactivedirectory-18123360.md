@@ -11,9 +11,8 @@ Zastępowanie odnajdowania usługi Active Directory
 
 Usługi RMS i klienci wykrywają lokalizacje usług, sprawdzając najpierw lokalny rejestr. Jeśli określone klucze rejestru nie mają wartości, usługi RMS i klienci będą szukać punktu połączenia usługi w katalogu Active Directory. Oznacza to, że można zastąpić domyślne ustawienia wykrywania usług Active Directory, wpisując określone klucze do rejestru klienta lub serwera.
 
-| ![](images/Cc747614.note(WS.10).gif)Uwaga                                                                                                                                         |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Jeśli klaster główny programu RMS został skonfigurowany tak, aby nie publikować punktu połączenia usługi w katalogu Active Directory, przy użyciu tych kluczy można wskazać właściwą lokalizację klientom RMS. |
+> [!note]  
+> Jeśli klaster główny programu RMS został skonfigurowany tak, aby nie publikować punktu połączenia usługi w katalogu Active Directory, przy użyciu tych kluczy można wskazać właściwą lokalizację klientom RMS. 
 
 Niniejsza sekcja zawiera opis wpisów w rejestrze oraz szczegółowe informacje na temat ich tworzenia.
 
@@ -76,9 +75,8 @@ Zastępowanie wykrywania usług po stronie klienta do celów publikacji
   
 Jeśli użytkownicy będą publikować zawartość pochodzącą z ich komputerów, w zależności od topologii zastosowanej w przedsiębiorstwie może być potrzebne zastąpienie lokalizacji serwerów używanych do publikowania. Standardowo, lokalizacje serwerów używanych do publikowania są wykrywane przez klienta przy użyciu usługi Active Directory. Dodanie odpowiednich kluczy rejestru na komputerach klienckich spowoduje, że klienci obejdą te metody i zamiast tego użyją adresów URL, które zostaną zdefiniowane w wartościach wpisów rejestru.
   
-| ![](images/Cc747614.note(WS.10).gif)Uwaga                                                                                                               |  
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Wymienione w tych sekcjach zastąpienia dla klientów powinny być utworzone jako klucze, a nie indywidualne wpisy. Ich wartości należy utworzyć w domyślnych wpisach każdego z kluczy. |
+> [!note]  
+> Wymienione w tych sekcjach zastąpienia dla klientów powinny być utworzone jako klucze, a nie indywidualne wpisy. Ich wartości należy utworzyć w domyślnych wpisach każdego z kluczy. 
   
 #### Opisy kluczy rejestru
   
@@ -133,26 +131,27 @@ W poniższej tabeli znajduje się lista kluczy rejestru, które można dodać na
   
 Zaleca się, aby omawiane klucze rejestru były wdrażane przy użyciu programu Systems Management Server lub Zasad grupy, co pozwoli mieć pewność, że wszyscy klienci w przedsiębiorstwie korzystają z prawidłowych serwerów publikowania.
   
-| ![](images/Cc747614.Caution(WS.10).gif)Przestroga                                                                                                                             |  
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Niewłaściwe modyfikacje rejestru mogą powodować poważne uszkodzenie systemu. Przed wprowadzeniem zmian w rejestrze należy utworzyć kopie zapasowe wszystkich ważnych danych przechowywanych na komputerze. |
+> [!Caution]  
+> Niewłaściwe modyfikacje rejestru mogą powodować poważne uszkodzenie systemu. Przed wprowadzeniem zmian w rejestrze należy utworzyć kopie zapasowe wszystkich ważnych danych przechowywanych na komputerze. 
   
 Do zaimportowania właściwych kluczy rejestru do każdego serwera w klastrze RMS można użyć przykładowego pliku rejestru (.reg).
   
 **Aby zaimportować właściwe klucze rejestru do wszystkich serwerów w klastrze RMS**  
 1.  Skopiuj poniższy plik rejestru do Notatnika.
   
-    `Windows Registry Editor Version 5.00`
+    ```
+    Windows Registry Editor Version 5.00`
   
-    `[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSDRM\ServiceLocation]`
+    [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSDRM\ServiceLocation]
   
-    `[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSDRM\ServiceLocation\Activation]`
+    [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSDRM\ServiceLocation\Activation]
   
-    `@="http://<RMS_cluster_name>/_wmcs/certification"`
+    @="http://<RMS_cluster_name>/_wmcs/certification"
   
-    `[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSDRM\ServiceLocation\EnterprisePublishing]`
+    [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSDRM\ServiceLocation\EnterprisePublishing]
   
-    `@="http://<RMS_cluster_name>/_wmcs/licensing"`
+    @="http://<RMS_cluster_name>/_wmcs/licensing"
+    ```
   
 2.  Zastąp ciąg &lt;nazwa\_klastra\_RMS&gt; nazwą klastra RMS.
   

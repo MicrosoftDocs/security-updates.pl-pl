@@ -21,9 +21,7 @@ Na komputerach z 64-bitową wersją systemu Windows Server 2003 poniższy klucz
 
 Poniższa tabela zawiera wpisy sterujące sposobem działania pamięci podręcznej w pamięci.
 
-###  
-
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -79,10 +77,8 @@ Poniższa tabela zawiera wpisy sterujące sposobem działania pamięci podręczn
 </tbody>
 </table>
   
-| ![](images/Cc747586.Caution(WS.10).gif)Przestroga                                                                                                                                |  
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Nieprawidłowa edycja rejestru może spowodować poważne uszkodzenie systemu. Przed wprowadzaniem zmian w rejestrze należy wykonać kopię zapasową wszystkich wartościowych danych przechowywanych na komputerze. |
+> [!Caution]  
+> Nieprawidłowa edycja rejestru może spowodować poważne uszkodzenie systemu. Przed wprowadzaniem zmian w rejestrze należy wykonać kopię zapasową wszystkich wartościowych danych przechowywanych na komputerze. 
   
-| ![](images/Cc747586.note(WS.10).gif)Uwaga                                                                                                                                                                                                                                                                        |  
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Wpisy rejestru **PrincipalCacheExpireMinutes**, **GroupIDCacheExpireMinutes**, **GroupMembershipCacheExpireMinutes** i **ContactMembersofGroupCacheExpireMinutes** również sterują wygaśnięciem pamięci podręcznej w lokalnej pamięci podręcznej usługi Active Directory zapisanej w bazie danych usług katalogowych na serwerze bazy danych. |
+> [!note]  
+> Wpisy rejestru **PrincipalCacheExpireMinutes**, **GroupIDCacheExpireMinutes**, **GroupMembershipCacheExpireMinutes** i **ContactMembersofGroupCacheExpireMinutes** również sterują wygaśnięciem pamięci podręcznej w lokalnej pamięci podręcznej usługi Active Directory zapisanej w bazie danych usług katalogowych na serwerze bazy danych. 
