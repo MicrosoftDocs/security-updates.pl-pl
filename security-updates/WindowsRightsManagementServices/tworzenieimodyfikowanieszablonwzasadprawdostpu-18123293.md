@@ -1,0 +1,34 @@
+---
+TOCTitle: Tworzenie i modyfikowanie szablonów zasad praw dostępu
+Title: Tworzenie i modyfikowanie szablonów zasad praw dostępu
+ms:assetid: '6014176f-ef71-4d29-b3e3-da129c18563d'
+ms:contentKeyID: 18123293
+ms:mtpsurl: 'https://technet.microsoft.com/pl-pl/library/Cc720281(v=WS.10)'
+---
+
+Tworzenie i modyfikowanie szablonów zasad praw dostępu
+======================================================
+
+Podczas tworzenia lub edytowania szablonu zasad praw dostępu można określić następujące elementy:
+
+-   **Nazwa i opis szablonu zasad praw dostępu**. Można opcjonalnie podać adres e-mail, pod którym użytkownicy mogą zażądać większych praw niż udzielone im w szablonie.
+-   **Użytkownicy i grupy, które mogą uzyskiwać licencje użytkowania na zawartość opublikowaną przy użyciu tego szablonu zasad praw dostępu.** Aby określić, że licencję użytkowania chronionej zawartości może uzyskać każdy użytkownik, należy użyć grupy **Wszyscy**, która jest specjalną grupą rozpoznawaną w programie RMS. Aby dodać tę specjalną grupę do szablonu, należy na stronie **Ustawienia szablonów zasad praw dostępu** wpisać słowo **Każdy** w polu **Dodaj użytkowników lub grupy**, a następnie kliknąć przycisk **Dodaj**.
+-   **Prawa udzielane każdemu użytkownikowi lub grupie.** Ze względu na wzajemne zależności między określonymi prawami niektóre prawa wybierane są automatycznie. Na przykład wybór prawa **Edytuj** powoduje także wybranie praw **Wyświetl** i **Zapisz**. Aby uzyskać informacje dotyczące związku wymienionych praw z prawami określonymi w słownictwie języka XrML, zobacz sekcję „[Prawa programu RMS a język XrML](https://technet.microsoft.com/7eb5cdd1-cd48-4b2b-96b6-fc74f7b42e7f)” w dalszej części tego tematu.
+-   **Zasady wygasania zawartości opublikowanej przy użyciu tego szablonu zasad praw dostępu.** Domyślnie zawartość nie wygasa nigdy. Oznacza to, że użytkownicy mogą w dowolnym momencie uzyskiwać licencje użytkowania. Do wyboru są następujące trzy opcje zasad wygasania:
+    -   **Zawartość nigdy nie wygasa**. Jest to opcja domyślna. Wybranie tej opcji spowoduje, że licencja użytkowania zezwoli użytkownikowi na uzyskiwanie dostępu do zawartości przez cały czas jej przechowywania na komputerze.
+    -   **Zawartość wygasa**. Można określić datę wygaśnięcia zawartości, co oznacza, że udzielona licencja użytkowania wygaśnie danego dnia i po tym dniu żaden użytkownik nie będzie mógł uzyskać licencji użytkowania dla danej zawartości.
+    -   **Licencja zawartości wygasa** *n***dni od daty publikacji**. Można określić liczbę dni od daty publikacji, po upływie których nie będzie można uzyskać licencji użytkowania danej zawartości.
+    -   **Licencje użytkowania dla zawartości muszą być odnawiane co:** *n* **dni**. Można określić, że użytkownicy muszą odnowić swoje licencje użytkowania danej zawartości po upływie pewnego czasu od momentu uzyskania tych licencji. Zasadę tę można zastosować w połączeniu z poprzednimi.
+-   **Zasady rozszerzone**. Można wybrać jedną lub więcej z następujących zasad:
+    -   **Autorowi udzielane są pełne prawa, które nie wygasają**. Według tej zasady autorowi przyznawane są na stałe pełne prawa. Ustawienie to ma zastosowanie nawet w przypadku, gdy określono, że zawartość wygaśnie w danym dniu.
+    -   **Zawartość chronioną technologią RMS można wyświetlać w zaufanych przeglądarkach.** Od tej zasady zależy, czy zawartość można wyświetlać w zaufanych przeglądarkach, jeśli pozwala na to aplikacja obsługująca technologię RMS, w której utworzono tę zawartość. Jeśli to pole wyboru nie zostanie zaznaczone, chronioną zawartość trzeba będzie wyświetlać za pomocą aplikacji, w której ją utworzono.
+    -   **Żądaj nowej licencji użytkowania za każdym razem, gdy zawartość jest używana**. Od tej zasady zależy, czy użytkownicy muszą uzyskiwać nową licencję użytkowania za każdym razem, gdy spróbują skorzystać z zawartości opublikowanej przy użyciu tego szablonu zasad praw dostępu. Jeśli wybrana jest ta zasada, użytkownik musi mieć możliwość połączenia się z serwerem programu RMS w celu uzyskania dostępu do zawartości.
+
+    > [!Caution]  
+    > Przy włączaniu zasady **Żądaj nowej licencji użytkowania za każdym razem, gdy zawartość jest używana** należy zachować ostrożność. Wymaga ona, aby użytkownik był podłączony do sieci za każdym razem, gdy korzysta z zawartości opublikowanej przy użyciu danego szablonu zasad praw dostępu. Jeśli użytkownik nie jest podłączony do sieci, nie może korzystać z zawartości. Jeżeli ustawienie to nie zostanie włączone, użytkownik musi uzyskać licencję użytkowania tylko przy pierwszej próbie skorzystania z zawartości. Taką licencję użytkownik może wykorzystywać ponownie w trybie offline do momentu jej wygaśnięcia. 
+
+-   **Wymuszaj dane charakterystyczne dla aplikacji**. Ta zasada daje możliwość wprowadzenia niestandardowych ustawień na podstawie warunków charakterystycznych dla konkretnej aplikacji obsługującej technologię RMS. Jeśli to pole wyboru zostanie zaznaczone, należy wpisać wymaganą przez aplikację parę nazwa–wartość, a następnie kliknąć przycisk **Dodaj** w celu dodania jej do listy.
+-   **Zasady odwołania dla tego szablonu zasad praw dostępu**. Zaznaczając opcję **Wymagane odwołanie**, można określić, czy wymagana jest lista odwołania. Jeśli odwołanie ma być wymagane, należy utworzyć i utrzymywać listę odwołania. Aby uzyskać więcej informacji dotyczących odwoływania, zobacz „[Zarządzanie odwołaniem](https://technet.microsoft.com/df732a7d-1fb0-4845-87ca-fab4bc5f98a0)” we wcześniejszej części tego tematu.
+-   **Lista odwołania dla dostępu klienta**. Ta właściwość zawiera ścieżkę URL do listy odwołania. Listę odwołania można udostępnić za pomocą usługi sieci Web, do której dostęp uzyskuje się przy użyciu adresu URL. Gdy komputer kliencki RMS spróbuje otworzyć zawartość chronioną na podstawie praw, która wymaga listy odwołania, aplikacja obsługująca technologię RMS najpierw spróbuje odnaleźć listę odwołania na komputerze lokalnym, a jeśli jej tam nie znajdzie lub jeśli lista jest nieważna, spróbuje połączyć się ze ścieżką URL określoną we właściwościach szablonu. Gdy klient RMS połączy się z adresem URL odwołania, zostanie sprawdzona zgodność wartości OBJECT TYPE, ID TYPE i ID w elemencie ISSUER na liście odwołania z wartościami w licencji programu RMS. Ponadto klient RMS dopasuje klucze publiczne i prywatne użyte do podpisania listy odwołania. W przypadku niezgodności jakiejkolwiek z tych wartości lista odwołania zostanie zignorowana.
+-   **Interwał odświeżania listy odwołania**. Ta właściwość zawiera liczbę dni, przez które obowiązuje lista odwołania. Jeśli lista odwołania pobrana do komputera klienckiego będzie starsza od podanego okresu, spowoduje to pobranie nowej listy.
+-   **Plik klucza publicznego**. Ta właściwość zawiera zarówno ścieżkę, jak i nazwę pliku klucza publicznego, któremu odpowiada klucz prywatny użyty do podpisania danej listy odwołania.
